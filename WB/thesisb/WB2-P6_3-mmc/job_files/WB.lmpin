@@ -9,7 +9,7 @@ atom_modify map array
 
 # read_data WB2-P6_3-mmc.lmpstr
 read_data WB2_P6.lmp 
-replicate 4 4 6
+replicate 2 2 5
 
 # Define mass and interactions (from lit.)
 pair_style tersoff 
@@ -18,6 +18,9 @@ pair_coeff * * WB.tersoff W B
 # Neighbors and thermo settings
 neighbor 2.0 bin 
 neigh_modify delay 1 check yes 
+
+compute eng all pe/atom
+compute eatoms all reduce sum c_eng
  
 reset_timestep 0 
 # The vmax keyword can be used to limit the fractional change in the 
@@ -25,14 +28,14 @@ reset_timestep 0
 # minimizer. If the pressure is not settling down during the 
 # minimization this can be because the volume is fluctuating too much. 
 # The specified fraction must be greater than 0.0 and should be << 1.0. 
-# fix box_relax all box/relax aniso 0.0 vmax 0.001
+fix box_relax all box/relax aniso 0.0 vmax 0.001
 
 # Set the thermo style to collect data every 10 time steps
 thermo 10
-thermo_style custom step temp press etotal vol cella cellc
+thermo_style custom step pe vol press cella cellc c_eatoms
 
 # Dump command to visualize in OVITO
-dump 1 all atom 10 dump.WB2.lammpstrj
+dump 1 all atom 10 dump.WB2_min.lammpstrj
 
 # Minimisation algorithms:
 #   cg = Conjugate Gradient
@@ -48,7 +51,6 @@ dump 1 all atom 10 dump.WB2.lammpstrj
 #   maxeval(max # of F/E calcs)
 
 min_style cg 
-# minimize 1.0e-08 1.0e-08 10000 1000000
 minimize 1.0e-4 1.0e-6 1000 10000
 min_style sd
 minimize 1.0e-4 1.0e-6 1000 10000
@@ -58,131 +60,129 @@ minimize 1.0e-4 1.0e-6 1000 10000
 # min_style cg 
 # minimize 1.0e-4 1.0e-6 1000 10000
 
-# unfix box_relax
+unfix box_relax
 
 # Divide sim box by periodic multiple
-variable        a equal cella/4
-variable        b equal cellb/4
-variable        c equal cellc/6
-variable        E equal etotal
+variable        a equal cella/2
+variable        b equal cellb/2
+variable        c equal cellc/5
+
+variable        natoms equal "count(all)" 
+variable        teng equal "c_eatoms"
+variable        ecoh equal "v_teng/v_natoms"
 
 print "LA: ${a}"
 print "LB: ${b}"
 print "LC: ${c}"
-print "COHENERGY: ${E}"
+print "COHENERGY: ${ecoh}"
 
-# # ELASTIC CONSTANT
+# ELASTIC CONSTANT
 
-# variable up equal 1.0e-6
-# variable atomjiggle equal 1.0e-5
-# variable cfac equal 1.0e-4
-# variable cunits string GPa
-# variable etol equal 0.0 
-# variable ftol equal 1.0e-10
-# variable maxiter equal 100
-# variable maxeval equal 1000
-# variable dmax equal 1.0e-2
+variable up equal 1.0e-6
+variable atomjiggle equal 1.0e-5
+variable cfac equal 1.0e-4
+variable cunits string GPa
+variable etol equal 0.0 
+variable ftol equal 1.0e-10
+variable maxiter equal 100
+variable maxeval equal 1000
+variable dmax equal 1.0e-2
 
-# include potential.mod
+include init.mod
+include potential.mod
 
-# # Compute initial state
-# fix 3 all box/relax  aniso 1.0
-# minimize ${etol} ${ftol} ${maxiter} ${maxeval}
+# Compute initial state
+fix 3 all box/relax aniso 1.0
+minimize ${etol} ${ftol} ${maxiter} ${maxeval}
 
-# variable tmp equal pxx
-# variable pxx0 equal ${tmp}
-# variable tmp equal pyy
-# variable pyy0 equal ${tmp}
-# variable tmp equal pzz
-# variable pzz0 equal ${tmp}
-# variable tmp equal pyz
-# variable pyz0 equal ${tmp}
-# variable tmp equal pxz
-# variable pxz0 equal ${tmp}
-# variable tmp equal pxy
-# variable pxy0 equal ${tmp}
+variable tmp equal pxx
+variable pxx0 equal ${tmp}
+variable tmp equal pyy
+variable pyy0 equal ${tmp}
+variable tmp equal pzz
+variable pzz0 equal ${tmp}
+variable tmp equal pyz
+variable pyz0 equal ${tmp}
+variable tmp equal pxz
+variable pxz0 equal ${tmp}
+variable tmp equal pxy
+variable pxy0 equal ${tmp}
 
-# variable tmp equal lx
-# variable lx0 equal ${tmp}
-# variable tmp equal ly
-# variable ly0 equal ${tmp}
-# variable tmp equal lz
-# variable lz0 equal ${tmp}
+variable tmp equal lx
+variable lx0 equal ${tmp}
+variable tmp equal ly
+variable ly0 equal ${tmp}
+variable tmp equal lz
+variable lz0 equal ${tmp}
 
-# # These formulas define the derivatives w.r.t. strain components
-# # Constants uses $, variables use v_ 
-# variable d1 equal -(v_pxx1-${pxx0})/(v_delta/v_len0)*${cfac}
-# variable d2 equal -(v_pyy1-${pyy0})/(v_delta/v_len0)*${cfac}
-# variable d3 equal -(v_pzz1-${pzz0})/(v_delta/v_len0)*${cfac}
-# variable d4 equal -(v_pyz1-${pyz0})/(v_delta/v_len0)*${cfac}
-# variable d5 equal -(v_pxz1-${pxz0})/(v_delta/v_len0)*${cfac}
-# variable d6 equal -(v_pxy1-${pxy0})/(v_delta/v_len0)*${cfac}
+# These formulas define the derivatives w.r.t. strain components
+# Constants uses $, variables use v_ 
+variable d1 equal -(v_pxx1-${pxx0})/(v_delta/v_len0)*${cfac}
+variable d2 equal -(v_pyy1-${pyy0})/(v_delta/v_len0)*${cfac}
+variable d3 equal -(v_pzz1-${pzz0})/(v_delta/v_len0)*${cfac}
+variable d4 equal -(v_pyz1-${pyz0})/(v_delta/v_len0)*${cfac}
+variable d5 equal -(v_pxz1-${pxz0})/(v_delta/v_len0)*${cfac}
+variable d6 equal -(v_pxy1-${pxy0})/(v_delta/v_len0)*${cfac}
 
-# displace_atoms all random ${atomjiggle} ${atomjiggle} ${atomjiggle} 87287 units box
+displace_atoms all random ${atomjiggle} ${atomjiggle} ${atomjiggle} 87287 units box
 
-# # Write restart
-# unfix 3
-# write_restart restart.equil
+# Write restart
+unfix 3
+write_restart restart.equil
 
+variable dir equal 1
+include displace.mod
 
-# variable dir equal 1
-# include displace.mod
+# uyy Perturbation
+variable dir equal 2
+include displace.mod
 
-# # uyy Perturbation
+# uzz Perturbation
+variable dir equal 3
+include displace.mod
 
-# variable dir equal 2
-# include displace.mod
+# uyz Perturbation
+variable dir equal 4
+include displace.mod
 
-# # uzz Perturbation
+# uxz Perturbation
+variable dir equal 5
+include displace.mod
 
-# variable dir equal 3
-# include displace.mod
+# uxy Perturbation
+variable dir equal 6
+include displace.mod
 
-# # uyz Perturbation
+# Output final values
 
-# variable dir equal 4
-# include displace.mod
+variable C11all equal ${C11}
+variable C22all equal ${C22}
+variable C33all equal ${C33}
 
-# # uxz Perturbation
+variable C12all equal 0.5*(${C12}+${C21})
+variable C13all equal 0.5*(${C13}+${C31})
+variable C23all equal 0.5*(${C23}+${C32})
 
-# variable dir equal 5
-# include displace.mod
+variable C44all equal ${C44}
+variable C55all equal ${C55}
+variable C66all equal ${C66}
 
-# # uxy Perturbation
+variable C14all equal 0.5*(${C14}+${C41})
+variable C15all equal 0.5*(${C15}+${C51})
+variable C16all equal 0.5*(${C16}+${C61})
 
-# variable dir equal 6
-# include displace.mod
+variable C24all equal 0.5*(${C24}+${C42})
+variable C25all equal 0.5*(${C25}+${C52})
+variable C26all equal 0.5*(${C26}+${C62})
 
-# # Output final values
+variable C34all equal 0.5*(${C34}+${C43})
+variable C35all equal 0.5*(${C35}+${C53})
+variable C36all equal 0.5*(${C36}+${C63})
 
-# variable C11all equal ${C11}
-# variable C22all equal ${C22}
-# variable C33all equal ${C33}
+variable C45all equal 0.5*(${C45}+${C54})
+variable C46all equal 0.5*(${C46}+${C64})
+variable C56all equal 0.5*(${C56}+${C65})
 
-# variable C12all equal 0.5*(${C12}+${C21})
-# variable C13all equal 0.5*(${C13}+${C31})
-# variable C23all equal 0.5*(${C23}+${C32})
-
-# variable C44all equal ${C44}
-# variable C55all equal ${C55}
-# variable C66all equal ${C66}
-
-# variable C14all equal 0.5*(${C14}+${C41})
-# variable C15all equal 0.5*(${C15}+${C51})
-# variable C16all equal 0.5*(${C16}+${C61})
-
-# variable C24all equal 0.5*(${C24}+${C42})
-# variable C25all equal 0.5*(${C25}+${C52})
-# variable C26all equal 0.5*(${C26}+${C62})
-
-# variable C34all equal 0.5*(${C34}+${C43})
-# variable C35all equal 0.5*(${C35}+${C53})
-# variable C36all equal 0.5*(${C36}+${C63})
-
-# variable C45all equal 0.5*(${C45}+${C54})
-# variable C46all equal 0.5*(${C46}+${C64})
-# variable C56all equal 0.5*(${C56}+${C65})
-
-# print "C11: ${C11}"
-# print "C12: ${C12}"
-# print "C44: ${C44}"
+print "C11: ${C11}"
+print "C12: ${C12}"
+print "C44: ${C44}"
