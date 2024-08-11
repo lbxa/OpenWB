@@ -1,0 +1,348 @@
+LAMMPS (27 Jun 2024)
+clear
+units metal
+dimension 3
+boundary p p p
+
+# Atom definition
+atom_style atomic
+atom_modify map array
+
+# read_data WB2-P6_3-mmc.lmpstr
+read_data WB2_P6.lmp
+Reading data file ...
+  triclinic box = (0 0 0) to (2.982 2.5824878 13.87) with tilt (-1.491 0 0)
+WARNING: Triclinic box skew is large. LAMMPS will run inefficiently. (src/domain.cpp:221)
+  1 by 1 by 1 MPI processor grid
+  reading atoms ...
+  12 atoms
+  read_data CPU = 0.001 seconds
+replicate 4 4 6
+Replication is creating a 4x4x6 = 96 times larger system...
+  triclinic box = (0 0 0) to (11.928 10.329951 83.22) with tilt (-5.964 0 0)
+WARNING: Triclinic box skew is large. LAMMPS will run inefficiently. (src/domain.cpp:221)
+  1 by 1 by 1 MPI processor grid
+  1152 atoms
+  replicate CPU = 0.000 seconds
+
+# Define mass and interactions (from lit.)
+pair_style tersoff
+pair_coeff * * WB.tersoff W B
+
+# Neighbors and thermo settings
+neighbor 2.0 bin
+neigh_modify delay 1 check yes
+
+reset_timestep 0
+# The vmax keyword can be used to limit the fractional change in the
+# volume of the simulation box that can occur in one iteration of the
+# minimizer. If the pressure is not settling down during the
+# minimization this can be because the volume is fluctuating too much.
+# The specified fraction must be greater than 0.0 and should be << 1.0.
+# fix box_relax all box/relax aniso 0.0 vmax 0.001
+
+# Set the thermo style to collect data every 10 time steps
+thermo 10
+thermo_style custom step temp press etotal vol cella cellc
+
+# Dump command to visualize in OVITO
+dump 1 all atom 10 dump.WB2.lammpstrj
+
+# Minimisation algorithms:
+#   cg = Conjugate Gradient
+#   sd = Steepest Descent
+# Typically, steepest descent will not converge as quickly as CG, but may
+# be more robust in some situations.
+
+# Run energy minimisation algorithms. Use multiple to guarantee a stable
+# phase. Minimize args:
+#   etol(stop tolerance: energy)
+#   ftol(stop tolerance: force)
+#   maxiter(max iters of minimiser)
+#   maxeval(max # of F/E calcs)
+
+min_style cg
+minimize 1.0e-4 1.0e-6 1000 10000
+
+CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE
+
+Your simulation uses code contributions which should be cited:
+
+- Type Label Framework: https://doi.org/10.1021/acs.jpcb.3c08419
+
+@Article{Gissinger24,
+ author = {Jacob R. Gissinger, Ilia Nikiforov, Yaser Afshar, Brendon Waters, Moon-ki Choi, Daniel S. Karls, Alexander Stukowski, Wonpil Im, Hendrik Heinz, Axel Kohlmeyer, and Ellad B. Tadmor},
+ title = {Type Label Framework for Bonded Force Fields in LAMMPS},
+ journal = {J. Phys. Chem. B},
+ year =    2024,
+ volume =  128,
+ number =  13,
+ pages =   {3282–-3297}
+}
+
+CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE
+
+Switching to 'neigh_modify every 1 delay 0 check yes' setting during minimization
+Neighbor list info ...
+  update: every = 1 steps, delay = 0 steps, check = yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 7.240189
+  ghost atom cutoff = 7.240189
+  binsize = 3.6200945, bins = 5 3 23
+  1 neighbor lists, perpetual/occasional/extra = 1 0 0
+  (1) pair tersoff, perpetual
+      attributes: full, newton on
+      pair build: full/bin/atomonly
+      stencil: full/bin/3d
+      bin: standard
+Per MPI rank memory allocation (min/avg/max) = 5.342 | 5.342 | 5.342 Mbytes
+   Step          Temp          Press          TotEng         Volume         Cella          Cellc     
+         0   0              41766300       138473.01      10254.007      11.928         83.22        
+        10   0              26276876       73216.334      10254.007      11.928         83.22        
+        20   0              18152797       37518.65       10254.007      11.928         83.22        
+        30   0              12813241       16743.281      10254.007      11.928         83.22        
+        40   0              9955899.8      7141.9342      10254.007      11.928         83.22        
+        50   0              7403471.3      2954.4694      10254.007      11.928         83.22        
+        60   0              7089754.2      1459.4091      10254.007      11.928         83.22        
+        70   0              5954213.5      38.831107      10254.007      11.928         83.22        
+        80   0              6262612.9     -579.04022      10254.007      11.928         83.22        
+        90   0              5550159.3     -1070.1389      10254.007      11.928         83.22        
+       100   0              5187203.5     -1483.7732      10254.007      11.928         83.22        
+       110   0              5131275.7     -1850.6422      10254.007      11.928         83.22        
+       111   0              5162580.4     -1850.7854      10254.007      11.928         83.22        
+Loop time of 8.64945 on 1 procs for 111 steps with 1152 atoms
+
+99.7% CPU use with 1 MPI tasks x no OpenMP threads
+
+Minimization stats:
+  Stopping criterion = energy tolerance
+  Energy initial, next-to-last, final = 
+      138473.013172033  -1850.64215473017  -1850.78541054661
+  Force two-norm initial, final = 6288.1594 4506.4662
+  Force max component initial, final = 543.60779 1708.4537
+  Final line search alpha, max atom move = 1.5547504e-06 0.0026562192
+  Iterations, force evaluations = 111 279
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 8.6155     | 8.6155     | 8.6155     |   0.0 | 99.61
+Neigh   | 0.01482    | 0.01482    | 0.01482    |   0.0 |  0.17
+Comm    | 0.0064558  | 0.0064558  | 0.0064558  |   0.0 |  0.07
+Output  | 0.005988   | 0.005988   | 0.005988   |   0.0 |  0.07
+Modify  | 0          | 0          | 0          |   0.0 |  0.00
+Other   |            | 0.006713   |            |       |  0.08
+
+Nlocal:           1152 ave        1152 max        1152 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:           6719 ave        6719 max        6719 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:              0 ave           0 max           0 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+FullNghs:       204252 ave      204252 max      204252 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 204252
+Ave neighs/atom = 177.30208
+Neighbor list builds = 3
+Dangerous builds = 0
+# minimize 1.0e-08 1.0e-08 10000 1000000
+# minimize 1.0e-4 1.0e-6 1000 10000
+min_style sd
+minimize 1.0e-4 1.0e-6 1000 10000
+Switching to 'neigh_modify every 1 delay 0 check yes' setting during minimization
+Per MPI rank memory allocation (min/avg/max) = 6.385 | 6.385 | 6.385 Mbytes
+   Step          Temp          Press          TotEng         Volume         Cella          Cellc     
+       111   0              5162580.4     -1850.7854      10254.007      11.928         83.22        
+       120   0              4818435.2     -2052.4017      10254.007      11.928         83.22        
+       130   0              4831760.6     -2147.8946      10254.007      11.928         83.22        
+       140   0              4764480.5     -2260.0061      10254.007      11.928         83.22        
+       150   0              4749315.5     -2344.1255      10254.007      11.928         83.22        
+       160   0              5072981.7     -2419.7268      10254.007      11.928         83.22        
+       170   0              4898550.7     -2514.7479      10254.007      11.928         83.22        
+       180   0              4815116.9     -2591.1183      10254.007      11.928         83.22        
+       190   0              4726417.1     -2622.7129      10254.007      11.928         83.22        
+       200   0              4644060.1     -2673.3543      10254.007      11.928         83.22        
+       210   0              4600763.5     -2730.6641      10254.007      11.928         83.22        
+       220   0              4605457.5     -2772.4637      10254.007      11.928         83.22        
+       230   0              4550325.2     -2824.355       10254.007      11.928         83.22        
+       240   0              4565050       -2862.958       10254.007      11.928         83.22        
+       250   0              4586463.7     -2901.476       10254.007      11.928         83.22        
+       260   0              4498523.8     -2939.6643      10254.007      11.928         83.22        
+       270   0              4582546       -2984.321       10254.007      11.928         83.22        
+       280   0              4547060.9     -3031.6134      10254.007      11.928         83.22        
+       283   0              4529328.3     -3036.3785      10254.007      11.928         83.22        
+Loop time of 26.2967 on 1 procs for 172 steps with 1152 atoms
+
+99.3% CPU use with 1 MPI tasks x no OpenMP threads
+
+Minimization stats:
+  Stopping criterion = energy tolerance
+  Energy initial, next-to-last, final = 
+     -1850.78541054659  -3036.09705788175  -3036.37852089096
+  Force two-norm initial, final = 4506.4662 1111.9918
+  Force max component initial, final = 1708.4537 292.95122
+  Final line search alpha, max atom move = 0.00010087524 0.029551524
+  Iterations, force evaluations = 172 847
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 26.257     | 26.257     | 26.257     |   0.0 | 99.85
+Neigh   | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 0.018487   | 0.018487   | 0.018487   |   0.0 |  0.07
+Output  | 0.009019   | 0.009019   | 0.009019   |   0.0 |  0.03
+Modify  | 0          | 0          | 0          |   0.0 |  0.00
+Other   |            | 0.01198    |            |       |  0.05
+
+Nlocal:           1152 ave        1152 max        1152 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:           6752 ave        6752 max        6752 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:              0 ave           0 max           0 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+FullNghs:       204604 ave      204604 max      204604 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 204604
+Ave neighs/atom = 177.60764
+Neighbor list builds = 0
+Dangerous builds = 0
+# min_style cg
+# minimize 1.0e-4 1.0e-6 1000 10000
+# min_style cg
+# minimize 1.0e-4 1.0e-6 1000 10000
+
+# unfix box_relax
+
+# Divide sim box by periodic multiple
+variable        a equal cella/4
+variable        b equal cellb/4
+variable        c equal cellc/6
+variable        E equal etotal
+
+print "LA: ${a}"
+LA: 2.982
+print "LB: ${b}"
+LB: 2.98199999999983
+print "LC: ${c}"
+LC: 13.87
+print "COHENERGY: ${E}"
+COHENERGY: -3036.37852089096
+
+# # ELASTIC CONSTANT
+
+# variable up equal 1.0e-6
+# variable atomjiggle equal 1.0e-5
+# variable cfac equal 1.0e-4
+# variable cunits string GPa
+# variable etol equal 0.0
+# variable ftol equal 1.0e-10
+# variable maxiter equal 100
+# variable maxeval equal 1000
+# variable dmax equal 1.0e-2
+
+# include potential.mod
+
+# # Compute initial state
+# fix 3 all box/relax  aniso 1.0
+# minimize ${etol} ${ftol} ${maxiter} ${maxeval}
+
+# variable tmp equal pxx
+# variable pxx0 equal ${tmp}
+# variable tmp equal pyy
+# variable pyy0 equal ${tmp}
+# variable tmp equal pzz
+# variable pzz0 equal ${tmp}
+# variable tmp equal pyz
+# variable pyz0 equal ${tmp}
+# variable tmp equal pxz
+# variable pxz0 equal ${tmp}
+# variable tmp equal pxy
+# variable pxy0 equal ${tmp}
+
+# variable tmp equal lx
+# variable lx0 equal ${tmp}
+# variable tmp equal ly
+# variable ly0 equal ${tmp}
+# variable tmp equal lz
+# variable lz0 equal ${tmp}
+
+# # These formulas define the derivatives w.r.t. strain components
+# # Constants uses $, variables use v_
+# variable d1 equal -(v_pxx1-${pxx0})/(v_delta/v_len0)*${cfac}
+# variable d2 equal -(v_pyy1-${pyy0})/(v_delta/v_len0)*${cfac}
+# variable d3 equal -(v_pzz1-${pzz0})/(v_delta/v_len0)*${cfac}
+# variable d4 equal -(v_pyz1-${pyz0})/(v_delta/v_len0)*${cfac}
+# variable d5 equal -(v_pxz1-${pxz0})/(v_delta/v_len0)*${cfac}
+# variable d6 equal -(v_pxy1-${pxy0})/(v_delta/v_len0)*${cfac}
+
+# displace_atoms all random ${atomjiggle} ${atomjiggle} ${atomjiggle} 87287 units box
+
+# # Write restart
+# unfix 3
+# write_restart restart.equil
+
+
+# variable dir equal 1
+# include displace.mod
+
+# # uyy Perturbation
+
+# variable dir equal 2
+# include displace.mod
+
+# # uzz Perturbation
+
+# variable dir equal 3
+# include displace.mod
+
+# # uyz Perturbation
+
+# variable dir equal 4
+# include displace.mod
+
+# # uxz Perturbation
+
+# variable dir equal 5
+# include displace.mod
+
+# # uxy Perturbation
+
+# variable dir equal 6
+# include displace.mod
+
+# # Output final values
+
+# variable C11all equal ${C11}
+# variable C22all equal ${C22}
+# variable C33all equal ${C33}
+
+# variable C12all equal 0.5*(${C12}+${C21})
+# variable C13all equal 0.5*(${C13}+${C31})
+# variable C23all equal 0.5*(${C23}+${C32})
+
+# variable C44all equal ${C44}
+# variable C55all equal ${C55}
+# variable C66all equal ${C66}
+
+# variable C14all equal 0.5*(${C14}+${C41})
+# variable C15all equal 0.5*(${C15}+${C51})
+# variable C16all equal 0.5*(${C16}+${C61})
+
+# variable C24all equal 0.5*(${C24}+${C42})
+# variable C25all equal 0.5*(${C25}+${C52})
+# variable C26all equal 0.5*(${C26}+${C62})
+
+# variable C34all equal 0.5*(${C34}+${C43})
+# variable C35all equal 0.5*(${C35}+${C53})
+# variable C36all equal 0.5*(${C36}+${C63})
+
+# variable C45all equal 0.5*(${C45}+${C54})
+# variable C46all equal 0.5*(${C46}+${C64})
+# variable C56all equal 0.5*(${C56}+${C65})
+
+# print "C11: ${C11}"
+# print "C12: ${C12}"
+# print "C44: ${C44}"
+Total wall time: 0:00:35
