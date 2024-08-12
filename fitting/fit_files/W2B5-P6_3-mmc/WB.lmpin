@@ -7,8 +7,8 @@ boundary p p p
 atom_style atomic 
 atom_modify map array
 
-read_data WB2-P6_3-mmc.lmpstr
-replicate 4 4 4 
+read_data W2B5-P6_3-mmc.lmpstr
+replicate 2 2 5
 
 # Define mass and interactions (from lit.)
 pair_style tersoff 
@@ -17,6 +17,9 @@ pair_coeff * * WB.tersoff W B
 # Neighbors and thermo settings
 neighbor 2.0 bin 
 neigh_modify delay 1 check yes 
+
+compute eng all pe/atom
+compute eatoms all reduce sum c_eng
  
 reset_timestep 0 
 # The vmax keyword can be used to limit the fractional change in the 
@@ -28,7 +31,10 @@ fix box_relax all box/relax aniso 0.0 vmax 0.001
 
 # Set the thermo style to collect data every 10 time steps
 thermo 10
-thermo_style custom step temp press etotal vol cella cellc
+thermo_style custom step pe vol press cella cellc c_eatoms
+
+# Dump command to visualize in OVITO
+dump 1 all atom 10 dump.W2B5_min.lammpstrj
 
 # Minimisation algorithms:
 #   cg = Conjugate Gradient
@@ -44,26 +50,30 @@ thermo_style custom step temp press etotal vol cella cellc
 #   maxeval(max # of F/E calcs)
 
 min_style cg 
-minimize 1.0e-10 1.0e-12 10000 1000000
+minimize 1.0e-4 1.0e-6 1000 10000
 min_style sd
-minimize 1.0e-10 1.0e-12 10000 1000000
-min_style cg 
-minimize 1.0e-10 1.0e-12 10000 1000000
-min_style cg 
-minimize 1.0e-10 1.0e-12 10000 1000000
+minimize 1.0e-4 1.0e-6 1000 10000
+
+# min_style cg 
+# minimize 1.0e-4 1.0e-6 1000 10000
+# min_style cg 
+# minimize 1.0e-4 1.0e-6 1000 10000
 
 unfix box_relax
 
 # Divide sim box by periodic multiple
-variable        a equal cella/4
-variable        b equal cellb/4
-variable        c equal cellc/4
-variable        E equal etotal
+variable        a equal cella/2
+variable        b equal cellb/2
+variable        c equal cellc/5
+
+variable        natoms equal "count(all)" 
+variable        teng equal "c_eatoms"
+variable        ecoh equal "v_teng/v_natoms"
 
 print "LA: ${a}"
 print "LB: ${b}"
 print "LC: ${c}"
-print "COHENERGY: ${E}"
+print "COHENERGY: ${ecoh}"
 
 # ELASTIC CONSTANT
 
@@ -77,10 +87,11 @@ variable maxiter equal 100
 variable maxeval equal 1000
 variable dmax equal 1.0e-2
 
+include init.mod
 include potential.mod
 
 # Compute initial state
-fix 3 all box/relax  aniso 1.0
+fix 3 all box/relax aniso 1.0
 minimize ${etol} ${ftol} ${maxiter} ${maxeval}
 
 variable tmp equal pxx
@@ -118,32 +129,26 @@ displace_atoms all random ${atomjiggle} ${atomjiggle} ${atomjiggle} 87287 units 
 unfix 3
 write_restart restart.equil
 
-
 variable dir equal 1
 include displace.mod
 
 # uyy Perturbation
-
 variable dir equal 2
 include displace.mod
 
 # uzz Perturbation
-
 variable dir equal 3
 include displace.mod
 
 # uyz Perturbation
-
 variable dir equal 4
 include displace.mod
 
 # uxz Perturbation
-
 variable dir equal 5
 include displace.mod
 
 # uxy Perturbation
-
 variable dir equal 6
 include displace.mod
 
