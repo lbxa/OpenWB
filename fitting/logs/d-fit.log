@@ -1,0 +1,785 @@
+2024-08-16 12:31:21:console.starting:INFO pprofit:581:  Potential Pro-Fit v0.10.0dev
+
+
+2024-08-16 12:31:21:console.starting:INFO pprofit:581:  Potential Pro-Fit v0.10.0dev
+
+
+2024-08-16 12:31:21:console.starting:INFO pprofit:583:  Starting...
+2024-08-16 12:31:21:console.starting:INFO pprofit:583:  Starting...
+2024-08-16 12:31:21:console:INFO pprofit:734:  Performing Minimization run
+2024-08-16 12:31:21:console:INFO pprofit:734:  Performing Minimization run
+2024-08-16 12:31:21:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found Runner: Local in module <module 'atsim.pro_fit.runners' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/runners/__init__.py'>
+2024-08-16 12:31:21:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found Runner: Null in module <module 'atsim.pro_fit.runners' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/runners/__init__.py'>
+2024-08-16 12:31:21:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found Runner: PBS in module <module 'atsim.pro_fit.runners' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/runners/__init__.py'>
+2024-08-16 12:31:21:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found Runner: Remote in module <module 'atsim.pro_fit.runners' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/runners/__init__.py'>
+2024-08-16 12:31:21:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found Runner: SGE in module <module 'atsim.pro_fit.runners' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/runners/__init__.py'>
+2024-08-16 12:31:21:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found Runner: Slurm in module <module 'atsim.pro_fit.runners' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/runners/__init__.py'>
+2024-08-16 12:31:21:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found MetaEvaluator: Formula in module <module 'atsim.pro_fit.metaevaluators' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/metaevaluators.py'>
+2024-08-16 12:31:21:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found Evaluator: DLPOLY_STATIS in module <module 'atsim.pro_fit.evaluators' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/evaluators/__init__.py'>
+2024-08-16 12:31:21:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found Evaluator: Gulp in module <module 'atsim.pro_fit.evaluators' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/evaluators/__init__.py'>
+2024-08-16 12:31:21:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found Evaluator: Gulp_DRV in module <module 'atsim.pro_fit.evaluators' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/evaluators/__init__.py'>
+2024-08-16 12:31:21:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found Evaluator: Regex in module <module 'atsim.pro_fit.evaluators' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/evaluators/__init__.py'>
+2024-08-16 12:31:21:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found Evaluator: Table in module <module 'atsim.pro_fit.evaluators' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/evaluators/__init__.py'>
+2024-08-16 12:31:21:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found JobFactory: Template in module <module 'atsim.pro_fit.jobfactories' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/jobfactories.py'>
+2024-08-16 12:31:21:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found JobTask: Potable in module <module 'atsim.pro_fit.jobtasks' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/jobtasks.py'>
+2024-08-16 12:31:21:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:458:  Processing job directory: "/home/lucasbarbosa/c/md/openwb/fitting/fit_files/W2B5-P6_3-mmc"
+2024-08-16 12:31:21:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:380:  Creating runner: 'Local'
+2024-08-16 12:31:21:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found Minimizer: DEA in module <module 'atsim.pro_fit.minimizers' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/minimizers/__init__.py'>
+2024-08-16 12:31:21:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found Minimizer: NelderMead in module <module 'atsim.pro_fit.minimizers' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/minimizers/__init__.py'>
+2024-08-16 12:31:21:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found Minimizer: Particle_Swarm in module <module 'atsim.pro_fit.minimizers' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/minimizers/__init__.py'>
+2024-08-16 12:31:21:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found Minimizer: Simulated_Annealing in module <module 'atsim.pro_fit.minimizers' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/minimizers/__init__.py'>
+2024-08-16 12:31:21:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found Minimizer: SingleStep in module <module 'atsim.pro_fit.minimizers' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/minimizers/__init__.py'>
+2024-08-16 12:31:21:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found Minimizer: Spreadsheet in module <module 'atsim.pro_fit.minimizers' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/minimizers/__init__.py'>
+2024-08-16 12:31:21:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:574:  Creating minimizer: <class 'atsim.pro_fit.minimizers._mystic.NelderMeadMinimizer'>
+2024-08-16 12:31:21:console:INFO pprofit:527:  Temporary job files will be created in '/tmp/tmp3_bdotag'
+2024-08-16 12:31:21:console:INFO pprofit:527:  Temporary job files will be created in '/tmp/tmp3_bdotag'
+2024-08-16 12:31:21:console:INFO pprofit:549:  Removing existing 'fitting_run.db'
+2024-08-16 12:31:21:console:INFO pprofit:549:  Removing existing 'fitting_run.db'
+2024-08-16 12:31:21:atsim.pro_fit.minimizers._mystic.NelderMeadMinimizer:INFO _mystic:147:  Starting minimisation.
+2024-08-16 12:31:21:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-1
+2024-08-16 12:31:21:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-1.
+2024-08-16 12:31:24:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-1
+2024-08-16 12:31:24:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-1, finished.
+2024-08-16 12:31:24:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-1
+2024-08-16 12:31:24:atsim.pro_fit.reporters.LogReporter:INFO reporters:381:  
+Results at iteration: 0
+
+Variables and Merit Values:
+               First (it=0)         Previous    Current (it=0)       Best (i=0)
+-------------  -------------------  ----------  -------------------  -------------------
+Variables
+W_W_B_c        1.79229                          1.79229              1.79229
+W_W_B_d        0.14679                          0.14679              0.14679
+W_W_B_h        0.71342                          0.71342              0.71342
+W_W_B_beta     0.0                              0.0                  0.0
+W_W_B_lambda1  0.0                              0.0                  0.0
+W_W_B_lambda2  0.0                              0.0                  0.0
+W_W_B_lambda3  0.0                              0.0                  0.0
+W_W_B_A        0.0                              0.0                  0.0
+W_W_B_B        0.0                              0.0                  0.0
+W_W_B_R        2.7301949999999997               2.7301949999999997   2.7301949999999997
+W_W_B_D        0.20273287499999998              0.20273287499999998  0.20273287499999998
+W_B_W_c        2.30627                          2.30627              2.30627
+W_B_W_d        0.1464                           0.1464               0.1464
+W_B_W_h        0.78686                          0.78686              0.78686
+W_B_W_beta     0.0                              0.0                  0.0
+W_B_W_lambda1  0.0                              0.0                  0.0
+W_B_W_lambda2  0.0                              0.0                  0.0
+W_B_W_lambda3  0.0                              0.0                  0.0
+W_B_W_A        0.0                              0.0                  0.0
+W_B_W_B        0.0                              0.0                  0.0
+W_B_W_R        2.79718                          2.79718              2.79718
+W_B_W_D        0.20021                          0.20021              0.20021
+W_B_B_c        2.1205                           2.1205               2.1205
+W_B_B_d *      0.15937                          0.15937              0.15937
+W_B_B_h        0.776057934                      0.776057934          0.776057934
+W_B_B_beta     0.04525                          0.04525              0.04525
+W_B_B_lambda1  2.5446255                        2.5446255            2.5446255
+W_B_B_lambda2  1.9526635347442618               1.9526635347442618   1.9526635347442618
+W_B_B_lambda3  0.58376                          0.58376              0.58376
+W_B_B_A        18064.918736                     18064.918736         18064.918736
+W_B_B_B        168.932735                       168.932735           168.932735
+W_B_B_R        0.3477722720810493               0.3477722720810493   0.3477722720810493
+W_B_B_D        0.24030052373129768              0.24030052373129768  0.24030052373129768
+B_W_W_c        42762.66261                      42762.66261          42762.66261
+B_W_W_d        86.50456                         86.50456             86.50456
+B_W_W_h        0.860905659036939                0.860905659036939    0.860905659036939
+B_W_W_beta     0.037152                         0.037152             0.037152
+B_W_W_lambda1  2.4565                           2.4565               2.4565
+B_W_W_lambda2  1.6166808619003288               1.6166808619003288   1.6166808619003288
+B_W_W_lambda3  0.45876                          0.45876              0.45876
+B_W_W_A        19222.926347                     19222.926347         19222.926347
+B_W_W_B        168.932735                       168.932735           168.932735
+B_W_W_R        3.2989543639969243               3.2989543639969243   3.2989543639969243
+B_W_W_D        0.2316481076621541               0.2316481076621541   0.2316481076621541
+B_W_B_c        43107.3838                       43107.3838           43107.3838
+B_W_B_d        102.33045                        102.33045            102.33045
+B_W_B_h        0.76288                          0.76288              0.76288
+B_W_B_beta     0.0                              0.0                  0.0
+B_W_B_lambda1  0.0                              0.0                  0.0
+B_W_B_lambda2  0.0                              0.0                  0.0
+B_W_B_lambda3  0.0                              0.0                  0.0
+B_W_B_A        0.0                              0.0                  0.0
+B_W_B_B        0.0                              0.0                  0.0
+B_W_B_R        2.79797                          2.79797              2.79797
+B_W_B_D        0.20211                          0.20211              0.20211
+B_B_W_c        45477.34192                      45477.34192          45477.34192
+B_B_W_d        114.14848                        114.14848            114.14848
+B_B_W_h        0.78262                          0.78262              0.78262
+B_B_W_beta     0.0                              0.0                  0.0
+B_B_W_lambda1  0.0                              0.0                  0.0
+B_B_W_lambda2  0.0                              0.0                  0.0
+B_B_W_lambda3  0.0                              0.0                  0.0
+B_B_W_A        0.0                              0.0                  0.0
+B_B_W_B        0.0                              0.0                  0.0
+B_B_W_R        2.80009                          2.80009              2.80009
+B_B_W_D        0.20273                          0.20273              0.20273
+
+Merit =        5605871.187562845    NA          5605871.187562845    5605871.187562845
+
+
+2024-08-16 12:31:24:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-2
+2024-08-16 12:31:24:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-2.
+2024-08-16 12:31:27:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-2
+2024-08-16 12:31:27:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-2, finished.
+2024-08-16 12:31:27:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-2
+2024-08-16 12:31:27:atsim.pro_fit.reporters.LogReporter:INFO reporters:381:  
+Results at iteration: 1
+
+Variables and Merit Values:
+               First (it=0)         Previous (it=0)      Current (it=1)       Best (i=0)
+-------------  -------------------  -------------------  -------------------  -------------------
+Variables
+W_W_B_c        1.79229              1.79229              1.79229              1.79229
+W_W_B_d        0.14679              0.14679              0.14679              0.14679
+W_W_B_h        0.71342              0.71342              0.71342              0.71342
+W_W_B_beta     0.0                  0.0                  0.0                  0.0
+W_W_B_lambda1  0.0                  0.0                  0.0                  0.0
+W_W_B_lambda2  0.0                  0.0                  0.0                  0.0
+W_W_B_lambda3  0.0                  0.0                  0.0                  0.0
+W_W_B_A        0.0                  0.0                  0.0                  0.0
+W_W_B_B        0.0                  0.0                  0.0                  0.0
+W_W_B_R        2.7301949999999997   2.7301949999999997   2.7301949999999997   2.7301949999999997
+W_W_B_D        0.20273287499999998  0.20273287499999998  0.20273287499999998  0.20273287499999998
+W_B_W_c        2.30627              2.30627              2.30627              2.30627
+W_B_W_d        0.1464               0.1464               0.1464               0.1464
+W_B_W_h        0.78686              0.78686              0.78686              0.78686
+W_B_W_beta     0.0                  0.0                  0.0                  0.0
+W_B_W_lambda1  0.0                  0.0                  0.0                  0.0
+W_B_W_lambda2  0.0                  0.0                  0.0                  0.0
+W_B_W_lambda3  0.0                  0.0                  0.0                  0.0
+W_B_W_A        0.0                  0.0                  0.0                  0.0
+W_B_W_B        0.0                  0.0                  0.0                  0.0
+W_B_W_R        2.79718              2.79718              2.79718              2.79718
+W_B_W_D        0.20021              0.20021              0.20021              0.20021
+W_B_B_c        2.1205               2.1205               2.1205               2.1205
+W_B_B_d *      0.15937              0.15937              0.16733850000000003  0.15937
+W_B_B_h        0.776057934          0.776057934          0.776057934          0.776057934
+W_B_B_beta     0.04525              0.04525              0.04525              0.04525
+W_B_B_lambda1  2.5446255            2.5446255            2.5446255            2.5446255
+W_B_B_lambda2  1.9526635347442618   1.9526635347442618   1.9526635347442618   1.9526635347442618
+W_B_B_lambda3  0.58376              0.58376              0.58376              0.58376
+W_B_B_A        18064.918736         18064.918736         18064.918736         18064.918736
+W_B_B_B        168.932735           168.932735           168.932735           168.932735
+W_B_B_R        0.3477722720810493   0.3477722720810493   0.3477722720810493   0.3477722720810493
+W_B_B_D        0.24030052373129768  0.24030052373129768  0.24030052373129768  0.24030052373129768
+B_W_W_c        42762.66261          42762.66261          42762.66261          42762.66261
+B_W_W_d        86.50456             86.50456             86.50456             86.50456
+B_W_W_h        0.860905659036939    0.860905659036939    0.860905659036939    0.860905659036939
+B_W_W_beta     0.037152             0.037152             0.037152             0.037152
+B_W_W_lambda1  2.4565               2.4565               2.4565               2.4565
+B_W_W_lambda2  1.6166808619003288   1.6166808619003288   1.6166808619003288   1.6166808619003288
+B_W_W_lambda3  0.45876              0.45876              0.45876              0.45876
+B_W_W_A        19222.926347         19222.926347         19222.926347         19222.926347
+B_W_W_B        168.932735           168.932735           168.932735           168.932735
+B_W_W_R        3.2989543639969243   3.2989543639969243   3.2989543639969243   3.2989543639969243
+B_W_W_D        0.2316481076621541   0.2316481076621541   0.2316481076621541   0.2316481076621541
+B_W_B_c        43107.3838           43107.3838           43107.3838           43107.3838
+B_W_B_d        102.33045            102.33045            102.33045            102.33045
+B_W_B_h        0.76288              0.76288              0.76288              0.76288
+B_W_B_beta     0.0                  0.0                  0.0                  0.0
+B_W_B_lambda1  0.0                  0.0                  0.0                  0.0
+B_W_B_lambda2  0.0                  0.0                  0.0                  0.0
+B_W_B_lambda3  0.0                  0.0                  0.0                  0.0
+B_W_B_A        0.0                  0.0                  0.0                  0.0
+B_W_B_B        0.0                  0.0                  0.0                  0.0
+B_W_B_R        2.79797              2.79797              2.79797              2.79797
+B_W_B_D        0.20211              0.20211              0.20211              0.20211
+B_B_W_c        45477.34192          45477.34192          45477.34192          45477.34192
+B_B_W_d        114.14848            114.14848            114.14848            114.14848
+B_B_W_h        0.78262              0.78262              0.78262              0.78262
+B_B_W_beta     0.0                  0.0                  0.0                  0.0
+B_B_W_lambda1  0.0                  0.0                  0.0                  0.0
+B_B_W_lambda2  0.0                  0.0                  0.0                  0.0
+B_B_W_lambda3  0.0                  0.0                  0.0                  0.0
+B_B_W_A        0.0                  0.0                  0.0                  0.0
+B_B_W_B        0.0                  0.0                  0.0                  0.0
+B_B_W_R        2.80009              2.80009              2.80009              2.80009
+B_B_W_D        0.20273              0.20273              0.20273              0.20273
+
+Merit =        5605871.187562845    5605871.187562845    19984686.492903523   5605871.187562845
+
+
+2024-08-16 12:31:27:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-3
+2024-08-16 12:31:27:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-3.
+2024-08-16 12:31:29:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-3
+2024-08-16 12:31:29:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-3, finished.
+2024-08-16 12:31:29:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-3
+2024-08-16 12:31:29:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-4
+2024-08-16 12:31:29:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-4.
+2024-08-16 12:31:33:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-4
+2024-08-16 12:31:33:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-4, finished.
+2024-08-16 12:31:33:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-4
+2024-08-16 12:31:33:atsim.pro_fit.reporters.LogReporter:INFO reporters:381:  
+Results at iteration: 2
+
+Variables and Merit Values:
+               First (it=0)         Previous (it=1)      Current (it=2)       Best (i=2)
+-------------  -------------------  -------------------  -------------------  -------------------
+Variables
+W_W_B_c        1.79229              1.79229              1.79229              1.79229
+W_W_B_d        0.14679              0.14679              0.14679              0.14679
+W_W_B_h        0.71342              0.71342              0.71342              0.71342
+W_W_B_beta     0.0                  0.0                  0.0                  0.0
+W_W_B_lambda1  0.0                  0.0                  0.0                  0.0
+W_W_B_lambda2  0.0                  0.0                  0.0                  0.0
+W_W_B_lambda3  0.0                  0.0                  0.0                  0.0
+W_W_B_A        0.0                  0.0                  0.0                  0.0
+W_W_B_B        0.0                  0.0                  0.0                  0.0
+W_W_B_R        2.7301949999999997   2.7301949999999997   2.7301949999999997   2.7301949999999997
+W_W_B_D        0.20273287499999998  0.20273287499999998  0.20273287499999998  0.20273287499999998
+W_B_W_c        2.30627              2.30627              2.30627              2.30627
+W_B_W_d        0.1464               0.1464               0.1464               0.1464
+W_B_W_h        0.78686              0.78686              0.78686              0.78686
+W_B_W_beta     0.0                  0.0                  0.0                  0.0
+W_B_W_lambda1  0.0                  0.0                  0.0                  0.0
+W_B_W_lambda2  0.0                  0.0                  0.0                  0.0
+W_B_W_lambda3  0.0                  0.0                  0.0                  0.0
+W_B_W_A        0.0                  0.0                  0.0                  0.0
+W_B_W_B        0.0                  0.0                  0.0                  0.0
+W_B_W_R        2.79718              2.79718              2.79718              2.79718
+W_B_W_D        0.20021              0.20021              0.20021              0.20021
+W_B_B_c        2.1205               2.1205               2.1205               2.1205
+W_B_B_d *      0.15937              0.16733850000000003  0.15538575           0.15538575
+W_B_B_h        0.776057934          0.776057934          0.776057934          0.776057934
+W_B_B_beta     0.04525              0.04525              0.04525              0.04525
+W_B_B_lambda1  2.5446255            2.5446255            2.5446255            2.5446255
+W_B_B_lambda2  1.9526635347442618   1.9526635347442618   1.9526635347442618   1.9526635347442618
+W_B_B_lambda3  0.58376              0.58376              0.58376              0.58376
+W_B_B_A        18064.918736         18064.918736         18064.918736         18064.918736
+W_B_B_B        168.932735           168.932735           168.932735           168.932735
+W_B_B_R        0.3477722720810493   0.3477722720810493   0.3477722720810493   0.3477722720810493
+W_B_B_D        0.24030052373129768  0.24030052373129768  0.24030052373129768  0.24030052373129768
+B_W_W_c        42762.66261          42762.66261          42762.66261          42762.66261
+B_W_W_d        86.50456             86.50456             86.50456             86.50456
+B_W_W_h        0.860905659036939    0.860905659036939    0.860905659036939    0.860905659036939
+B_W_W_beta     0.037152             0.037152             0.037152             0.037152
+B_W_W_lambda1  2.4565               2.4565               2.4565               2.4565
+B_W_W_lambda2  1.6166808619003288   1.6166808619003288   1.6166808619003288   1.6166808619003288
+B_W_W_lambda3  0.45876              0.45876              0.45876              0.45876
+B_W_W_A        19222.926347         19222.926347         19222.926347         19222.926347
+B_W_W_B        168.932735           168.932735           168.932735           168.932735
+B_W_W_R        3.2989543639969243   3.2989543639969243   3.2989543639969243   3.2989543639969243
+B_W_W_D        0.2316481076621541   0.2316481076621541   0.2316481076621541   0.2316481076621541
+B_W_B_c        43107.3838           43107.3838           43107.3838           43107.3838
+B_W_B_d        102.33045            102.33045            102.33045            102.33045
+B_W_B_h        0.76288              0.76288              0.76288              0.76288
+B_W_B_beta     0.0                  0.0                  0.0                  0.0
+B_W_B_lambda1  0.0                  0.0                  0.0                  0.0
+B_W_B_lambda2  0.0                  0.0                  0.0                  0.0
+B_W_B_lambda3  0.0                  0.0                  0.0                  0.0
+B_W_B_A        0.0                  0.0                  0.0                  0.0
+B_W_B_B        0.0                  0.0                  0.0                  0.0
+B_W_B_R        2.79797              2.79797              2.79797              2.79797
+B_W_B_D        0.20211              0.20211              0.20211              0.20211
+B_B_W_c        45477.34192          45477.34192          45477.34192          45477.34192
+B_B_W_d        114.14848            114.14848            114.14848            114.14848
+B_B_W_h        0.78262              0.78262              0.78262              0.78262
+B_B_W_beta     0.0                  0.0                  0.0                  0.0
+B_B_W_lambda1  0.0                  0.0                  0.0                  0.0
+B_B_W_lambda2  0.0                  0.0                  0.0                  0.0
+B_B_W_lambda3  0.0                  0.0                  0.0                  0.0
+B_B_W_A        0.0                  0.0                  0.0                  0.0
+B_B_W_B        0.0                  0.0                  0.0                  0.0
+B_B_W_R        2.80009              2.80009              2.80009              2.80009
+B_B_W_D        0.20273              0.20273              0.20273              0.20273
+
+Merit =        5605871.187562845    19984686.492903523   1297207.9466828676   1297207.9466828676
+
+
+2024-08-16 12:31:33:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-5
+2024-08-16 12:31:33:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-5.
+2024-08-16 12:31:36:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-5
+2024-08-16 12:31:36:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-5, finished.
+2024-08-16 12:31:36:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-5
+2024-08-16 12:31:36:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-6
+2024-08-16 12:31:36:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-6.
+2024-08-16 12:31:39:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-6
+2024-08-16 12:31:39:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-6, finished.
+2024-08-16 12:31:39:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-6
+2024-08-16 12:31:39:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-7
+2024-08-16 12:31:39:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-7.
+2024-08-16 12:31:42:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-7
+2024-08-16 12:31:42:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-7, finished.
+2024-08-16 12:31:42:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-7
+2024-08-16 12:31:42:atsim.pro_fit.reporters.LogReporter:INFO reporters:381:  
+Results at iteration: 3
+
+Variables and Merit Values:
+               First (it=0)         Previous (it=2)      Current (it=3)       Best (i=2)
+-------------  -------------------  -------------------  -------------------  -------------------
+Variables
+W_W_B_c        1.79229              1.79229              1.79229              1.79229
+W_W_B_d        0.14679              0.14679              0.14679              0.14679
+W_W_B_h        0.71342              0.71342              0.71342              0.71342
+W_W_B_beta     0.0                  0.0                  0.0                  0.0
+W_W_B_lambda1  0.0                  0.0                  0.0                  0.0
+W_W_B_lambda2  0.0                  0.0                  0.0                  0.0
+W_W_B_lambda3  0.0                  0.0                  0.0                  0.0
+W_W_B_A        0.0                  0.0                  0.0                  0.0
+W_W_B_B        0.0                  0.0                  0.0                  0.0
+W_W_B_R        2.7301949999999997   2.7301949999999997   2.7301949999999997   2.7301949999999997
+W_W_B_D        0.20273287499999998  0.20273287499999998  0.20273287499999998  0.20273287499999998
+W_B_W_c        2.30627              2.30627              2.30627              2.30627
+W_B_W_d        0.1464               0.1464               0.1464               0.1464
+W_B_W_h        0.78686              0.78686              0.78686              0.78686
+W_B_W_beta     0.0                  0.0                  0.0                  0.0
+W_B_W_lambda1  0.0                  0.0                  0.0                  0.0
+W_B_W_lambda2  0.0                  0.0                  0.0                  0.0
+W_B_W_lambda3  0.0                  0.0                  0.0                  0.0
+W_B_W_A        0.0                  0.0                  0.0                  0.0
+W_B_W_B        0.0                  0.0                  0.0                  0.0
+W_B_W_R        2.79718              2.79718              2.79718              2.79718
+W_B_W_D        0.20021              0.20021              0.20021              0.20021
+W_B_B_c        2.1205               2.1205               2.1205               2.1205
+W_B_B_d *      0.15937              0.15538575           0.15140149999999997  0.15538575
+W_B_B_h        0.776057934          0.776057934          0.776057934          0.776057934
+W_B_B_beta     0.04525              0.04525              0.04525              0.04525
+W_B_B_lambda1  2.5446255            2.5446255            2.5446255            2.5446255
+W_B_B_lambda2  1.9526635347442618   1.9526635347442618   1.9526635347442618   1.9526635347442618
+W_B_B_lambda3  0.58376              0.58376              0.58376              0.58376
+W_B_B_A        18064.918736         18064.918736         18064.918736         18064.918736
+W_B_B_B        168.932735           168.932735           168.932735           168.932735
+W_B_B_R        0.3477722720810493   0.3477722720810493   0.3477722720810493   0.3477722720810493
+W_B_B_D        0.24030052373129768  0.24030052373129768  0.24030052373129768  0.24030052373129768
+B_W_W_c        42762.66261          42762.66261          42762.66261          42762.66261
+B_W_W_d        86.50456             86.50456             86.50456             86.50456
+B_W_W_h        0.860905659036939    0.860905659036939    0.860905659036939    0.860905659036939
+B_W_W_beta     0.037152             0.037152             0.037152             0.037152
+B_W_W_lambda1  2.4565               2.4565               2.4565               2.4565
+B_W_W_lambda2  1.6166808619003288   1.6166808619003288   1.6166808619003288   1.6166808619003288
+B_W_W_lambda3  0.45876              0.45876              0.45876              0.45876
+B_W_W_A        19222.926347         19222.926347         19222.926347         19222.926347
+B_W_W_B        168.932735           168.932735           168.932735           168.932735
+B_W_W_R        3.2989543639969243   3.2989543639969243   3.2989543639969243   3.2989543639969243
+B_W_W_D        0.2316481076621541   0.2316481076621541   0.2316481076621541   0.2316481076621541
+B_W_B_c        43107.3838           43107.3838           43107.3838           43107.3838
+B_W_B_d        102.33045            102.33045            102.33045            102.33045
+B_W_B_h        0.76288              0.76288              0.76288              0.76288
+B_W_B_beta     0.0                  0.0                  0.0                  0.0
+B_W_B_lambda1  0.0                  0.0                  0.0                  0.0
+B_W_B_lambda2  0.0                  0.0                  0.0                  0.0
+B_W_B_lambda3  0.0                  0.0                  0.0                  0.0
+B_W_B_A        0.0                  0.0                  0.0                  0.0
+B_W_B_B        0.0                  0.0                  0.0                  0.0
+B_W_B_R        2.79797              2.79797              2.79797              2.79797
+B_W_B_D        0.20211              0.20211              0.20211              0.20211
+B_B_W_c        45477.34192          45477.34192          45477.34192          45477.34192
+B_B_W_d        114.14848            114.14848            114.14848            114.14848
+B_B_W_h        0.78262              0.78262              0.78262              0.78262
+B_B_W_beta     0.0                  0.0                  0.0                  0.0
+B_B_W_lambda1  0.0                  0.0                  0.0                  0.0
+B_B_W_lambda2  0.0                  0.0                  0.0                  0.0
+B_B_W_lambda3  0.0                  0.0                  0.0                  0.0
+B_B_W_A        0.0                  0.0                  0.0                  0.0
+B_B_W_B        0.0                  0.0                  0.0                  0.0
+B_B_W_R        2.80009              2.80009              2.80009              2.80009
+B_B_W_D        0.20273              0.20273              0.20273              0.20273
+
+Merit =        5605871.187562845    1297207.9466828676   7386446.771006606    1297207.9466828676
+
+
+2024-08-16 12:31:42:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-8
+2024-08-16 12:31:42:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-8.
+2024-08-16 12:32:14:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-8
+2024-08-16 12:32:14:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-8, finished.
+2024-08-16 12:32:14:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-8
+2024-08-16 12:32:14:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-9
+2024-08-16 12:32:14:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-9.
+2024-08-16 12:32:18:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-9
+2024-08-16 12:32:18:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-9, finished.
+2024-08-16 12:32:18:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-9
+2024-08-16 12:32:19:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-10
+2024-08-16 12:32:19:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-10.
+2024-08-16 12:33:23:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-10
+2024-08-16 12:33:23:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-10, finished.
+2024-08-16 12:33:23:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-10
+2024-08-16 12:33:23:atsim.pro_fit.reporters.LogReporter:INFO reporters:381:  
+Results at iteration: 4
+
+Variables and Merit Values:
+               First (it=0)         Previous (it=3)      Current (it=4)       Best (i=2)
+-------------  -------------------  -------------------  -------------------  -------------------
+Variables
+W_W_B_c        1.79229              1.79229              1.79229              1.79229
+W_W_B_d        0.14679              0.14679              0.14679              0.14679
+W_W_B_h        0.71342              0.71342              0.71342              0.71342
+W_W_B_beta     0.0                  0.0                  0.0                  0.0
+W_W_B_lambda1  0.0                  0.0                  0.0                  0.0
+W_W_B_lambda2  0.0                  0.0                  0.0                  0.0
+W_W_B_lambda3  0.0                  0.0                  0.0                  0.0
+W_W_B_A        0.0                  0.0                  0.0                  0.0
+W_W_B_B        0.0                  0.0                  0.0                  0.0
+W_W_B_R        2.7301949999999997   2.7301949999999997   2.7301949999999997   2.7301949999999997
+W_W_B_D        0.20273287499999998  0.20273287499999998  0.20273287499999998  0.20273287499999998
+W_B_W_c        2.30627              2.30627              2.30627              2.30627
+W_B_W_d        0.1464               0.1464               0.1464               0.1464
+W_B_W_h        0.78686              0.78686              0.78686              0.78686
+W_B_W_beta     0.0                  0.0                  0.0                  0.0
+W_B_W_lambda1  0.0                  0.0                  0.0                  0.0
+W_B_W_lambda2  0.0                  0.0                  0.0                  0.0
+W_B_W_lambda3  0.0                  0.0                  0.0                  0.0
+W_B_W_A        0.0                  0.0                  0.0                  0.0
+W_B_W_B        0.0                  0.0                  0.0                  0.0
+W_B_W_R        2.79718              2.79718              2.79718              2.79718
+W_B_W_D        0.20021              0.20021              0.20021              0.20021
+W_B_B_c        2.1205               2.1205               2.1205               2.1205
+W_B_B_d *      0.15937              0.15140149999999997  0.1563818125         0.15538575
+W_B_B_h        0.776057934          0.776057934          0.776057934          0.776057934
+W_B_B_beta     0.04525              0.04525              0.04525              0.04525
+W_B_B_lambda1  2.5446255            2.5446255            2.5446255            2.5446255
+W_B_B_lambda2  1.9526635347442618   1.9526635347442618   1.9526635347442618   1.9526635347442618
+W_B_B_lambda3  0.58376              0.58376              0.58376              0.58376
+W_B_B_A        18064.918736         18064.918736         18064.918736         18064.918736
+W_B_B_B        168.932735           168.932735           168.932735           168.932735
+W_B_B_R        0.3477722720810493   0.3477722720810493   0.3477722720810493   0.3477722720810493
+W_B_B_D        0.24030052373129768  0.24030052373129768  0.24030052373129768  0.24030052373129768
+B_W_W_c        42762.66261          42762.66261          42762.66261          42762.66261
+B_W_W_d        86.50456             86.50456             86.50456             86.50456
+B_W_W_h        0.860905659036939    0.860905659036939    0.860905659036939    0.860905659036939
+B_W_W_beta     0.037152             0.037152             0.037152             0.037152
+B_W_W_lambda1  2.4565               2.4565               2.4565               2.4565
+B_W_W_lambda2  1.6166808619003288   1.6166808619003288   1.6166808619003288   1.6166808619003288
+B_W_W_lambda3  0.45876              0.45876              0.45876              0.45876
+B_W_W_A        19222.926347         19222.926347         19222.926347         19222.926347
+B_W_W_B        168.932735           168.932735           168.932735           168.932735
+B_W_W_R        3.2989543639969243   3.2989543639969243   3.2989543639969243   3.2989543639969243
+B_W_W_D        0.2316481076621541   0.2316481076621541   0.2316481076621541   0.2316481076621541
+B_W_B_c        43107.3838           43107.3838           43107.3838           43107.3838
+B_W_B_d        102.33045            102.33045            102.33045            102.33045
+B_W_B_h        0.76288              0.76288              0.76288              0.76288
+B_W_B_beta     0.0                  0.0                  0.0                  0.0
+B_W_B_lambda1  0.0                  0.0                  0.0                  0.0
+B_W_B_lambda2  0.0                  0.0                  0.0                  0.0
+B_W_B_lambda3  0.0                  0.0                  0.0                  0.0
+B_W_B_A        0.0                  0.0                  0.0                  0.0
+B_W_B_B        0.0                  0.0                  0.0                  0.0
+B_W_B_R        2.79797              2.79797              2.79797              2.79797
+B_W_B_D        0.20211              0.20211              0.20211              0.20211
+B_B_W_c        45477.34192          45477.34192          45477.34192          45477.34192
+B_B_W_d        114.14848            114.14848            114.14848            114.14848
+B_B_W_h        0.78262              0.78262              0.78262              0.78262
+B_B_W_beta     0.0                  0.0                  0.0                  0.0
+B_B_W_lambda1  0.0                  0.0                  0.0                  0.0
+B_B_W_lambda2  0.0                  0.0                  0.0                  0.0
+B_B_W_lambda3  0.0                  0.0                  0.0                  0.0
+B_B_W_A        0.0                  0.0                  0.0                  0.0
+B_B_W_B        0.0                  0.0                  0.0                  0.0
+B_B_W_R        2.80009              2.80009              2.80009              2.80009
+B_B_W_D        0.20273              0.20273              0.20273              0.20273
+
+Merit =        5605871.187562845    7386446.771006606    11289477.60831778    1297207.9466828676
+
+
+2024-08-16 12:33:23:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-11
+2024-08-16 12:33:23:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-11.
+2024-08-16 12:34:27:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-11
+2024-08-16 12:34:27:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-11, finished.
+2024-08-16 12:34:27:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-11
+2024-08-16 12:34:27:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-12
+2024-08-16 12:34:27:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-12.
+2024-08-16 12:42:15:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-12
+2024-08-16 12:42:15:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-12, finished.
+2024-08-16 12:42:15:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-12
+2024-08-16 12:42:15:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-13
+2024-08-16 12:42:15:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-13.
+2024-08-16 12:42:18:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-13
+2024-08-16 12:42:18:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-13, finished.
+2024-08-16 12:42:18:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-13
+2024-08-16 12:42:18:atsim.pro_fit.reporters.LogReporter:INFO reporters:381:  
+Results at iteration: 5
+
+Variables and Merit Values:
+               First (it=0)         Previous (it=4)      Current (it=5)       Best (i=2)
+-------------  -------------------  -------------------  -------------------  -------------------
+Variables
+W_W_B_c        1.79229              1.79229              1.79229              1.79229
+W_W_B_d        0.14679              0.14679              0.14679              0.14679
+W_W_B_h        0.71342              0.71342              0.71342              0.71342
+W_W_B_beta     0.0                  0.0                  0.0                  0.0
+W_W_B_lambda1  0.0                  0.0                  0.0                  0.0
+W_W_B_lambda2  0.0                  0.0                  0.0                  0.0
+W_W_B_lambda3  0.0                  0.0                  0.0                  0.0
+W_W_B_A        0.0                  0.0                  0.0                  0.0
+W_W_B_B        0.0                  0.0                  0.0                  0.0
+W_W_B_R        2.7301949999999997   2.7301949999999997   2.7301949999999997   2.7301949999999997
+W_W_B_D        0.20273287499999998  0.20273287499999998  0.20273287499999998  0.20273287499999998
+W_B_W_c        2.30627              2.30627              2.30627              2.30627
+W_B_W_d        0.1464               0.1464               0.1464               0.1464
+W_B_W_h        0.78686              0.78686              0.78686              0.78686
+W_B_W_beta     0.0                  0.0                  0.0                  0.0
+W_B_W_lambda1  0.0                  0.0                  0.0                  0.0
+W_B_W_lambda2  0.0                  0.0                  0.0                  0.0
+W_B_W_lambda3  0.0                  0.0                  0.0                  0.0
+W_B_W_A        0.0                  0.0                  0.0                  0.0
+W_B_W_B        0.0                  0.0                  0.0                  0.0
+W_B_W_R        2.79718              2.79718              2.79718              2.79718
+W_B_W_D        0.20021              0.20021              0.20021              0.20021
+W_B_B_c        2.1205               2.1205               2.1205               2.1205
+W_B_B_d *      0.15937              0.1563818125         0.15588378125        0.15538575
+W_B_B_h        0.776057934          0.776057934          0.776057934          0.776057934
+W_B_B_beta     0.04525              0.04525              0.04525              0.04525
+W_B_B_lambda1  2.5446255            2.5446255            2.5446255            2.5446255
+W_B_B_lambda2  1.9526635347442618   1.9526635347442618   1.9526635347442618   1.9526635347442618
+W_B_B_lambda3  0.58376              0.58376              0.58376              0.58376
+W_B_B_A        18064.918736         18064.918736         18064.918736         18064.918736
+W_B_B_B        168.932735           168.932735           168.932735           168.932735
+W_B_B_R        0.3477722720810493   0.3477722720810493   0.3477722720810493   0.3477722720810493
+W_B_B_D        0.24030052373129768  0.24030052373129768  0.24030052373129768  0.24030052373129768
+B_W_W_c        42762.66261          42762.66261          42762.66261          42762.66261
+B_W_W_d        86.50456             86.50456             86.50456             86.50456
+B_W_W_h        0.860905659036939    0.860905659036939    0.860905659036939    0.860905659036939
+B_W_W_beta     0.037152             0.037152             0.037152             0.037152
+B_W_W_lambda1  2.4565               2.4565               2.4565               2.4565
+B_W_W_lambda2  1.6166808619003288   1.6166808619003288   1.6166808619003288   1.6166808619003288
+B_W_W_lambda3  0.45876              0.45876              0.45876              0.45876
+B_W_W_A        19222.926347         19222.926347         19222.926347         19222.926347
+B_W_W_B        168.932735           168.932735           168.932735           168.932735
+B_W_W_R        3.2989543639969243   3.2989543639969243   3.2989543639969243   3.2989543639969243
+B_W_W_D        0.2316481076621541   0.2316481076621541   0.2316481076621541   0.2316481076621541
+B_W_B_c        43107.3838           43107.3838           43107.3838           43107.3838
+B_W_B_d        102.33045            102.33045            102.33045            102.33045
+B_W_B_h        0.76288              0.76288              0.76288              0.76288
+B_W_B_beta     0.0                  0.0                  0.0                  0.0
+B_W_B_lambda1  0.0                  0.0                  0.0                  0.0
+B_W_B_lambda2  0.0                  0.0                  0.0                  0.0
+B_W_B_lambda3  0.0                  0.0                  0.0                  0.0
+B_W_B_A        0.0                  0.0                  0.0                  0.0
+B_W_B_B        0.0                  0.0                  0.0                  0.0
+B_W_B_R        2.79797              2.79797              2.79797              2.79797
+B_W_B_D        0.20211              0.20211              0.20211              0.20211
+B_B_W_c        45477.34192          45477.34192          45477.34192          45477.34192
+B_B_W_d        114.14848            114.14848            114.14848            114.14848
+B_B_W_h        0.78262              0.78262              0.78262              0.78262
+B_B_W_beta     0.0                  0.0                  0.0                  0.0
+B_B_W_lambda1  0.0                  0.0                  0.0                  0.0
+B_B_W_lambda2  0.0                  0.0                  0.0                  0.0
+B_B_W_lambda3  0.0                  0.0                  0.0                  0.0
+B_B_W_A        0.0                  0.0                  0.0                  0.0
+B_B_W_B        0.0                  0.0                  0.0                  0.0
+B_B_W_R        2.80009              2.80009              2.80009              2.80009
+B_B_W_D        0.20273              0.20273              0.20273              0.20273
+
+Merit =        5605871.187562845    11289477.60831778    9826090.673986848    1297207.9466828676
+
+
+2024-08-16 12:42:18:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-14
+2024-08-16 12:42:18:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-14.
+2024-08-16 12:42:23:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-14
+2024-08-16 12:42:23:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-14, finished.
+2024-08-16 12:42:23:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-14
+2024-08-16 12:42:23:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-15
+2024-08-16 12:42:23:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-15.
+2024-08-16 12:42:28:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-15
+2024-08-16 12:42:28:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-15, finished.
+2024-08-16 12:42:28:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-15
+2024-08-16 12:42:28:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-16
+2024-08-16 12:42:28:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-16.
+2024-08-16 12:42:32:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-16
+2024-08-16 12:42:32:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-16, finished.
+2024-08-16 12:42:32:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-16
+2024-08-16 12:42:32:atsim.pro_fit.reporters.LogReporter:INFO reporters:381:  
+Results at iteration: 6
+
+Variables and Merit Values:
+               First (it=0)         Previous (it=5)      Current (it=6)       Best (i=2)
+-------------  -------------------  -------------------  -------------------  -------------------
+Variables
+W_W_B_c        1.79229              1.79229              1.79229              1.79229
+W_W_B_d        0.14679              0.14679              0.14679              0.14679
+W_W_B_h        0.71342              0.71342              0.71342              0.71342
+W_W_B_beta     0.0                  0.0                  0.0                  0.0
+W_W_B_lambda1  0.0                  0.0                  0.0                  0.0
+W_W_B_lambda2  0.0                  0.0                  0.0                  0.0
+W_W_B_lambda3  0.0                  0.0                  0.0                  0.0
+W_W_B_A        0.0                  0.0                  0.0                  0.0
+W_W_B_B        0.0                  0.0                  0.0                  0.0
+W_W_B_R        2.7301949999999997   2.7301949999999997   2.7301949999999997   2.7301949999999997
+W_W_B_D        0.20273287499999998  0.20273287499999998  0.20273287499999998  0.20273287499999998
+W_B_W_c        2.30627              2.30627              2.30627              2.30627
+W_B_W_d        0.1464               0.1464               0.1464               0.1464
+W_B_W_h        0.78686              0.78686              0.78686              0.78686
+W_B_W_beta     0.0                  0.0                  0.0                  0.0
+W_B_W_lambda1  0.0                  0.0                  0.0                  0.0
+W_B_W_lambda2  0.0                  0.0                  0.0                  0.0
+W_B_W_lambda3  0.0                  0.0                  0.0                  0.0
+W_B_W_A        0.0                  0.0                  0.0                  0.0
+W_B_W_B        0.0                  0.0                  0.0                  0.0
+W_B_W_R        2.79718              2.79718              2.79718              2.79718
+W_B_W_D        0.20021              0.20021              0.20021              0.20021
+W_B_B_c        2.1205               2.1205               2.1205               2.1205
+W_B_B_d *      0.15937              0.15588378125        0.15488771875        0.15538575
+W_B_B_h        0.776057934          0.776057934          0.776057934          0.776057934
+W_B_B_beta     0.04525              0.04525              0.04525              0.04525
+W_B_B_lambda1  2.5446255            2.5446255            2.5446255            2.5446255
+W_B_B_lambda2  1.9526635347442618   1.9526635347442618   1.9526635347442618   1.9526635347442618
+W_B_B_lambda3  0.58376              0.58376              0.58376              0.58376
+W_B_B_A        18064.918736         18064.918736         18064.918736         18064.918736
+W_B_B_B        168.932735           168.932735           168.932735           168.932735
+W_B_B_R        0.3477722720810493   0.3477722720810493   0.3477722720810493   0.3477722720810493
+W_B_B_D        0.24030052373129768  0.24030052373129768  0.24030052373129768  0.24030052373129768
+B_W_W_c        42762.66261          42762.66261          42762.66261          42762.66261
+B_W_W_d        86.50456             86.50456             86.50456             86.50456
+B_W_W_h        0.860905659036939    0.860905659036939    0.860905659036939    0.860905659036939
+B_W_W_beta     0.037152             0.037152             0.037152             0.037152
+B_W_W_lambda1  2.4565               2.4565               2.4565               2.4565
+B_W_W_lambda2  1.6166808619003288   1.6166808619003288   1.6166808619003288   1.6166808619003288
+B_W_W_lambda3  0.45876              0.45876              0.45876              0.45876
+B_W_W_A        19222.926347         19222.926347         19222.926347         19222.926347
+B_W_W_B        168.932735           168.932735           168.932735           168.932735
+B_W_W_R        3.2989543639969243   3.2989543639969243   3.2989543639969243   3.2989543639969243
+B_W_W_D        0.2316481076621541   0.2316481076621541   0.2316481076621541   0.2316481076621541
+B_W_B_c        43107.3838           43107.3838           43107.3838           43107.3838
+B_W_B_d        102.33045            102.33045            102.33045            102.33045
+B_W_B_h        0.76288              0.76288              0.76288              0.76288
+B_W_B_beta     0.0                  0.0                  0.0                  0.0
+B_W_B_lambda1  0.0                  0.0                  0.0                  0.0
+B_W_B_lambda2  0.0                  0.0                  0.0                  0.0
+B_W_B_lambda3  0.0                  0.0                  0.0                  0.0
+B_W_B_A        0.0                  0.0                  0.0                  0.0
+B_W_B_B        0.0                  0.0                  0.0                  0.0
+B_W_B_R        2.79797              2.79797              2.79797              2.79797
+B_W_B_D        0.20211              0.20211              0.20211              0.20211
+B_B_W_c        45477.34192          45477.34192          45477.34192          45477.34192
+B_B_W_d        114.14848            114.14848            114.14848            114.14848
+B_B_W_h        0.78262              0.78262              0.78262              0.78262
+B_B_W_beta     0.0                  0.0                  0.0                  0.0
+B_B_W_lambda1  0.0                  0.0                  0.0                  0.0
+B_B_W_lambda2  0.0                  0.0                  0.0                  0.0
+B_B_W_lambda3  0.0                  0.0                  0.0                  0.0
+B_B_W_A        0.0                  0.0                  0.0                  0.0
+B_B_W_B        0.0                  0.0                  0.0                  0.0
+B_B_W_R        2.80009              2.80009              2.80009              2.80009
+B_B_W_D        0.20273              0.20273              0.20273              0.20273
+
+Merit =        5605871.187562845    9826090.673986848    5266871.984833492    1297207.9466828676
+
+
+2024-08-16 12:42:32:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-17
+2024-08-16 12:42:32:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-17.
+2024-08-16 12:42:35:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-17
+2024-08-16 12:42:35:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-17, finished.
+2024-08-16 12:42:35:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-17
+2024-08-16 12:42:35:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-18
+2024-08-16 12:42:35:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-18.
+2024-08-16 12:42:39:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-18
+2024-08-16 12:42:39:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-18, finished.
+2024-08-16 12:42:39:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-18
+2024-08-16 12:42:39:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-19
+2024-08-16 12:42:39:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-19.
+2024-08-16 12:42:43:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-19
+2024-08-16 12:42:43:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-19, finished.
+2024-08-16 12:42:43:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-19
+2024-08-16 12:42:43:atsim.pro_fit.reporters.LogReporter:INFO reporters:381:  
+Results at iteration: 7
+
+Variables and Merit Values:
+               First (it=0)         Previous (it=6)      Current (it=7)       Best (i=2)
+-------------  -------------------  -------------------  -------------------  -------------------
+Variables
+W_W_B_c        1.79229              1.79229              1.79229              1.79229
+W_W_B_d        0.14679              0.14679              0.14679              0.14679
+W_W_B_h        0.71342              0.71342              0.71342              0.71342
+W_W_B_beta     0.0                  0.0                  0.0                  0.0
+W_W_B_lambda1  0.0                  0.0                  0.0                  0.0
+W_W_B_lambda2  0.0                  0.0                  0.0                  0.0
+W_W_B_lambda3  0.0                  0.0                  0.0                  0.0
+W_W_B_A        0.0                  0.0                  0.0                  0.0
+W_W_B_B        0.0                  0.0                  0.0                  0.0
+W_W_B_R        2.7301949999999997   2.7301949999999997   2.7301949999999997   2.7301949999999997
+W_W_B_D        0.20273287499999998  0.20273287499999998  0.20273287499999998  0.20273287499999998
+W_B_W_c        2.30627              2.30627              2.30627              2.30627
+W_B_W_d        0.1464               0.1464               0.1464               0.1464
+W_B_W_h        0.78686              0.78686              0.78686              0.78686
+W_B_W_beta     0.0                  0.0                  0.0                  0.0
+W_B_W_lambda1  0.0                  0.0                  0.0                  0.0
+W_B_W_lambda2  0.0                  0.0                  0.0                  0.0
+W_B_W_lambda3  0.0                  0.0                  0.0                  0.0
+W_B_W_A        0.0                  0.0                  0.0                  0.0
+W_B_W_B        0.0                  0.0                  0.0                  0.0
+W_B_W_R        2.79718              2.79718              2.79718              2.79718
+W_B_W_D        0.20021              0.20021              0.20021              0.20021
+W_B_B_c        2.1205               2.1205               2.1205               2.1205
+W_B_B_d *      0.15937              0.15488771875        0.1555102578125      0.15538575
+W_B_B_h        0.776057934          0.776057934          0.776057934          0.776057934
+W_B_B_beta     0.04525              0.04525              0.04525              0.04525
+W_B_B_lambda1  2.5446255            2.5446255            2.5446255            2.5446255
+W_B_B_lambda2  1.9526635347442618   1.9526635347442618   1.9526635347442618   1.9526635347442618
+W_B_B_lambda3  0.58376              0.58376              0.58376              0.58376
+W_B_B_A        18064.918736         18064.918736         18064.918736         18064.918736
+W_B_B_B        168.932735           168.932735           168.932735           168.932735
+W_B_B_R        0.3477722720810493   0.3477722720810493   0.3477722720810493   0.3477722720810493
+W_B_B_D        0.24030052373129768  0.24030052373129768  0.24030052373129768  0.24030052373129768
+B_W_W_c        42762.66261          42762.66261          42762.66261          42762.66261
+B_W_W_d        86.50456             86.50456             86.50456             86.50456
+B_W_W_h        0.860905659036939    0.860905659036939    0.860905659036939    0.860905659036939
+B_W_W_beta     0.037152             0.037152             0.037152             0.037152
+B_W_W_lambda1  2.4565               2.4565               2.4565               2.4565
+B_W_W_lambda2  1.6166808619003288   1.6166808619003288   1.6166808619003288   1.6166808619003288
+B_W_W_lambda3  0.45876              0.45876              0.45876              0.45876
+B_W_W_A        19222.926347         19222.926347         19222.926347         19222.926347
+B_W_W_B        168.932735           168.932735           168.932735           168.932735
+B_W_W_R        3.2989543639969243   3.2989543639969243   3.2989543639969243   3.2989543639969243
+B_W_W_D        0.2316481076621541   0.2316481076621541   0.2316481076621541   0.2316481076621541
+B_W_B_c        43107.3838           43107.3838           43107.3838           43107.3838
+B_W_B_d        102.33045            102.33045            102.33045            102.33045
+B_W_B_h        0.76288              0.76288              0.76288              0.76288
+B_W_B_beta     0.0                  0.0                  0.0                  0.0
+B_W_B_lambda1  0.0                  0.0                  0.0                  0.0
+B_W_B_lambda2  0.0                  0.0                  0.0                  0.0
+B_W_B_lambda3  0.0                  0.0                  0.0                  0.0
+B_W_B_A        0.0                  0.0                  0.0                  0.0
+B_W_B_B        0.0                  0.0                  0.0                  0.0
+B_W_B_R        2.79797              2.79797              2.79797              2.79797
+B_W_B_D        0.20211              0.20211              0.20211              0.20211
+B_B_W_c        45477.34192          45477.34192          45477.34192          45477.34192
+B_B_W_d        114.14848            114.14848            114.14848            114.14848
+B_B_W_h        0.78262              0.78262              0.78262              0.78262
+B_B_W_beta     0.0                  0.0                  0.0                  0.0
+B_B_W_lambda1  0.0                  0.0                  0.0                  0.0
+B_B_W_lambda2  0.0                  0.0                  0.0                  0.0
+B_B_W_lambda3  0.0                  0.0                  0.0                  0.0
+B_B_W_A        0.0                  0.0                  0.0                  0.0
+B_B_W_B        0.0                  0.0                  0.0                  0.0
+B_B_W_R        2.80009              2.80009              2.80009              2.80009
+B_B_W_D        0.20273              0.20273              0.20273              0.20273
+
+Merit =        5605871.187562845    5266871.984833492    2486791.3190320516   1297207.9466828676
+
+
+2024-08-16 12:42:43:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-20
+2024-08-16 12:42:43:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-20.
+2024-08-16 12:42:47:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-20
+2024-08-16 12:42:47:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-20, finished.
+2024-08-16 12:42:47:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-20
+2024-08-16 12:42:47:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-21
+2024-08-16 12:42:47:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-21.
+2024-08-16 12:42:47:console.shutdown:INFO fitconfig:105:  Shutting down 'pprofit'
+2024-08-16 12:42:47:console.shutdown:INFO fitconfig:105:  Shutting down 'pprofit'
+2024-08-16 12:42:47:console.shutdown:INFO __init__:187:  Potential Pro-Fit Shutting Down Now
+2024-08-16 12:42:47:console.shutdown:INFO __init__:187:  Potential Pro-Fit Shutting Down Now
+2024-08-16 12:42:47:console.shutdown:INFO fitconfig:114:  Closing runner: 'Local'
+2024-08-16 12:42:47:console.shutdown:INFO fitconfig:114:  Closing runner: 'Local'
+2024-08-16 12:42:47:console.shutdown:INFO _base_remoterunner:120:  Terminating 1 batches for runner 'Local'
+2024-08-16 12:42:47:console.shutdown:INFO _base_remoterunner:120:  Terminating 1 batches for runner 'Local'
+2024-08-16 12:42:47:atsim.pro_fit.runners._run_remote_client.RunJobCallback:WARNING _run_remote_client:296:  Job id=9c1ffc20-050d-4a40-a6d5-6beda2b9494c-20 (working directory='/tmp/tmpf_c2784w/Batch-21/W2B5-P6_3-mmc_W2B5-P6_3-mmc-0/job_files') was killed
+2024-08-16 12:42:47:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-21, finished.
+2024-08-16 12:42:47:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-21
+2024-08-16 12:42:47:console.shutdown:INFO _base_remoterunner:125:  Terminating batches for runners 'Local' (Done)
+2024-08-16 12:42:47:console.shutdown:INFO _base_remoterunner:125:  Terminating batches for runners 'Local' (Done)
+2024-08-16 12:42:47:console.shutdown:INFO _base_remoterunner:145:  Closing run client for 'Local', waiting for 1 events
+2024-08-16 12:42:47:console.shutdown:INFO _base_remoterunner:145:  Closing run client for 'Local', waiting for 1 events
+2024-08-16 12:42:47:console.shutdown:INFO _base_remoterunner:60:  Runner (Local) Sending shutdown signal to  closeRunClient channels
+2024-08-16 12:42:47:console.shutdown:INFO _base_remoterunner:60:  Runner (Local) Sending shutdown signal to  closeRunClient channels
+2024-08-16 12:42:47:console.shutdown:INFO _base_remoterunner:76:  Runner (Local) closeRunClient channels closed.
+2024-08-16 12:42:47:console.shutdown:INFO _base_remoterunner:76:  Runner (Local) closeRunClient channels closed.
+2024-08-16 12:42:47:console.shutdown:INFO _base_remoterunner:149:  Closing run client for 'Local' (Done)
+2024-08-16 12:42:47:console.shutdown:INFO _base_remoterunner:149:  Closing run client for 'Local' (Done)
+2024-08-16 12:42:47:console.shutdown:INFO _base_remoterunner:60:  Runner (Local) Sending shutdown signal to  cleanup channels
+2024-08-16 12:42:47:console.shutdown:INFO _base_remoterunner:60:  Runner (Local) Sending shutdown signal to  cleanup channels
+2024-08-16 12:42:47:console.shutdown:INFO _base_remoterunner:76:  Runner (Local) cleanup channels closed.
+2024-08-16 12:42:47:console.shutdown:INFO _base_remoterunner:76:  Runner (Local) cleanup channels closed.
+2024-08-16 12:42:47:console.shutdown:INFO _base_remoterunner:206:  Cleanup finished for runner 'Local'
+2024-08-16 12:42:47:console.shutdown:INFO _base_remoterunner:206:  Cleanup finished for runner 'Local'
+2024-08-16 12:42:47:console.shutdown:INFO fitconfig:119:  Runner 'Local' now closed.
+2024-08-16 12:42:47:console.shutdown:INFO fitconfig:119:  Runner 'Local' now closed.
