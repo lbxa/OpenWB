@@ -1,0 +1,23 @@
+2024-08-19 00:14:35:console.starting:INFO pprofit:581:  Potential Pro-Fit v0.10.0dev
+
+
+2024-08-19 00:14:35:console.starting:INFO pprofit:581:  Potential Pro-Fit v0.10.0dev
+
+
+2024-08-19 00:14:35:console.starting:INFO pprofit:583:  Starting...
+2024-08-19 00:14:35:console.starting:INFO pprofit:583:  Starting...
+2024-08-19 00:14:35:console:INFO pprofit:726:  Job files will be created in: test
+2024-08-19 00:14:35:console:INFO pprofit:726:  Job files will be created in: test
+2024-08-19 00:14:35:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found JobFactory: Template in module <module 'atsim.pro_fit.jobfactories' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/jobfactories.py'>
+2024-08-19 00:14:35:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found JobTask: Potable in module <module 'atsim.pro_fit.jobtasks' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/jobtasks.py'>
+2024-08-19 00:14:35:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:458:  Processing job directory: "/home/lucasbarbosa/c/md/openwb/fitting/fit_files/W2B5-P6_3-mmc"
+2024-08-19 00:14:35:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:458:  Processing job directory: "/home/lucasbarbosa/c/md/openwb/fitting/fit_files/WB2-P6_3-mmc"
+2024-08-19 00:14:35:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:380:  Creating runner: 'Local'
+2024-08-19 00:14:35:console:INFO pprofit:527:  Temporary job files will be created in '/tmp/tmpzfpi66zo'
+2024-08-19 00:14:35:console:INFO pprofit:527:  Temporary job files will be created in '/tmp/tmpzfpi66zo'
+2024-08-19 00:14:35:console.shutdown:INFO fitconfig:105:  Shutting down 'pprofit'
+2024-08-19 00:14:35:console.shutdown:INFO fitconfig:105:  Shutting down 'pprofit'
+2024-08-19 00:14:35:console.shutdown:INFO fitconfig:114:  Closing runner: 'Local'
+2024-08-19 00:14:35:console.shutdown:INFO fitconfig:114:  Closing runner: 'Local'
+2024-08-19 00:14:35:console.shutdown:INFO fitconfig:119:  Runner 'Local' now closed.
+2024-08-19 00:14:35:console.shutdown:INFO fitconfig:119:  Runner 'Local' now closed.

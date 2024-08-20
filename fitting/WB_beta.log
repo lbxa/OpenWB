@@ -1,0 +1,2100 @@
+2024-08-16 15:15:10:console.starting:INFO pprofit:581:  Potential Pro-Fit v0.10.0dev
+
+
+2024-08-16 15:15:10:console.starting:INFO pprofit:581:  Potential Pro-Fit v0.10.0dev
+
+
+2024-08-16 15:15:10:console.starting:INFO pprofit:583:  Starting...
+2024-08-16 15:15:10:console.starting:INFO pprofit:583:  Starting...
+2024-08-16 15:15:10:console:INFO pprofit:734:  Performing Minimization run
+2024-08-16 15:15:10:console:INFO pprofit:734:  Performing Minimization run
+2024-08-16 15:15:10:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found Runner: Local in module <module 'atsim.pro_fit.runners' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/runners/__init__.py'>
+2024-08-16 15:15:10:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found Runner: Null in module <module 'atsim.pro_fit.runners' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/runners/__init__.py'>
+2024-08-16 15:15:10:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found Runner: PBS in module <module 'atsim.pro_fit.runners' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/runners/__init__.py'>
+2024-08-16 15:15:10:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found Runner: Remote in module <module 'atsim.pro_fit.runners' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/runners/__init__.py'>
+2024-08-16 15:15:10:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found Runner: SGE in module <module 'atsim.pro_fit.runners' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/runners/__init__.py'>
+2024-08-16 15:15:10:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found Runner: Slurm in module <module 'atsim.pro_fit.runners' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/runners/__init__.py'>
+2024-08-16 15:15:10:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found MetaEvaluator: Formula in module <module 'atsim.pro_fit.metaevaluators' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/metaevaluators.py'>
+2024-08-16 15:15:10:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found Evaluator: DLPOLY_STATIS in module <module 'atsim.pro_fit.evaluators' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/evaluators/__init__.py'>
+2024-08-16 15:15:10:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found Evaluator: Gulp in module <module 'atsim.pro_fit.evaluators' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/evaluators/__init__.py'>
+2024-08-16 15:15:10:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found Evaluator: Gulp_DRV in module <module 'atsim.pro_fit.evaluators' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/evaluators/__init__.py'>
+2024-08-16 15:15:10:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found Evaluator: Regex in module <module 'atsim.pro_fit.evaluators' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/evaluators/__init__.py'>
+2024-08-16 15:15:10:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found Evaluator: Table in module <module 'atsim.pro_fit.evaluators' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/evaluators/__init__.py'>
+2024-08-16 15:15:10:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found JobFactory: Template in module <module 'atsim.pro_fit.jobfactories' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/jobfactories.py'>
+2024-08-16 15:15:10:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found JobTask: Potable in module <module 'atsim.pro_fit.jobtasks' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/jobtasks.py'>
+2024-08-16 15:15:10:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:458:  Processing job directory: "/home/lucasbarbosa/c/md/openwb/fitting/fit_files/W2B5-P6_3-mmc"
+2024-08-16 15:15:10:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:380:  Creating runner: 'Local'
+2024-08-16 15:15:10:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found Minimizer: DEA in module <module 'atsim.pro_fit.minimizers' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/minimizers/__init__.py'>
+2024-08-16 15:15:10:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found Minimizer: NelderMead in module <module 'atsim.pro_fit.minimizers' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/minimizers/__init__.py'>
+2024-08-16 15:15:10:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found Minimizer: Particle_Swarm in module <module 'atsim.pro_fit.minimizers' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/minimizers/__init__.py'>
+2024-08-16 15:15:10:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found Minimizer: Simulated_Annealing in module <module 'atsim.pro_fit.minimizers' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/minimizers/__init__.py'>
+2024-08-16 15:15:10:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found Minimizer: SingleStep in module <module 'atsim.pro_fit.minimizers' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/minimizers/__init__.py'>
+2024-08-16 15:15:10:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found Minimizer: Spreadsheet in module <module 'atsim.pro_fit.minimizers' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/minimizers/__init__.py'>
+2024-08-16 15:15:10:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:574:  Creating minimizer: <class 'atsim.pro_fit.minimizers._mystic.NelderMeadMinimizer'>
+2024-08-16 15:15:10:console:INFO pprofit:527:  Temporary job files will be created in '/tmp/tmpelrlra66'
+2024-08-16 15:15:10:console:INFO pprofit:527:  Temporary job files will be created in '/tmp/tmpelrlra66'
+2024-08-16 15:15:10:console:INFO pprofit:549:  Removing existing 'fitting_run.db'
+2024-08-16 15:15:10:console:INFO pprofit:549:  Removing existing 'fitting_run.db'
+2024-08-16 15:15:11:atsim.pro_fit.minimizers._mystic.NelderMeadMinimizer:INFO _mystic:147:  Starting minimisation.
+2024-08-16 15:15:11:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-1
+2024-08-16 15:15:11:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-1.
+2024-08-16 15:15:14:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-1
+2024-08-16 15:15:14:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-1, finished.
+2024-08-16 15:15:14:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-1
+2024-08-16 15:15:14:atsim.pro_fit.reporters.LogReporter:INFO reporters:381:  
+Results at iteration: 0
+
+Variables and Merit Values:
+             First (it=0)       Previous    Current (it=0)     Best (i=0)
+-----------  -----------------  ----------  -----------------  -----------------
+Variables
+W_W_gamma    0.001294                       0.001294           0.001294
+W_W_c        1.327324                       1.327324           1.327324
+W_W_d        0.135096                       0.135096           0.135096
+W_W_h        0.352                          0.352              0.352
+W_W_beta     1.38528                        1.38528            1.38528
+W_W_lambda1  2.890383                       2.890383           2.890383
+W_W_lambda2  1.304692                       1.304692           1.304692
+W_W_lambda3  0.45876                        0.45876            0.45876
+W_W_R        4.4                            4.4                4.4
+W_W_D        0.840189                       0.840189           0.840189
+W_W_A        3313.9454                      3313.9454          3313.9454
+W_W_B        148.328                        148.328            148.328
+W_B_gamma    1.0                            1.0                1.0
+W_B_c        2.246886711                    2.246886711        2.246886711
+W_B_d        0.500709837                    0.500709837        0.500709837
+W_B_h        0.283499075                    0.283499075        0.283499075
+W_B_beta *   1.0                            1.0                1.0
+W_B_lambda1  2.902702087                    2.902702087        2.902702087
+W_B_lambda2  1.857152986                    1.857152986        1.857152986
+W_B_lambda3  0.095580474                    0.095580474        0.095580474
+W_B_R        3.0                            3.0                3.0
+W_B_D        0.5                            0.5                0.5
+W_B_A        3351.165521                    3351.165521        3351.165521
+W_B_B        951.3620474                    951.3620474        951.3620474
+B_B_gamma    1.0                            1.0                1.0
+B_B_c        41883.6236                     41883.6236         41883.6236
+B_B_d        88.5142                        88.5142            88.5142
+B_B_h        -0.0818                        -0.0818            -0.0818
+B_B_beta     0.01499                        0.01499            0.01499
+B_B_lambda1  2.6857                         2.6857             2.6857
+B_B_lambda2  2.5212                         2.5212             2.5212
+B_B_lambda3  2.3762e-05                     2.3762e-05         2.3762e-05
+B_B_R        2.28                           2.28               2.28
+B_B_D        0.11                           0.11               0.11
+B_B_A        3376.3351                      3376.3351          3376.3351
+B_B_B        2768.7364                      2768.7364          2768.7364
+
+Merit =      8970.451696069777  NA          8970.451696069777  8970.451696069777
+
+
+2024-08-16 15:15:15:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-2
+2024-08-16 15:15:15:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-2.
+2024-08-16 15:15:17:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-2
+2024-08-16 15:15:17:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-2, finished.
+2024-08-16 15:15:17:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-2
+2024-08-16 15:15:17:atsim.pro_fit.reporters.LogReporter:INFO reporters:381:  
+Results at iteration: 1
+
+Variables and Merit Values:
+             First (it=0)       Previous (it=0)    Current (it=1)     Best (i=1)
+-----------  -----------------  -----------------  -----------------  -----------------
+Variables
+W_W_gamma    0.001294           0.001294           0.001294           0.001294
+W_W_c        1.327324           1.327324           1.327324           1.327324
+W_W_d        0.135096           0.135096           0.135096           0.135096
+W_W_h        0.352              0.352              0.352              0.352
+W_W_beta     1.38528            1.38528            1.38528            1.38528
+W_W_lambda1  2.890383           2.890383           2.890383           2.890383
+W_W_lambda2  1.304692           1.304692           1.304692           1.304692
+W_W_lambda3  0.45876            0.45876            0.45876            0.45876
+W_W_R        4.4                4.4                4.4                4.4
+W_W_D        0.840189           0.840189           0.840189           0.840189
+W_W_A        3313.9454          3313.9454          3313.9454          3313.9454
+W_W_B        148.328            148.328            148.328            148.328
+W_B_gamma    1.0                1.0                1.0                1.0
+W_B_c        2.246886711        2.246886711        2.246886711        2.246886711
+W_B_d        0.500709837        0.500709837        0.500709837        0.500709837
+W_B_h        0.283499075        0.283499075        0.283499075        0.283499075
+W_B_beta *   1.0                1.0                1.05               1.05
+W_B_lambda1  2.902702087        2.902702087        2.902702087        2.902702087
+W_B_lambda2  1.857152986        1.857152986        1.857152986        1.857152986
+W_B_lambda3  0.095580474        0.095580474        0.095580474        0.095580474
+W_B_R        3.0                3.0                3.0                3.0
+W_B_D        0.5                0.5                0.5                0.5
+W_B_A        3351.165521        3351.165521        3351.165521        3351.165521
+W_B_B        951.3620474        951.3620474        951.3620474        951.3620474
+B_B_gamma    1.0                1.0                1.0                1.0
+B_B_c        41883.6236         41883.6236         41883.6236         41883.6236
+B_B_d        88.5142            88.5142            88.5142            88.5142
+B_B_h        -0.0818            -0.0818            -0.0818            -0.0818
+B_B_beta     0.01499            0.01499            0.01499            0.01499
+B_B_lambda1  2.6857             2.6857             2.6857             2.6857
+B_B_lambda2  2.5212             2.5212             2.5212             2.5212
+B_B_lambda3  2.3762e-05         2.3762e-05         2.3762e-05         2.3762e-05
+B_B_R        2.28               2.28               2.28               2.28
+B_B_D        0.11               0.11               0.11               0.11
+B_B_A        3376.3351          3376.3351          3376.3351          3376.3351
+B_B_B        2768.7364          2768.7364          2768.7364          2768.7364
+
+Merit =      8970.451696069777  8970.451696069777  8968.788745441494  8968.788745441494
+
+
+2024-08-16 15:15:17:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-3
+2024-08-16 15:15:17:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-3.
+2024-08-16 15:15:21:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-3
+2024-08-16 15:15:21:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-3, finished.
+2024-08-16 15:15:21:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-3
+2024-08-16 15:15:21:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-4
+2024-08-16 15:15:21:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-4.
+2024-08-16 15:15:24:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-4
+2024-08-16 15:15:24:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-4, finished.
+2024-08-16 15:15:24:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-4
+2024-08-16 15:15:24:atsim.pro_fit.reporters.LogReporter:INFO reporters:381:  
+Results at iteration: 2
+
+Variables and Merit Values:
+             First (it=0)       Previous (it=1)    Current (it=2)      Best (i=2)
+-----------  -----------------  -----------------  ------------------  ------------------
+Variables
+W_W_gamma    0.001294           0.001294           0.001294            0.001294
+W_W_c        1.327324           1.327324           1.327324            1.327324
+W_W_d        0.135096           0.135096           0.135096            0.135096
+W_W_h        0.352              0.352              0.352               0.352
+W_W_beta     1.38528            1.38528            1.38528             1.38528
+W_W_lambda1  2.890383           2.890383           2.890383            2.890383
+W_W_lambda2  1.304692           1.304692           1.304692            1.304692
+W_W_lambda3  0.45876            0.45876            0.45876             0.45876
+W_W_R        4.4                4.4                4.4                 4.4
+W_W_D        0.840189           0.840189           0.840189            0.840189
+W_W_A        3313.9454          3313.9454          3313.9454           3313.9454
+W_W_B        148.328            148.328            148.328             148.328
+W_B_gamma    1.0                1.0                1.0                 1.0
+W_B_c        2.246886711        2.246886711        2.246886711         2.246886711
+W_B_d        0.500709837        0.500709837        0.500709837         0.500709837
+W_B_h        0.283499075        0.283499075        0.283499075         0.283499075
+W_B_beta *   1.0                1.05               1.1500000000000004  1.1500000000000004
+W_B_lambda1  2.902702087        2.902702087        2.902702087         2.902702087
+W_B_lambda2  1.857152986        1.857152986        1.857152986         1.857152986
+W_B_lambda3  0.095580474        0.095580474        0.095580474         0.095580474
+W_B_R        3.0                3.0                3.0                 3.0
+W_B_D        0.5                0.5                0.5                 0.5
+W_B_A        3351.165521        3351.165521        3351.165521         3351.165521
+W_B_B        951.3620474        951.3620474        951.3620474         951.3620474
+B_B_gamma    1.0                1.0                1.0                 1.0
+B_B_c        41883.6236         41883.6236         41883.6236          41883.6236
+B_B_d        88.5142            88.5142            88.5142             88.5142
+B_B_h        -0.0818            -0.0818            -0.0818             -0.0818
+B_B_beta     0.01499            0.01499            0.01499             0.01499
+B_B_lambda1  2.6857             2.6857             2.6857              2.6857
+B_B_lambda2  2.5212             2.5212             2.5212              2.5212
+B_B_lambda3  2.3762e-05         2.3762e-05         2.3762e-05          2.3762e-05
+B_B_R        2.28               2.28               2.28                2.28
+B_B_D        0.11               0.11               0.11                0.11
+B_B_A        3376.3351          3376.3351          3376.3351           3376.3351
+B_B_B        2768.7364          2768.7364          2768.7364           2768.7364
+
+Merit =      8970.451696069777  8968.788745441494  8966.821912697425   8966.821912697425
+
+
+2024-08-16 15:15:24:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-5
+2024-08-16 15:15:24:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-5.
+2024-08-16 15:15:27:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-5
+2024-08-16 15:15:27:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-5, finished.
+2024-08-16 15:15:27:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-5
+2024-08-16 15:15:27:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-6
+2024-08-16 15:15:27:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-6.
+2024-08-16 15:15:31:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-6
+2024-08-16 15:15:31:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-6, finished.
+2024-08-16 15:15:31:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-6
+2024-08-16 15:15:31:atsim.pro_fit.reporters.LogReporter:INFO reporters:381:  
+Results at iteration: 3
+
+Variables and Merit Values:
+             First (it=0)       Previous (it=2)     Current (it=3)     Best (i=3)
+-----------  -----------------  ------------------  -----------------  -----------------
+Variables
+W_W_gamma    0.001294           0.001294            0.001294           0.001294
+W_W_c        1.327324           1.327324            1.327324           1.327324
+W_W_d        0.135096           0.135096            0.135096           0.135096
+W_W_h        0.352              0.352               0.352              0.352
+W_W_beta     1.38528            1.38528             1.38528            1.38528
+W_W_lambda1  2.890383           2.890383            2.890383           2.890383
+W_W_lambda2  1.304692           1.304692            1.304692           1.304692
+W_W_lambda3  0.45876            0.45876             0.45876            0.45876
+W_W_R        4.4                4.4                 4.4                4.4
+W_W_D        0.840189           0.840189            0.840189           0.840189
+W_W_A        3313.9454          3313.9454           3313.9454          3313.9454
+W_W_B        148.328            148.328             148.328            148.328
+W_B_gamma    1.0                1.0                 1.0                1.0
+W_B_c        2.246886711        2.246886711         2.246886711        2.246886711
+W_B_d        0.500709837        0.500709837         0.500709837        0.500709837
+W_B_h        0.283499075        0.283499075         0.283499075        0.283499075
+W_B_beta *   1.0                1.1500000000000004  1.350000000000001  1.350000000000001
+W_B_lambda1  2.902702087        2.902702087         2.902702087        2.902702087
+W_B_lambda2  1.857152986        1.857152986         1.857152986        1.857152986
+W_B_lambda3  0.095580474        0.095580474         0.095580474        0.095580474
+W_B_R        3.0                3.0                 3.0                3.0
+W_B_D        0.5                0.5                 0.5                0.5
+W_B_A        3351.165521        3351.165521         3351.165521        3351.165521
+W_B_B        951.3620474        951.3620474         951.3620474        951.3620474
+B_B_gamma    1.0                1.0                 1.0                1.0
+B_B_c        41883.6236         41883.6236          41883.6236         41883.6236
+B_B_d        88.5142            88.5142             88.5142            88.5142
+B_B_h        -0.0818            -0.0818             -0.0818            -0.0818
+B_B_beta     0.01499            0.01499             0.01499            0.01499
+B_B_lambda1  2.6857             2.6857              2.6857             2.6857
+B_B_lambda2  2.5212             2.5212              2.5212             2.5212
+B_B_lambda3  2.3762e-05         2.3762e-05          2.3762e-05         2.3762e-05
+B_B_R        2.28               2.28                2.28               2.28
+B_B_D        0.11               0.11                0.11               0.11
+B_B_A        3376.3351          3376.3351           3376.3351          3376.3351
+B_B_B        2768.7364          2768.7364           2768.7364          2768.7364
+
+Merit =      8970.451696069777  8966.821912697425   8964.605919717991  8964.605919717991
+
+
+2024-08-16 15:15:31:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-7
+2024-08-16 15:15:31:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-7.
+2024-08-16 15:15:34:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-7
+2024-08-16 15:15:34:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-7, finished.
+2024-08-16 15:15:34:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-7
+2024-08-16 15:15:34:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-8
+2024-08-16 15:15:34:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-8.
+2024-08-16 15:15:36:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-8
+2024-08-16 15:15:36:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-8, finished.
+2024-08-16 15:15:36:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-8
+2024-08-16 15:15:36:atsim.pro_fit.reporters.LogReporter:INFO reporters:381:  
+Results at iteration: 4
+
+Variables and Merit Values:
+             First (it=0)       Previous (it=3)    Current (it=4)      Best (i=4)
+-----------  -----------------  -----------------  ------------------  ------------------
+Variables
+W_W_gamma    0.001294           0.001294           0.001294            0.001294
+W_W_c        1.327324           1.327324           1.327324            1.327324
+W_W_d        0.135096           0.135096           0.135096            0.135096
+W_W_h        0.352              0.352              0.352               0.352
+W_W_beta     1.38528            1.38528            1.38528             1.38528
+W_W_lambda1  2.890383           2.890383           2.890383            2.890383
+W_W_lambda2  1.304692           1.304692           1.304692            1.304692
+W_W_lambda3  0.45876            0.45876            0.45876             0.45876
+W_W_R        4.4                4.4                4.4                 4.4
+W_W_D        0.840189           0.840189           0.840189            0.840189
+W_W_A        3313.9454          3313.9454          3313.9454           3313.9454
+W_W_B        148.328            148.328            148.328             148.328
+W_B_gamma    1.0                1.0                1.0                 1.0
+W_B_c        2.246886711        2.246886711        2.246886711         2.246886711
+W_B_d        0.500709837        0.500709837        0.500709837         0.500709837
+W_B_h        0.283499075        0.283499075        0.283499075         0.283499075
+W_B_beta *   1.0                1.350000000000001  1.7500000000000018  1.7500000000000018
+W_B_lambda1  2.902702087        2.902702087        2.902702087         2.902702087
+W_B_lambda2  1.857152986        1.857152986        1.857152986         1.857152986
+W_B_lambda3  0.095580474        0.095580474        0.095580474         0.095580474
+W_B_R        3.0                3.0                3.0                 3.0
+W_B_D        0.5                0.5                0.5                 0.5
+W_B_A        3351.165521        3351.165521        3351.165521         3351.165521
+W_B_B        951.3620474        951.3620474        951.3620474         951.3620474
+B_B_gamma    1.0                1.0                1.0                 1.0
+B_B_c        41883.6236         41883.6236         41883.6236          41883.6236
+B_B_d        88.5142            88.5142            88.5142             88.5142
+B_B_h        -0.0818            -0.0818            -0.0818             -0.0818
+B_B_beta     0.01499            0.01499            0.01499             0.01499
+B_B_lambda1  2.6857             2.6857             2.6857              2.6857
+B_B_lambda2  2.5212             2.5212             2.5212              2.5212
+B_B_lambda3  2.3762e-05         2.3762e-05         2.3762e-05          2.3762e-05
+B_B_R        2.28               2.28               2.28                2.28
+B_B_D        0.11               0.11               0.11                0.11
+B_B_A        3376.3351          3376.3351          3376.3351           3376.3351
+B_B_B        2768.7364          2768.7364          2768.7364           2768.7364
+
+Merit =      8970.451696069777  8964.605919717991  8962.270156760615   8962.270156760615
+
+
+2024-08-16 15:15:37:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-9
+2024-08-16 15:15:37:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-9.
+2024-08-16 15:15:39:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-9
+2024-08-16 15:15:39:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-9, finished.
+2024-08-16 15:15:39:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-9
+2024-08-16 15:15:39:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-10
+2024-08-16 15:15:39:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-10.
+2024-08-16 15:15:42:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-10
+2024-08-16 15:15:42:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-10, finished.
+2024-08-16 15:15:42:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-10
+2024-08-16 15:15:42:atsim.pro_fit.reporters.LogReporter:INFO reporters:381:  
+Results at iteration: 5
+
+Variables and Merit Values:
+             First (it=0)       Previous (it=4)     Current (it=5)      Best (i=5)
+-----------  -----------------  ------------------  ------------------  ------------------
+Variables
+W_W_gamma    0.001294           0.001294            0.001294            0.001294
+W_W_c        1.327324           1.327324            1.327324            1.327324
+W_W_d        0.135096           0.135096            0.135096            0.135096
+W_W_h        0.352              0.352               0.352               0.352
+W_W_beta     1.38528            1.38528             1.38528             1.38528
+W_W_lambda1  2.890383           2.890383            2.890383            2.890383
+W_W_lambda2  1.304692           1.304692            1.304692            1.304692
+W_W_lambda3  0.45876            0.45876             0.45876             0.45876
+W_W_R        4.4                4.4                 4.4                 4.4
+W_W_D        0.840189           0.840189            0.840189            0.840189
+W_W_A        3313.9454          3313.9454           3313.9454           3313.9454
+W_W_B        148.328            148.328             148.328             148.328
+W_B_gamma    1.0                1.0                 1.0                 1.0
+W_B_c        2.246886711        2.246886711         2.246886711         2.246886711
+W_B_d        0.500709837        0.500709837         0.500709837         0.500709837
+W_B_h        0.283499075        0.283499075         0.283499075         0.283499075
+W_B_beta *   1.0                1.7500000000000018  2.5500000000000034  2.5500000000000034
+W_B_lambda1  2.902702087        2.902702087         2.902702087         2.902702087
+W_B_lambda2  1.857152986        1.857152986         1.857152986         1.857152986
+W_B_lambda3  0.095580474        0.095580474         0.095580474         0.095580474
+W_B_R        3.0                3.0                 3.0                 3.0
+W_B_D        0.5                0.5                 0.5                 0.5
+W_B_A        3351.165521        3351.165521         3351.165521         3351.165521
+W_B_B        951.3620474        951.3620474         951.3620474         951.3620474
+B_B_gamma    1.0                1.0                 1.0                 1.0
+B_B_c        41883.6236         41883.6236          41883.6236          41883.6236
+B_B_d        88.5142            88.5142             88.5142             88.5142
+B_B_h        -0.0818            -0.0818             -0.0818             -0.0818
+B_B_beta     0.01499            0.01499             0.01499             0.01499
+B_B_lambda1  2.6857             2.6857              2.6857              2.6857
+B_B_lambda2  2.5212             2.5212              2.5212              2.5212
+B_B_lambda3  2.3762e-05         2.3762e-05          2.3762e-05          2.3762e-05
+B_B_R        2.28               2.28                2.28                2.28
+B_B_D        0.11               0.11                0.11                0.11
+B_B_A        3376.3351          3376.3351           3376.3351           3376.3351
+B_B_B        2768.7364          2768.7364           2768.7364           2768.7364
+
+Merit =      8970.451696069777  8962.270156760615   8960.17762791733    8960.17762791733
+
+
+2024-08-16 15:15:42:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-11
+2024-08-16 15:15:42:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-11.
+2024-08-16 15:15:46:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-11
+2024-08-16 15:15:46:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-11, finished.
+2024-08-16 15:15:46:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-11
+2024-08-16 15:15:46:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-12
+2024-08-16 15:15:46:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-12.
+2024-08-16 15:15:49:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-12
+2024-08-16 15:15:49:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-12, finished.
+2024-08-16 15:15:49:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-12
+2024-08-16 15:15:49:atsim.pro_fit.reporters.LogReporter:INFO reporters:381:  
+Results at iteration: 6
+
+Variables and Merit Values:
+             First (it=0)       Previous (it=5)     Current (it=6)     Best (i=6)
+-----------  -----------------  ------------------  -----------------  -----------------
+Variables
+W_W_gamma    0.001294           0.001294            0.001294           0.001294
+W_W_c        1.327324           1.327324            1.327324           1.327324
+W_W_d        0.135096           0.135096            0.135096           0.135096
+W_W_h        0.352              0.352               0.352              0.352
+W_W_beta     1.38528            1.38528             1.38528            1.38528
+W_W_lambda1  2.890383           2.890383            2.890383           2.890383
+W_W_lambda2  1.304692           1.304692            1.304692           1.304692
+W_W_lambda3  0.45876            0.45876             0.45876            0.45876
+W_W_R        4.4                4.4                 4.4                4.4
+W_W_D        0.840189           0.840189            0.840189           0.840189
+W_W_A        3313.9454          3313.9454           3313.9454          3313.9454
+W_W_B        148.328            148.328             148.328            148.328
+W_B_gamma    1.0                1.0                 1.0                1.0
+W_B_c        2.246886711        2.246886711         2.246886711        2.246886711
+W_B_d        0.500709837        0.500709837         0.500709837        0.500709837
+W_B_h        0.283499075        0.283499075         0.283499075        0.283499075
+W_B_beta *   1.0                2.5500000000000034  4.150000000000007  4.150000000000007
+W_B_lambda1  2.902702087        2.902702087         2.902702087        2.902702087
+W_B_lambda2  1.857152986        1.857152986         1.857152986        1.857152986
+W_B_lambda3  0.095580474        0.095580474         0.095580474        0.095580474
+W_B_R        3.0                3.0                 3.0                3.0
+W_B_D        0.5                0.5                 0.5                0.5
+W_B_A        3351.165521        3351.165521         3351.165521        3351.165521
+W_B_B        951.3620474        951.3620474         951.3620474        951.3620474
+B_B_gamma    1.0                1.0                 1.0                1.0
+B_B_c        41883.6236         41883.6236          41883.6236         41883.6236
+B_B_d        88.5142            88.5142             88.5142            88.5142
+B_B_h        -0.0818            -0.0818             -0.0818            -0.0818
+B_B_beta     0.01499            0.01499             0.01499            0.01499
+B_B_lambda1  2.6857             2.6857              2.6857             2.6857
+B_B_lambda2  2.5212             2.5212              2.5212             2.5212
+B_B_lambda3  2.3762e-05         2.3762e-05          2.3762e-05         2.3762e-05
+B_B_R        2.28               2.28                2.28               2.28
+B_B_D        0.11               0.11                0.11               0.11
+B_B_A        3376.3351          3376.3351           3376.3351          3376.3351
+B_B_B        2768.7364          2768.7364           2768.7364          2768.7364
+
+Merit =      8970.451696069777  8960.17762791733    8958.632510405452  8958.632510405452
+
+
+2024-08-16 15:15:49:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-13
+2024-08-16 15:15:49:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-13.
+2024-08-16 15:15:51:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-13
+2024-08-16 15:15:51:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-13, finished.
+2024-08-16 15:15:51:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-13
+2024-08-16 15:15:51:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-14
+2024-08-16 15:15:51:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-14.
+2024-08-16 15:15:54:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-14
+2024-08-16 15:15:54:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-14, finished.
+2024-08-16 15:15:54:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-14
+2024-08-16 15:15:54:atsim.pro_fit.reporters.LogReporter:INFO reporters:381:  
+Results at iteration: 7
+
+Variables and Merit Values:
+             First (it=0)       Previous (it=6)    Current (it=7)     Best (i=7)
+-----------  -----------------  -----------------  -----------------  -----------------
+Variables
+W_W_gamma    0.001294           0.001294           0.001294           0.001294
+W_W_c        1.327324           1.327324           1.327324           1.327324
+W_W_d        0.135096           0.135096           0.135096           0.135096
+W_W_h        0.352              0.352              0.352              0.352
+W_W_beta     1.38528            1.38528            1.38528            1.38528
+W_W_lambda1  2.890383           2.890383           2.890383           2.890383
+W_W_lambda2  1.304692           1.304692           1.304692           1.304692
+W_W_lambda3  0.45876            0.45876            0.45876            0.45876
+W_W_R        4.4                4.4                4.4                4.4
+W_W_D        0.840189           0.840189           0.840189           0.840189
+W_W_A        3313.9454          3313.9454          3313.9454          3313.9454
+W_W_B        148.328            148.328            148.328            148.328
+W_B_gamma    1.0                1.0                1.0                1.0
+W_B_c        2.246886711        2.246886711        2.246886711        2.246886711
+W_B_d        0.500709837        0.500709837        0.500709837        0.500709837
+W_B_h        0.283499075        0.283499075        0.283499075        0.283499075
+W_B_beta *   1.0                4.150000000000007  7.350000000000014  7.350000000000014
+W_B_lambda1  2.902702087        2.902702087        2.902702087        2.902702087
+W_B_lambda2  1.857152986        1.857152986        1.857152986        1.857152986
+W_B_lambda3  0.095580474        0.095580474        0.095580474        0.095580474
+W_B_R        3.0                3.0                3.0                3.0
+W_B_D        0.5                0.5                0.5                0.5
+W_B_A        3351.165521        3351.165521        3351.165521        3351.165521
+W_B_B        951.3620474        951.3620474        951.3620474        951.3620474
+B_B_gamma    1.0                1.0                1.0                1.0
+B_B_c        41883.6236         41883.6236         41883.6236         41883.6236
+B_B_d        88.5142            88.5142            88.5142            88.5142
+B_B_h        -0.0818            -0.0818            -0.0818            -0.0818
+B_B_beta     0.01499            0.01499            0.01499            0.01499
+B_B_lambda1  2.6857             2.6857             2.6857             2.6857
+B_B_lambda2  2.5212             2.5212             2.5212             2.5212
+B_B_lambda3  2.3762e-05         2.3762e-05         2.3762e-05         2.3762e-05
+B_B_R        2.28               2.28               2.28               2.28
+B_B_D        0.11               0.11               0.11               0.11
+B_B_A        3376.3351          3376.3351          3376.3351          3376.3351
+B_B_B        2768.7364          2768.7364          2768.7364          2768.7364
+
+Merit =      8970.451696069777  8958.632510405452  8957.616364818867  8957.616364818867
+
+
+2024-08-16 15:15:54:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-15
+2024-08-16 15:15:54:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-15.
+2024-08-16 15:15:57:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-15
+2024-08-16 15:15:57:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-15, finished.
+2024-08-16 15:15:57:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-15
+2024-08-16 15:15:57:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-16
+2024-08-16 15:15:57:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-16.
+2024-08-16 15:16:00:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-16
+2024-08-16 15:16:00:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-16, finished.
+2024-08-16 15:16:00:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-16
+2024-08-16 15:16:00:atsim.pro_fit.reporters.LogReporter:INFO reporters:381:  
+Results at iteration: 8
+
+Variables and Merit Values:
+             First (it=0)       Previous (it=7)    Current (it=8)      Best (i=8)
+-----------  -----------------  -----------------  ------------------  ------------------
+Variables
+W_W_gamma    0.001294           0.001294           0.001294            0.001294
+W_W_c        1.327324           1.327324           1.327324            1.327324
+W_W_d        0.135096           0.135096           0.135096            0.135096
+W_W_h        0.352              0.352              0.352               0.352
+W_W_beta     1.38528            1.38528            1.38528             1.38528
+W_W_lambda1  2.890383           2.890383           2.890383            2.890383
+W_W_lambda2  1.304692           1.304692           1.304692            1.304692
+W_W_lambda3  0.45876            0.45876            0.45876             0.45876
+W_W_R        4.4                4.4                4.4                 4.4
+W_W_D        0.840189           0.840189           0.840189            0.840189
+W_W_A        3313.9454          3313.9454          3313.9454           3313.9454
+W_W_B        148.328            148.328            148.328             148.328
+W_B_gamma    1.0                1.0                1.0                 1.0
+W_B_c        2.246886711        2.246886711        2.246886711         2.246886711
+W_B_d        0.500709837        0.500709837        0.500709837         0.500709837
+W_B_h        0.283499075        0.283499075        0.283499075         0.283499075
+W_B_beta *   1.0                7.350000000000014  13.750000000000027  13.750000000000027
+W_B_lambda1  2.902702087        2.902702087        2.902702087         2.902702087
+W_B_lambda2  1.857152986        1.857152986        1.857152986         1.857152986
+W_B_lambda3  0.095580474        0.095580474        0.095580474         0.095580474
+W_B_R        3.0                3.0                3.0                 3.0
+W_B_D        0.5                0.5                0.5                 0.5
+W_B_A        3351.165521        3351.165521        3351.165521         3351.165521
+W_B_B        951.3620474        951.3620474        951.3620474         951.3620474
+B_B_gamma    1.0                1.0                1.0                 1.0
+B_B_c        41883.6236         41883.6236         41883.6236          41883.6236
+B_B_d        88.5142            88.5142            88.5142             88.5142
+B_B_h        -0.0818            -0.0818            -0.0818             -0.0818
+B_B_beta     0.01499            0.01499            0.01499             0.01499
+B_B_lambda1  2.6857             2.6857             2.6857              2.6857
+B_B_lambda2  2.5212             2.5212             2.5212              2.5212
+B_B_lambda3  2.3762e-05         2.3762e-05         2.3762e-05          2.3762e-05
+B_B_R        2.28               2.28               2.28                2.28
+B_B_D        0.11               0.11               0.11                0.11
+B_B_A        3376.3351          3376.3351          3376.3351           3376.3351
+B_B_B        2768.7364          2768.7364          2768.7364           2768.7364
+
+Merit =      8970.451696069777  8957.616364818867  8956.969332996763   8956.969332996763
+
+
+2024-08-16 15:16:00:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-17
+2024-08-16 15:16:00:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-17.
+2024-08-16 15:16:02:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-17
+2024-08-16 15:16:02:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-17, finished.
+2024-08-16 15:16:02:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-17
+2024-08-16 15:16:02:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-18
+2024-08-16 15:16:02:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-18.
+2024-08-16 15:16:05:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-18
+2024-08-16 15:16:05:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-18, finished.
+2024-08-16 15:16:05:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-18
+2024-08-16 15:16:05:atsim.pro_fit.reporters.LogReporter:INFO reporters:381:  
+Results at iteration: 9
+
+Variables and Merit Values:
+             First (it=0)       Previous (it=8)     Current (it=9)     Best (i=9)
+-----------  -----------------  ------------------  -----------------  -----------------
+Variables
+W_W_gamma    0.001294           0.001294            0.001294           0.001294
+W_W_c        1.327324           1.327324            1.327324           1.327324
+W_W_d        0.135096           0.135096            0.135096           0.135096
+W_W_h        0.352              0.352               0.352              0.352
+W_W_beta     1.38528            1.38528             1.38528            1.38528
+W_W_lambda1  2.890383           2.890383            2.890383           2.890383
+W_W_lambda2  1.304692           1.304692            1.304692           1.304692
+W_W_lambda3  0.45876            0.45876             0.45876            0.45876
+W_W_R        4.4                4.4                 4.4                4.4
+W_W_D        0.840189           0.840189            0.840189           0.840189
+W_W_A        3313.9454          3313.9454           3313.9454          3313.9454
+W_W_B        148.328            148.328             148.328            148.328
+W_B_gamma    1.0                1.0                 1.0                1.0
+W_B_c        2.246886711        2.246886711         2.246886711        2.246886711
+W_B_d        0.500709837        0.500709837         0.500709837        0.500709837
+W_B_h        0.283499075        0.283499075         0.283499075        0.283499075
+W_B_beta *   1.0                13.750000000000027  26.55000000000005  26.55000000000005
+W_B_lambda1  2.902702087        2.902702087         2.902702087        2.902702087
+W_B_lambda2  1.857152986        1.857152986         1.857152986        1.857152986
+W_B_lambda3  0.095580474        0.095580474         0.095580474        0.095580474
+W_B_R        3.0                3.0                 3.0                3.0
+W_B_D        0.5                0.5                 0.5                0.5
+W_B_A        3351.165521        3351.165521         3351.165521        3351.165521
+W_B_B        951.3620474        951.3620474         951.3620474        951.3620474
+B_B_gamma    1.0                1.0                 1.0                1.0
+B_B_c        41883.6236         41883.6236          41883.6236         41883.6236
+B_B_d        88.5142            88.5142             88.5142            88.5142
+B_B_h        -0.0818            -0.0818             -0.0818            -0.0818
+B_B_beta     0.01499            0.01499             0.01499            0.01499
+B_B_lambda1  2.6857             2.6857              2.6857             2.6857
+B_B_lambda2  2.5212             2.5212              2.5212             2.5212
+B_B_lambda3  2.3762e-05         2.3762e-05          2.3762e-05         2.3762e-05
+B_B_R        2.28               2.28                2.28               2.28
+B_B_D        0.11               0.11                0.11               0.11
+B_B_A        3376.3351          3376.3351           3376.3351          3376.3351
+B_B_B        2768.7364          2768.7364           2768.7364          2768.7364
+
+Merit =      8970.451696069777  8956.969332996763   8956.61148211841   8956.61148211841
+
+
+2024-08-16 15:16:05:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-19
+2024-08-16 15:16:05:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-19.
+2024-08-16 15:16:08:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-19
+2024-08-16 15:16:08:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-19, finished.
+2024-08-16 15:16:08:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-19
+2024-08-16 15:16:08:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-20
+2024-08-16 15:16:08:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-20.
+2024-08-16 15:16:11:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-20
+2024-08-16 15:16:11:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-20, finished.
+2024-08-16 15:16:11:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-20
+2024-08-16 15:16:11:atsim.pro_fit.reporters.LogReporter:INFO reporters:381:  
+Results at iteration: 10
+
+Variables and Merit Values:
+             First (it=0)       Previous (it=9)    Current (it=10)    Best (i=10)
+-----------  -----------------  -----------------  -----------------  -----------------
+Variables
+W_W_gamma    0.001294           0.001294           0.001294           0.001294
+W_W_c        1.327324           1.327324           1.327324           1.327324
+W_W_d        0.135096           0.135096           0.135096           0.135096
+W_W_h        0.352              0.352              0.352              0.352
+W_W_beta     1.38528            1.38528            1.38528            1.38528
+W_W_lambda1  2.890383           2.890383           2.890383           2.890383
+W_W_lambda2  1.304692           1.304692           1.304692           1.304692
+W_W_lambda3  0.45876            0.45876            0.45876            0.45876
+W_W_R        4.4                4.4                4.4                4.4
+W_W_D        0.840189           0.840189           0.840189           0.840189
+W_W_A        3313.9454          3313.9454          3313.9454          3313.9454
+W_W_B        148.328            148.328            148.328            148.328
+W_B_gamma    1.0                1.0                1.0                1.0
+W_B_c        2.246886711        2.246886711        2.246886711        2.246886711
+W_B_d        0.500709837        0.500709837        0.500709837        0.500709837
+W_B_h        0.283499075        0.283499075        0.283499075        0.283499075
+W_B_beta *   1.0                26.55000000000005  52.15000000000009  52.15000000000009
+W_B_lambda1  2.902702087        2.902702087        2.902702087        2.902702087
+W_B_lambda2  1.857152986        1.857152986        1.857152986        1.857152986
+W_B_lambda3  0.095580474        0.095580474        0.095580474        0.095580474
+W_B_R        3.0                3.0                3.0                3.0
+W_B_D        0.5                0.5                0.5                0.5
+W_B_A        3351.165521        3351.165521        3351.165521        3351.165521
+W_B_B        951.3620474        951.3620474        951.3620474        951.3620474
+B_B_gamma    1.0                1.0                1.0                1.0
+B_B_c        41883.6236         41883.6236         41883.6236         41883.6236
+B_B_d        88.5142            88.5142            88.5142            88.5142
+B_B_h        -0.0818            -0.0818            -0.0818            -0.0818
+B_B_beta     0.01499            0.01499            0.01499            0.01499
+B_B_lambda1  2.6857             2.6857             2.6857             2.6857
+B_B_lambda2  2.5212             2.5212             2.5212             2.5212
+B_B_lambda3  2.3762e-05         2.3762e-05         2.3762e-05         2.3762e-05
+B_B_R        2.28               2.28               2.28               2.28
+B_B_D        0.11               0.11               0.11               0.11
+B_B_A        3376.3351          3376.3351          3376.3351          3376.3351
+B_B_B        2768.7364          2768.7364          2768.7364          2768.7364
+
+Merit =      8970.451696069777  8956.61148211841   8956.433897038536  8956.433897038536
+
+
+2024-08-16 15:16:11:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-21
+2024-08-16 15:16:11:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-21.
+2024-08-16 15:16:15:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-21
+2024-08-16 15:16:15:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-21, finished.
+2024-08-16 15:16:15:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-21
+2024-08-16 15:16:15:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-22
+2024-08-16 15:16:15:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-22.
+2024-08-16 15:16:21:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-22
+2024-08-16 15:16:21:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-22, finished.
+2024-08-16 15:16:21:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-22
+2024-08-16 15:16:21:atsim.pro_fit.reporters.LogReporter:INFO reporters:381:  
+Results at iteration: 11
+
+Variables and Merit Values:
+             First (it=0)       Previous (it=10)    Current (it=11)     Best (i=11)
+-----------  -----------------  ------------------  ------------------  ------------------
+Variables
+W_W_gamma    0.001294           0.001294            0.001294            0.001294
+W_W_c        1.327324           1.327324            1.327324            1.327324
+W_W_d        0.135096           0.135096            0.135096            0.135096
+W_W_h        0.352              0.352               0.352               0.352
+W_W_beta     1.38528            1.38528             1.38528             1.38528
+W_W_lambda1  2.890383           2.890383            2.890383            2.890383
+W_W_lambda2  1.304692           1.304692            1.304692            1.304692
+W_W_lambda3  0.45876            0.45876             0.45876             0.45876
+W_W_R        4.4                4.4                 4.4                 4.4
+W_W_D        0.840189           0.840189            0.840189            0.840189
+W_W_A        3313.9454          3313.9454           3313.9454           3313.9454
+W_W_B        148.328            148.328             148.328             148.328
+W_B_gamma    1.0                1.0                 1.0                 1.0
+W_B_c        2.246886711        2.246886711         2.246886711         2.246886711
+W_B_d        0.500709837        0.500709837         0.500709837         0.500709837
+W_B_h        0.283499075        0.283499075         0.283499075         0.283499075
+W_B_beta *   1.0                52.15000000000009   103.35000000000016  103.35000000000016
+W_B_lambda1  2.902702087        2.902702087         2.902702087         2.902702087
+W_B_lambda2  1.857152986        1.857152986         1.857152986         1.857152986
+W_B_lambda3  0.095580474        0.095580474         0.095580474         0.095580474
+W_B_R        3.0                3.0                 3.0                 3.0
+W_B_D        0.5                0.5                 0.5                 0.5
+W_B_A        3351.165521        3351.165521         3351.165521         3351.165521
+W_B_B        951.3620474        951.3620474         951.3620474         951.3620474
+B_B_gamma    1.0                1.0                 1.0                 1.0
+B_B_c        41883.6236         41883.6236          41883.6236          41883.6236
+B_B_d        88.5142            88.5142             88.5142             88.5142
+B_B_h        -0.0818            -0.0818             -0.0818             -0.0818
+B_B_beta     0.01499            0.01499             0.01499             0.01499
+B_B_lambda1  2.6857             2.6857              2.6857              2.6857
+B_B_lambda2  2.5212             2.5212              2.5212              2.5212
+B_B_lambda3  2.3762e-05         2.3762e-05          2.3762e-05          2.3762e-05
+B_B_R        2.28               2.28                2.28                2.28
+B_B_D        0.11               0.11                0.11                0.11
+B_B_A        3376.3351          3376.3351           3376.3351           3376.3351
+B_B_B        2768.7364          2768.7364           2768.7364           2768.7364
+
+Merit =      8970.451696069777  8956.433897038536   8956.371912668681   8956.371912668681
+
+
+2024-08-16 15:16:21:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-23
+2024-08-16 15:16:21:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-23.
+2024-08-16 15:16:27:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-23
+2024-08-16 15:16:27:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-23, finished.
+2024-08-16 15:16:27:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-23
+2024-08-16 15:16:27:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-24
+2024-08-16 15:16:27:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-24.
+2024-08-16 15:21:58:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-24
+2024-08-16 15:21:58:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-24, finished.
+2024-08-16 15:21:58:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-24
+2024-08-16 15:21:58:atsim.pro_fit.reporters.LogReporter:INFO reporters:381:  
+Results at iteration: 12
+
+Variables and Merit Values:
+             First (it=0)       Previous (it=11)    Current (it=12)     Best (i=12)
+-----------  -----------------  ------------------  ------------------  ------------------
+Variables
+W_W_gamma    0.001294           0.001294            0.001294            0.001294
+W_W_c        1.327324           1.327324            1.327324            1.327324
+W_W_d        0.135096           0.135096            0.135096            0.135096
+W_W_h        0.352              0.352               0.352               0.352
+W_W_beta     1.38528            1.38528             1.38528             1.38528
+W_W_lambda1  2.890383           2.890383            2.890383            2.890383
+W_W_lambda2  1.304692           1.304692            1.304692            1.304692
+W_W_lambda3  0.45876            0.45876             0.45876             0.45876
+W_W_R        4.4                4.4                 4.4                 4.4
+W_W_D        0.840189           0.840189            0.840189            0.840189
+W_W_A        3313.9454          3313.9454           3313.9454           3313.9454
+W_W_B        148.328            148.328             148.328             148.328
+W_B_gamma    1.0                1.0                 1.0                 1.0
+W_B_c        2.246886711        2.246886711         2.246886711         2.246886711
+W_B_d        0.500709837        0.500709837         0.500709837         0.500709837
+W_B_h        0.283499075        0.283499075         0.283499075         0.283499075
+W_B_beta *   1.0                103.35000000000016  154.55000000000024  154.55000000000024
+W_B_lambda1  2.902702087        2.902702087         2.902702087         2.902702087
+W_B_lambda2  1.857152986        1.857152986         1.857152986         1.857152986
+W_B_lambda3  0.095580474        0.095580474         0.095580474         0.095580474
+W_B_R        3.0                3.0                 3.0                 3.0
+W_B_D        0.5                0.5                 0.5                 0.5
+W_B_A        3351.165521        3351.165521         3351.165521         3351.165521
+W_B_B        951.3620474        951.3620474         951.3620474         951.3620474
+B_B_gamma    1.0                1.0                 1.0                 1.0
+B_B_c        41883.6236         41883.6236          41883.6236          41883.6236
+B_B_d        88.5142            88.5142             88.5142             88.5142
+B_B_h        -0.0818            -0.0818             -0.0818             -0.0818
+B_B_beta     0.01499            0.01499             0.01499             0.01499
+B_B_lambda1  2.6857             2.6857              2.6857              2.6857
+B_B_lambda2  2.5212             2.5212              2.5212              2.5212
+B_B_lambda3  2.3762e-05         2.3762e-05          2.3762e-05          2.3762e-05
+B_B_R        2.28               2.28                2.28                2.28
+B_B_D        0.11               0.11                0.11                0.11
+B_B_A        3376.3351          3376.3351           3376.3351           3376.3351
+B_B_B        2768.7364          2768.7364           2768.7364           2768.7364
+
+Merit =      8970.451696069777  8956.371912668681   8956.367504981612   8956.367504981612
+
+
+2024-08-16 15:21:58:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-25
+2024-08-16 15:21:58:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-25.
+2024-08-16 15:27:12:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-25
+2024-08-16 15:27:12:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-25, finished.
+2024-08-16 15:27:16:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-25
+2024-08-16 15:27:16:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-26
+2024-08-16 15:27:17:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-26.
+2024-08-16 15:30:12:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-26
+2024-08-16 15:30:12:console.shutdown:INFO fitconfig:105:  Shutting down 'pprofit'
+2024-08-16 15:30:12:console.shutdown:INFO fitconfig:105:  Shutting down 'pprofit'
+2024-08-16 15:30:12:console.shutdown:INFO __init__:187:  Potential Pro-Fit Shutting Down Now
+2024-08-16 15:30:12:console.shutdown:INFO __init__:187:  Potential Pro-Fit Shutting Down Now
+2024-08-16 15:30:13:console.shutdown:INFO fitconfig:114:  Closing runner: 'Local'
+2024-08-16 15:30:13:console.shutdown:INFO fitconfig:114:  Closing runner: 'Local'
+2024-08-16 15:30:13:console.shutdown:INFO _base_remoterunner:120:  Terminating 1 batches for runner 'Local'
+2024-08-16 15:30:13:console.shutdown:INFO _base_remoterunner:120:  Terminating 1 batches for runner 'Local'
+2024-08-16 15:30:13:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-26, finished.
+2024-08-16 15:30:14:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-26
+2024-08-16 15:30:14:console.shutdown:INFO _base_remoterunner:125:  Terminating batches for runners 'Local' (Done)
+2024-08-16 15:30:14:console.shutdown:INFO _base_remoterunner:125:  Terminating batches for runners 'Local' (Done)
+2024-08-16 15:30:14:console.shutdown:INFO _base_remoterunner:145:  Closing run client for 'Local', waiting for 1 events
+2024-08-16 15:30:14:console.shutdown:INFO _base_remoterunner:145:  Closing run client for 'Local', waiting for 1 events
+2024-08-16 15:30:14:console.shutdown:INFO _base_remoterunner:60:  Runner (Local) Sending shutdown signal to  closeRunClient channels
+2024-08-16 15:30:14:console.shutdown:INFO _base_remoterunner:60:  Runner (Local) Sending shutdown signal to  closeRunClient channels
+2024-08-16 15:30:14:console.shutdown:INFO _base_remoterunner:76:  Runner (Local) closeRunClient channels closed.
+2024-08-16 15:30:14:console.shutdown:INFO _base_remoterunner:76:  Runner (Local) closeRunClient channels closed.
+2024-08-16 15:30:14:console.shutdown:INFO _base_remoterunner:149:  Closing run client for 'Local' (Done)
+2024-08-16 15:30:14:console.shutdown:INFO _base_remoterunner:149:  Closing run client for 'Local' (Done)
+2024-08-16 15:30:14:console.shutdown:INFO _base_remoterunner:60:  Runner (Local) Sending shutdown signal to  cleanup channels
+2024-08-16 15:30:14:console.shutdown:INFO _base_remoterunner:60:  Runner (Local) Sending shutdown signal to  cleanup channels
+2024-08-16 15:30:14:console.shutdown:INFO _base_remoterunner:76:  Runner (Local) cleanup channels closed.
+2024-08-16 15:30:14:console.shutdown:INFO _base_remoterunner:76:  Runner (Local) cleanup channels closed.
+2024-08-16 15:30:14:console.shutdown:INFO _base_remoterunner:206:  Cleanup finished for runner 'Local'
+2024-08-16 15:30:14:console.shutdown:INFO _base_remoterunner:206:  Cleanup finished for runner 'Local'
+2024-08-16 15:30:14:console.shutdown:INFO fitconfig:119:  Runner 'Local' now closed.
+2024-08-16 15:30:14:console.shutdown:INFO fitconfig:119:  Runner 'Local' now closed.
+
+PART 2
+
+2024-08-16 15:33:51:console.starting:INFO pprofit:581:  Potential Pro-Fit v0.10.0dev
+
+
+2024-08-16 15:33:51:console.starting:INFO pprofit:581:  Potential Pro-Fit v0.10.0dev
+
+
+2024-08-16 15:33:51:console.starting:INFO pprofit:583:  Starting...
+2024-08-16 15:33:51:console.starting:INFO pprofit:583:  Starting...
+2024-08-16 15:33:51:console:INFO pprofit:734:  Performing Minimization run
+2024-08-16 15:33:51:console:INFO pprofit:734:  Performing Minimization run
+2024-08-16 15:33:51:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found Runner: Local in module <module 'atsim.pro_fit.runners' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/runners/__init__.py'>
+2024-08-16 15:33:51:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found Runner: Null in module <module 'atsim.pro_fit.runners' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/runners/__init__.py'>
+2024-08-16 15:33:51:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found Runner: PBS in module <module 'atsim.pro_fit.runners' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/runners/__init__.py'>
+2024-08-16 15:33:51:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found Runner: Remote in module <module 'atsim.pro_fit.runners' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/runners/__init__.py'>
+2024-08-16 15:33:51:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found Runner: SGE in module <module 'atsim.pro_fit.runners' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/runners/__init__.py'>
+2024-08-16 15:33:51:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found Runner: Slurm in module <module 'atsim.pro_fit.runners' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/runners/__init__.py'>
+2024-08-16 15:33:51:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found MetaEvaluator: Formula in module <module 'atsim.pro_fit.metaevaluators' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/metaevaluators.py'>
+2024-08-16 15:33:51:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found Evaluator: DLPOLY_STATIS in module <module 'atsim.pro_fit.evaluators' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/evaluators/__init__.py'>
+2024-08-16 15:33:51:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found Evaluator: Gulp in module <module 'atsim.pro_fit.evaluators' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/evaluators/__init__.py'>
+2024-08-16 15:33:51:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found Evaluator: Gulp_DRV in module <module 'atsim.pro_fit.evaluators' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/evaluators/__init__.py'>
+2024-08-16 15:33:51:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found Evaluator: Regex in module <module 'atsim.pro_fit.evaluators' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/evaluators/__init__.py'>
+2024-08-16 15:33:51:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found Evaluator: Table in module <module 'atsim.pro_fit.evaluators' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/evaluators/__init__.py'>
+2024-08-16 15:33:51:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found JobFactory: Template in module <module 'atsim.pro_fit.jobfactories' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/jobfactories.py'>
+2024-08-16 15:33:51:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found JobTask: Potable in module <module 'atsim.pro_fit.jobtasks' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/jobtasks.py'>
+2024-08-16 15:33:51:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:458:  Processing job directory: "/home/lucasbarbosa/c/md/openwb/fitting/fit_files/W2B5-P6_3-mmc"
+2024-08-16 15:33:51:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:380:  Creating runner: 'Local'
+2024-08-16 15:33:51:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found Minimizer: DEA in module <module 'atsim.pro_fit.minimizers' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/minimizers/__init__.py'>
+2024-08-16 15:33:51:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found Minimizer: NelderMead in module <module 'atsim.pro_fit.minimizers' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/minimizers/__init__.py'>
+2024-08-16 15:33:51:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found Minimizer: Particle_Swarm in module <module 'atsim.pro_fit.minimizers' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/minimizers/__init__.py'>
+2024-08-16 15:33:51:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found Minimizer: Simulated_Annealing in module <module 'atsim.pro_fit.minimizers' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/minimizers/__init__.py'>
+2024-08-16 15:33:51:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found Minimizer: SingleStep in module <module 'atsim.pro_fit.minimizers' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/minimizers/__init__.py'>
+2024-08-16 15:33:51:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:596:  Found Minimizer: Spreadsheet in module <module 'atsim.pro_fit.minimizers' from '/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/minimizers/__init__.py'>
+2024-08-16 15:33:51:atsim.pro_fit.fitconfig.FitConfig:INFO fitconfig:574:  Creating minimizer: <class 'atsim.pro_fit.minimizers._mystic.NelderMeadMinimizer'>
+2024-08-16 15:33:51:console:INFO pprofit:527:  Temporary job files will be created in '/tmp/tmpqhm2mdqf'
+2024-08-16 15:33:51:console:INFO pprofit:527:  Temporary job files will be created in '/tmp/tmpqhm2mdqf'
+2024-08-16 15:33:51:console:INFO pprofit:549:  Removing existing 'fitting_run.db'
+2024-08-16 15:33:51:console:INFO pprofit:549:  Removing existing 'fitting_run.db'
+2024-08-16 15:33:52:atsim.pro_fit.minimizers._mystic.NelderMeadMinimizer:INFO _mystic:147:  Starting minimisation.
+2024-08-16 15:33:52:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-1
+2024-08-16 15:33:52:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-1.
+2024-08-16 15:33:55:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-1
+2024-08-16 15:33:55:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-1, finished.
+2024-08-16 15:33:55:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-1
+2024-08-16 15:33:55:atsim.pro_fit.reporters.LogReporter:INFO reporters:381:  
+Results at iteration: 0
+
+Variables and Merit Values:
+             First (it=0)        Previous    Current (it=0)      Best (i=0)
+-----------  ------------------  ----------  ------------------  ------------------
+Variables
+W_W_gamma    0.001294                        0.001294            0.001294
+W_W_c        1.327324                        1.327324            1.327324
+W_W_d        0.135096                        0.135096            0.135096
+W_W_h        0.352                           0.352               0.352
+W_W_beta     1.38528                         1.38528             1.38528
+W_W_lambda1  2.890383                        2.890383            2.890383
+W_W_lambda2  1.304692                        1.304692            1.304692
+W_W_lambda3  0.45876                         0.45876             0.45876
+W_W_R        4.4                             4.4                 4.4
+W_W_D        0.840189                        0.840189            0.840189
+W_W_A        3313.9454                       3313.9454           3313.9454
+W_W_B        148.328                         148.328             148.328
+W_B_gamma    1.0                             1.0                 1.0
+W_B_c        2.246886711                     2.246886711         2.246886711
+W_B_d        0.500709837                     0.500709837         0.500709837
+W_B_h        0.283499075                     0.283499075         0.283499075
+W_B_beta *   154.55000000000024              154.55000000000024  154.55000000000024
+W_B_lambda1  2.902702087                     2.902702087         2.902702087
+W_B_lambda2  1.857152986                     1.857152986         1.857152986
+W_B_lambda3  0.095580474                     0.095580474         0.095580474
+W_B_R        3.0                             3.0                 3.0
+W_B_D        0.5                             0.5                 0.5
+W_B_A        3351.165521                     3351.165521         3351.165521
+W_B_B        951.3620474                     951.3620474         951.3620474
+B_B_gamma    1.0                             1.0                 1.0
+B_B_c        41883.6236                      41883.6236          41883.6236
+B_B_d        88.5142                         88.5142             88.5142
+B_B_h        -0.0818                         -0.0818             -0.0818
+B_B_beta     0.01499                         0.01499             0.01499
+B_B_lambda1  2.6857                          2.6857              2.6857
+B_B_lambda2  2.5212                          2.5212              2.5212
+B_B_lambda3  2.3762e-05                      2.3762e-05          2.3762e-05
+B_B_R        2.28                            2.28                2.28
+B_B_D        0.11                            0.11                0.11
+B_B_A        3376.3351                       3376.3351           3376.3351
+B_B_B        2768.7364                       2768.7364           2768.7364
+
+Merit =      8956.367480846075   NA          8956.367480846075   8956.367480846075
+
+
+2024-08-16 15:33:55:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-2
+2024-08-16 15:33:55:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-2.
+2024-08-16 15:33:58:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-2
+2024-08-16 15:33:58:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-2, finished.
+2024-08-16 15:33:58:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-2
+2024-08-16 15:33:58:atsim.pro_fit.reporters.LogReporter:INFO reporters:381:  
+Results at iteration: 1
+
+Variables and Merit Values:
+             First (it=0)        Previous (it=0)     Current (it=1)      Best (i=0)
+-----------  ------------------  ------------------  ------------------  ------------------
+Variables
+W_W_gamma    0.001294            0.001294            0.001294            0.001294
+W_W_c        1.327324            1.327324            1.327324            1.327324
+W_W_d        0.135096            0.135096            0.135096            0.135096
+W_W_h        0.352               0.352               0.352               0.352
+W_W_beta     1.38528             1.38528             1.38528             1.38528
+W_W_lambda1  2.890383            2.890383            2.890383            2.890383
+W_W_lambda2  1.304692            1.304692            1.304692            1.304692
+W_W_lambda3  0.45876             0.45876             0.45876             0.45876
+W_W_R        4.4                 4.4                 4.4                 4.4
+W_W_D        0.840189            0.840189            0.840189            0.840189
+W_W_A        3313.9454           3313.9454           3313.9454           3313.9454
+W_W_B        148.328             148.328             148.328             148.328
+W_B_gamma    1.0                 1.0                 1.0                 1.0
+W_B_c        2.246886711         2.246886711         2.246886711         2.246886711
+W_B_d        0.500709837         0.500709837         0.500709837         0.500709837
+W_B_h        0.283499075         0.283499075         0.283499075         0.283499075
+W_B_beta *   154.55000000000024  154.55000000000024  162.27750000000026  154.55000000000024
+W_B_lambda1  2.902702087         2.902702087         2.902702087         2.902702087
+W_B_lambda2  1.857152986         1.857152986         1.857152986         1.857152986
+W_B_lambda3  0.095580474         0.095580474         0.095580474         0.095580474
+W_B_R        3.0                 3.0                 3.0                 3.0
+W_B_D        0.5                 0.5                 0.5                 0.5
+W_B_A        3351.165521         3351.165521         3351.165521         3351.165521
+W_B_B        951.3620474         951.3620474         951.3620474         951.3620474
+B_B_gamma    1.0                 1.0                 1.0                 1.0
+B_B_c        41883.6236          41883.6236          41883.6236          41883.6236
+B_B_d        88.5142             88.5142             88.5142             88.5142
+B_B_h        -0.0818             -0.0818             -0.0818             -0.0818
+B_B_beta     0.01499             0.01499             0.01499             0.01499
+B_B_lambda1  2.6857              2.6857              2.6857              2.6857
+B_B_lambda2  2.5212              2.5212              2.5212              2.5212
+B_B_lambda3  2.3762e-05          2.3762e-05          2.3762e-05          2.3762e-05
+B_B_R        2.28                2.28                2.28                2.28
+B_B_D        0.11                0.11                0.11                0.11
+B_B_A        3376.3351           3376.3351           3376.3351           3376.3351
+B_B_B        2768.7364           2768.7364           2768.7364           2768.7364
+
+Merit =      8956.367480846075   8956.367480846075   8956.367621043926   8956.367480846075
+
+
+2024-08-16 15:33:58:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-3
+2024-08-16 15:33:58:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-3.
+2024-08-16 15:34:01:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-3
+2024-08-16 15:34:01:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-3, finished.
+2024-08-16 15:34:01:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-3
+2024-08-16 15:34:01:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-4
+2024-08-16 15:34:01:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-4.
+2024-08-16 15:34:05:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-4
+2024-08-16 15:34:05:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-4, finished.
+2024-08-16 15:34:05:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-4
+2024-08-16 15:34:05:atsim.pro_fit.reporters.LogReporter:INFO reporters:381:  
+Results at iteration: 2
+
+Variables and Merit Values:
+             First (it=0)        Previous (it=1)     Current (it=2)      Best (i=2)
+-----------  ------------------  ------------------  ------------------  ------------------
+Variables
+W_W_gamma    0.001294            0.001294            0.001294            0.001294
+W_W_c        1.327324            1.327324            1.327324            1.327324
+W_W_d        0.135096            0.135096            0.135096            0.135096
+W_W_h        0.352               0.352               0.352               0.352
+W_W_beta     1.38528             1.38528             1.38528             1.38528
+W_W_lambda1  2.890383            2.890383            2.890383            2.890383
+W_W_lambda2  1.304692            1.304692            1.304692            1.304692
+W_W_lambda3  0.45876             0.45876             0.45876             0.45876
+W_W_R        4.4                 4.4                 4.4                 4.4
+W_W_D        0.840189            0.840189            0.840189            0.840189
+W_W_A        3313.9454           3313.9454           3313.9454           3313.9454
+W_W_B        148.328             148.328             148.328             148.328
+W_B_gamma    1.0                 1.0                 1.0                 1.0
+W_B_c        2.246886711         2.246886711         2.246886711         2.246886711
+W_B_d        0.500709837         0.500709837         0.500709837         0.500709837
+W_B_h        0.283499075         0.283499075         0.283499075         0.283499075
+W_B_beta *   154.55000000000024  162.27750000000026  146.82250000000022  146.82250000000022
+W_B_lambda1  2.902702087         2.902702087         2.902702087         2.902702087
+W_B_lambda2  1.857152986         1.857152986         1.857152986         1.857152986
+W_B_lambda3  0.095580474         0.095580474         0.095580474         0.095580474
+W_B_R        3.0                 3.0                 3.0                 3.0
+W_B_D        0.5                 0.5                 0.5                 0.5
+W_B_A        3351.165521         3351.165521         3351.165521         3351.165521
+W_B_B        951.3620474         951.3620474         951.3620474         951.3620474
+B_B_gamma    1.0                 1.0                 1.0                 1.0
+B_B_c        41883.6236          41883.6236          41883.6236          41883.6236
+B_B_d        88.5142             88.5142             88.5142             88.5142
+B_B_h        -0.0818             -0.0818             -0.0818             -0.0818
+B_B_beta     0.01499             0.01499             0.01499             0.01499
+B_B_lambda1  2.6857              2.6857              2.6857              2.6857
+B_B_lambda2  2.5212              2.5212              2.5212              2.5212
+B_B_lambda3  2.3762e-05          2.3762e-05          2.3762e-05          2.3762e-05
+B_B_R        2.28                2.28                2.28                2.28
+B_B_D        0.11                0.11                0.11                0.11
+B_B_A        3376.3351           3376.3351           3376.3351           3376.3351
+B_B_B        2768.7364           2768.7364           2768.7364           2768.7364
+
+Merit =      8956.367480846075   8956.367621043926   8956.366901409012   8956.366901409012
+
+
+2024-08-16 15:34:05:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-5
+2024-08-16 15:34:05:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-5.
+2024-08-16 15:34:08:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-5
+2024-08-16 15:34:08:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-5, finished.
+2024-08-16 15:34:08:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-5
+2024-08-16 15:34:08:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-6
+2024-08-16 15:34:08:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-6.
+2024-08-16 15:34:11:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-6
+2024-08-16 15:34:11:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-6, finished.
+2024-08-16 15:34:11:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-6
+2024-08-16 15:34:11:atsim.pro_fit.reporters.LogReporter:INFO reporters:381:  
+Results at iteration: 3
+
+Variables and Merit Values:
+             First (it=0)        Previous (it=2)     Current (it=3)     Best (i=3)
+-----------  ------------------  ------------------  -----------------  -----------------
+Variables
+W_W_gamma    0.001294            0.001294            0.001294           0.001294
+W_W_c        1.327324            1.327324            1.327324           1.327324
+W_W_d        0.135096            0.135096            0.135096           0.135096
+W_W_h        0.352               0.352               0.352              0.352
+W_W_beta     1.38528             1.38528             1.38528            1.38528
+W_W_lambda1  2.890383            2.890383            2.890383           2.890383
+W_W_lambda2  1.304692            1.304692            1.304692           1.304692
+W_W_lambda3  0.45876             0.45876             0.45876            0.45876
+W_W_R        4.4                 4.4                 4.4                4.4
+W_W_D        0.840189            0.840189            0.840189           0.840189
+W_W_A        3313.9454           3313.9454           3313.9454          3313.9454
+W_W_B        148.328             148.328             148.328            148.328
+W_B_gamma    1.0                 1.0                 1.0                1.0
+W_B_c        2.246886711         2.246886711         2.246886711        2.246886711
+W_B_d        0.500709837         0.500709837         0.500709837        0.500709837
+W_B_h        0.283499075         0.283499075         0.283499075        0.283499075
+W_B_beta *   154.55000000000024  146.82250000000022  142.9587500000002  142.9587500000002
+W_B_lambda1  2.902702087         2.902702087         2.902702087        2.902702087
+W_B_lambda2  1.857152986         1.857152986         1.857152986        1.857152986
+W_B_lambda3  0.095580474         0.095580474         0.095580474        0.095580474
+W_B_R        3.0                 3.0                 3.0                3.0
+W_B_D        0.5                 0.5                 0.5                0.5
+W_B_A        3351.165521         3351.165521         3351.165521        3351.165521
+W_B_B        951.3620474         951.3620474         951.3620474        951.3620474
+B_B_gamma    1.0                 1.0                 1.0                1.0
+B_B_c        41883.6236          41883.6236          41883.6236         41883.6236
+B_B_d        88.5142             88.5142             88.5142            88.5142
+B_B_h        -0.0818             -0.0818             -0.0818            -0.0818
+B_B_beta     0.01499             0.01499             0.01499            0.01499
+B_B_lambda1  2.6857              2.6857              2.6857             2.6857
+B_B_lambda2  2.5212              2.5212              2.5212             2.5212
+B_B_lambda3  2.3762e-05          2.3762e-05          2.3762e-05         2.3762e-05
+B_B_R        2.28                2.28                2.28               2.28
+B_B_D        0.11                0.11                0.11               0.11
+B_B_A        3376.3351           3376.3351           3376.3351          3376.3351
+B_B_B        2768.7364           2768.7364           2768.7364          2768.7364
+
+Merit =      8956.367480846075   8956.366901409012   8956.366864232916  8956.366864232916
+
+
+2024-08-16 15:34:11:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-7
+2024-08-16 15:34:11:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-7.
+2024-08-16 15:34:14:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-7
+2024-08-16 15:34:14:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-7, finished.
+2024-08-16 15:34:14:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-7
+2024-08-16 15:34:14:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-8
+2024-08-16 15:34:14:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-8.
+2024-08-16 15:34:16:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-8
+2024-08-16 15:34:16:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-8, finished.
+2024-08-16 15:34:16:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-8
+2024-08-16 15:34:16:atsim.pro_fit.reporters.LogReporter:INFO reporters:381:  
+Results at iteration: 4
+
+Variables and Merit Values:
+             First (it=0)        Previous (it=3)    Current (it=4)      Best (i=4)
+-----------  ------------------  -----------------  ------------------  ------------------
+Variables
+W_W_gamma    0.001294            0.001294           0.001294            0.001294
+W_W_c        1.327324            1.327324           1.327324            1.327324
+W_W_d        0.135096            0.135096           0.135096            0.135096
+W_W_h        0.352               0.352              0.352               0.352
+W_W_beta     1.38528             1.38528            1.38528             1.38528
+W_W_lambda1  2.890383            2.890383           2.890383            2.890383
+W_W_lambda2  1.304692            1.304692           1.304692            1.304692
+W_W_lambda3  0.45876             0.45876            0.45876             0.45876
+W_W_R        4.4                 4.4                4.4                 4.4
+W_W_D        0.840189            0.840189           0.840189            0.840189
+W_W_A        3313.9454           3313.9454          3313.9454           3313.9454
+W_W_B        148.328             148.328            148.328             148.328
+W_B_gamma    1.0                 1.0                1.0                 1.0
+W_B_c        2.246886711         2.246886711        2.246886711         2.246886711
+W_B_d        0.500709837         0.500709837        0.500709837         0.500709837
+W_B_h        0.283499075         0.283499075        0.283499075         0.283499075
+W_B_beta *   154.55000000000024  142.9587500000002  144.89062500000023  144.89062500000023
+W_B_lambda1  2.902702087         2.902702087        2.902702087         2.902702087
+W_B_lambda2  1.857152986         1.857152986        1.857152986         1.857152986
+W_B_lambda3  0.095580474         0.095580474        0.095580474         0.095580474
+W_B_R        3.0                 3.0                3.0                 3.0
+W_B_D        0.5                 0.5                0.5                 0.5
+W_B_A        3351.165521         3351.165521        3351.165521         3351.165521
+W_B_B        951.3620474         951.3620474        951.3620474         951.3620474
+B_B_gamma    1.0                 1.0                1.0                 1.0
+B_B_c        41883.6236          41883.6236         41883.6236          41883.6236
+B_B_d        88.5142             88.5142            88.5142             88.5142
+B_B_h        -0.0818             -0.0818            -0.0818             -0.0818
+B_B_beta     0.01499             0.01499            0.01499             0.01499
+B_B_lambda1  2.6857              2.6857             2.6857              2.6857
+B_B_lambda2  2.5212              2.5212             2.5212              2.5212
+B_B_lambda3  2.3762e-05          2.3762e-05         2.3762e-05          2.3762e-05
+B_B_R        2.28                2.28               2.28                2.28
+B_B_D        0.11                0.11               0.11                0.11
+B_B_A        3376.3351           3376.3351          3376.3351           3376.3351
+B_B_B        2768.7364           2768.7364          2768.7364           2768.7364
+
+Merit =      8956.367480846075   8956.366864232916  8956.366804602098   8956.366804602098
+
+
+2024-08-16 15:34:16:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-9
+2024-08-16 15:34:16:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-9.
+2024-08-16 15:34:19:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-9
+2024-08-16 15:34:19:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-9, finished.
+2024-08-16 15:34:19:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-9
+2024-08-16 15:34:19:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-10
+2024-08-16 15:34:19:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-10.
+2024-08-16 15:34:22:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-10
+2024-08-16 15:34:22:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-10, finished.
+2024-08-16 15:34:22:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-10
+2024-08-16 15:34:22:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-11
+2024-08-16 15:34:22:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-11.
+2024-08-16 15:34:25:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-11
+2024-08-16 15:34:25:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-11, finished.
+2024-08-16 15:34:25:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-11
+2024-08-16 15:34:25:atsim.pro_fit.reporters.LogReporter:INFO reporters:381:  
+Results at iteration: 5
+
+Variables and Merit Values:
+             First (it=0)        Previous (it=4)     Current (it=5)      Best (i=4)
+-----------  ------------------  ------------------  ------------------  ------------------
+Variables
+W_W_gamma    0.001294            0.001294            0.001294            0.001294
+W_W_c        1.327324            1.327324            1.327324            1.327324
+W_W_d        0.135096            0.135096            0.135096            0.135096
+W_W_h        0.352               0.352               0.352               0.352
+W_W_beta     1.38528             1.38528             1.38528             1.38528
+W_W_lambda1  2.890383            2.890383            2.890383            2.890383
+W_W_lambda2  1.304692            1.304692            1.304692            1.304692
+W_W_lambda3  0.45876             0.45876             0.45876             0.45876
+W_W_R        4.4                 4.4                 4.4                 4.4
+W_W_D        0.840189            0.840189            0.840189            0.840189
+W_W_A        3313.9454           3313.9454           3313.9454           3313.9454
+W_W_B        148.328             148.328             148.328             148.328
+W_B_gamma    1.0                 1.0                 1.0                 1.0
+W_B_c        2.246886711         2.246886711         2.246886711         2.246886711
+W_B_d        0.500709837         0.500709837         0.500709837         0.500709837
+W_B_h        0.283499075         0.283499075         0.283499075         0.283499075
+W_B_beta *   154.55000000000024  144.89062500000023  146.82250000000025  144.89062500000023
+W_B_lambda1  2.902702087         2.902702087         2.902702087         2.902702087
+W_B_lambda2  1.857152986         1.857152986         1.857152986         1.857152986
+W_B_lambda3  0.095580474         0.095580474         0.095580474         0.095580474
+W_B_R        3.0                 3.0                 3.0                 3.0
+W_B_D        0.5                 0.5                 0.5                 0.5
+W_B_A        3351.165521         3351.165521         3351.165521         3351.165521
+W_B_B        951.3620474         951.3620474         951.3620474         951.3620474
+B_B_gamma    1.0                 1.0                 1.0                 1.0
+B_B_c        41883.6236          41883.6236          41883.6236          41883.6236
+B_B_d        88.5142             88.5142             88.5142             88.5142
+B_B_h        -0.0818             -0.0818             -0.0818             -0.0818
+B_B_beta     0.01499             0.01499             0.01499             0.01499
+B_B_lambda1  2.6857              2.6857              2.6857              2.6857
+B_B_lambda2  2.5212              2.5212              2.5212              2.5212
+B_B_lambda3  2.3762e-05          2.3762e-05          2.3762e-05          2.3762e-05
+B_B_R        2.28                2.28                2.28                2.28
+B_B_D        0.11                0.11                0.11                0.11
+B_B_A        3376.3351           3376.3351           3376.3351           3376.3351
+B_B_B        2768.7364           2768.7364           2768.7364           2768.7364
+
+Merit =      8956.367480846075   8956.366804602098   8956.366891540125   8956.366804602098
+
+
+2024-08-16 15:34:25:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-12
+2024-08-16 15:34:25:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-12.
+2024-08-16 15:34:27:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-12
+2024-08-16 15:34:27:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-12, finished.
+2024-08-16 15:34:27:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-12
+2024-08-16 15:34:27:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-13
+2024-08-16 15:34:27:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-13.
+2024-08-16 15:34:30:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-13
+2024-08-16 15:34:30:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-13, finished.
+2024-08-16 15:34:30:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-13
+2024-08-16 15:34:30:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-14
+2024-08-16 15:34:30:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-14.
+2024-08-16 15:34:33:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-14
+2024-08-16 15:34:33:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-14, finished.
+2024-08-16 15:34:33:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-14
+2024-08-16 15:34:33:atsim.pro_fit.reporters.LogReporter:INFO reporters:381:  
+Results at iteration: 6
+
+Variables and Merit Values:
+             First (it=0)        Previous (it=5)     Current (it=6)      Best (i=4)
+-----------  ------------------  ------------------  ------------------  ------------------
+Variables
+W_W_gamma    0.001294            0.001294            0.001294            0.001294
+W_W_c        1.327324            1.327324            1.327324            1.327324
+W_W_d        0.135096            0.135096            0.135096            0.135096
+W_W_h        0.352               0.352               0.352               0.352
+W_W_beta     1.38528             1.38528             1.38528             1.38528
+W_W_lambda1  2.890383            2.890383            2.890383            2.890383
+W_W_lambda2  1.304692            1.304692            1.304692            1.304692
+W_W_lambda3  0.45876             0.45876             0.45876             0.45876
+W_W_R        4.4                 4.4                 4.4                 4.4
+W_W_D        0.840189            0.840189            0.840189            0.840189
+W_W_A        3313.9454           3313.9454           3313.9454           3313.9454
+W_W_B        148.328             148.328             148.328             148.328
+W_B_gamma    1.0                 1.0                 1.0                 1.0
+W_B_c        2.246886711         2.246886711         2.246886711         2.246886711
+W_B_d        0.500709837         0.500709837         0.500709837         0.500709837
+W_B_h        0.283499075         0.283499075         0.283499075         0.283499075
+W_B_beta *   154.55000000000024  146.82250000000025  145.85656250000022  144.89062500000023
+W_B_lambda1  2.902702087         2.902702087         2.902702087         2.902702087
+W_B_lambda2  1.857152986         1.857152986         1.857152986         1.857152986
+W_B_lambda3  0.095580474         0.095580474         0.095580474         0.095580474
+W_B_R        3.0                 3.0                 3.0                 3.0
+W_B_D        0.5                 0.5                 0.5                 0.5
+W_B_A        3351.165521         3351.165521         3351.165521         3351.165521
+W_B_B        951.3620474         951.3620474         951.3620474         951.3620474
+B_B_gamma    1.0                 1.0                 1.0                 1.0
+B_B_c        41883.6236          41883.6236          41883.6236          41883.6236
+B_B_d        88.5142             88.5142             88.5142             88.5142
+B_B_h        -0.0818             -0.0818             -0.0818             -0.0818
+B_B_beta     0.01499             0.01499             0.01499             0.01499
+B_B_lambda1  2.6857              2.6857              2.6857              2.6857
+B_B_lambda2  2.5212              2.5212              2.5212              2.5212
+B_B_lambda3  2.3762e-05          2.3762e-05          2.3762e-05          2.3762e-05
+B_B_R        2.28                2.28                2.28                2.28
+B_B_D        0.11                0.11                0.11                0.11
+B_B_A        3376.3351           3376.3351           3376.3351           3376.3351
+B_B_B        2768.7364           2768.7364           2768.7364           2768.7364
+
+Merit =      8956.367480846075   8956.366891540125   8956.366973499744   8956.366804602098
+
+
+2024-08-16 15:34:33:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-15
+2024-08-16 15:34:33:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-15.
+2024-08-16 15:34:35:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-15
+2024-08-16 15:34:35:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-15, finished.
+2024-08-16 15:34:35:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-15
+2024-08-16 15:34:35:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-16
+2024-08-16 15:34:35:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-16.
+2024-08-16 15:34:38:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-16
+2024-08-16 15:34:38:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-16, finished.
+2024-08-16 15:34:38:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-16
+2024-08-16 15:34:38:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-17
+2024-08-16 15:34:38:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-17.
+2024-08-16 15:34:41:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-17
+2024-08-16 15:34:41:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-17, finished.
+2024-08-16 15:34:41:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-17
+2024-08-16 15:34:41:atsim.pro_fit.reporters.LogReporter:INFO reporters:381:  
+Results at iteration: 7
+
+Variables and Merit Values:
+             First (it=0)        Previous (it=6)     Current (it=7)      Best (i=4)
+-----------  ------------------  ------------------  ------------------  ------------------
+Variables
+W_W_gamma    0.001294            0.001294            0.001294            0.001294
+W_W_c        1.327324            1.327324            1.327324            1.327324
+W_W_d        0.135096            0.135096            0.135096            0.135096
+W_W_h        0.352               0.352               0.352               0.352
+W_W_beta     1.38528             1.38528             1.38528             1.38528
+W_W_lambda1  2.890383            2.890383            2.890383            2.890383
+W_W_lambda2  1.304692            1.304692            1.304692            1.304692
+W_W_lambda3  0.45876             0.45876             0.45876             0.45876
+W_W_R        4.4                 4.4                 4.4                 4.4
+W_W_D        0.840189            0.840189            0.840189            0.840189
+W_W_A        3313.9454           3313.9454           3313.9454           3313.9454
+W_W_B        148.328             148.328             148.328             148.328
+W_B_gamma    1.0                 1.0                 1.0                 1.0
+W_B_c        2.246886711         2.246886711         2.246886711         2.246886711
+W_B_d        0.500709837         0.500709837         0.500709837         0.500709837
+W_B_h        0.283499075         0.283499075         0.283499075         0.283499075
+W_B_beta *   154.55000000000024  145.85656250000022  145.37359375000023  144.89062500000023
+W_B_lambda1  2.902702087         2.902702087         2.902702087         2.902702087
+W_B_lambda2  1.857152986         1.857152986         1.857152986         1.857152986
+W_B_lambda3  0.095580474         0.095580474         0.095580474         0.095580474
+W_B_R        3.0                 3.0                 3.0                 3.0
+W_B_D        0.5                 0.5                 0.5                 0.5
+W_B_A        3351.165521         3351.165521         3351.165521         3351.165521
+W_B_B        951.3620474         951.3620474         951.3620474         951.3620474
+B_B_gamma    1.0                 1.0                 1.0                 1.0
+B_B_c        41883.6236          41883.6236          41883.6236          41883.6236
+B_B_d        88.5142             88.5142             88.5142             88.5142
+B_B_h        -0.0818             -0.0818             -0.0818             -0.0818
+B_B_beta     0.01499             0.01499             0.01499             0.01499
+B_B_lambda1  2.6857              2.6857              2.6857              2.6857
+B_B_lambda2  2.5212              2.5212              2.5212              2.5212
+B_B_lambda3  2.3762e-05          2.3762e-05          2.3762e-05          2.3762e-05
+B_B_R        2.28                2.28                2.28                2.28
+B_B_D        0.11                0.11                0.11                0.11
+B_B_A        3376.3351           3376.3351           3376.3351           3376.3351
+B_B_B        2768.7364           2768.7364           2768.7364           2768.7364
+
+Merit =      8956.367480846075   8956.366973499744   8956.366982449152   8956.366804602098
+
+
+2024-08-16 15:34:41:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-18
+2024-08-16 15:34:41:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-18.
+2024-08-16 15:34:43:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-18
+2024-08-16 15:34:43:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-18, finished.
+2024-08-16 15:34:43:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-18
+2024-08-16 15:34:43:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-19
+2024-08-16 15:34:43:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-19.
+2024-08-16 15:34:46:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-19
+2024-08-16 15:34:46:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-19, finished.
+2024-08-16 15:34:46:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-19
+2024-08-16 15:34:46:atsim.pro_fit.reporters.LogReporter:INFO reporters:381:  
+Results at iteration: 8
+
+Variables and Merit Values:
+             First (it=0)        Previous (it=7)     Current (it=8)      Best (i=4)
+-----------  ------------------  ------------------  ------------------  ------------------
+Variables
+W_W_gamma    0.001294            0.001294            0.001294            0.001294
+W_W_c        1.327324            1.327324            1.327324            1.327324
+W_W_d        0.135096            0.135096            0.135096            0.135096
+W_W_h        0.352               0.352               0.352               0.352
+W_W_beta     1.38528             1.38528             1.38528             1.38528
+W_W_lambda1  2.890383            2.890383            2.890383            2.890383
+W_W_lambda2  1.304692            1.304692            1.304692            1.304692
+W_W_lambda3  0.45876             0.45876             0.45876             0.45876
+W_W_R        4.4                 4.4                 4.4                 4.4
+W_W_D        0.840189            0.840189            0.840189            0.840189
+W_W_A        3313.9454           3313.9454           3313.9454           3313.9454
+W_W_B        148.328             148.328             148.328             148.328
+W_B_gamma    1.0                 1.0                 1.0                 1.0
+W_B_c        2.246886711         2.246886711         2.246886711         2.246886711
+W_B_d        0.500709837         0.500709837         0.500709837         0.500709837
+W_B_h        0.283499075         0.283499075         0.283499075         0.283499075
+W_B_beta *   154.55000000000024  145.37359375000023  145.01136718750024  144.89062500000023
+W_B_lambda1  2.902702087         2.902702087         2.902702087         2.902702087
+W_B_lambda2  1.857152986         1.857152986         1.857152986         1.857152986
+W_B_lambda3  0.095580474         0.095580474         0.095580474         0.095580474
+W_B_R        3.0                 3.0                 3.0                 3.0
+W_B_D        0.5                 0.5                 0.5                 0.5
+W_B_A        3351.165521         3351.165521         3351.165521         3351.165521
+W_B_B        951.3620474         951.3620474         951.3620474         951.3620474
+B_B_gamma    1.0                 1.0                 1.0                 1.0
+B_B_c        41883.6236          41883.6236          41883.6236          41883.6236
+B_B_d        88.5142             88.5142             88.5142             88.5142
+B_B_h        -0.0818             -0.0818             -0.0818             -0.0818
+B_B_beta     0.01499             0.01499             0.01499             0.01499
+B_B_lambda1  2.6857              2.6857              2.6857              2.6857
+B_B_lambda2  2.5212              2.5212              2.5212              2.5212
+B_B_lambda3  2.3762e-05          2.3762e-05          2.3762e-05          2.3762e-05
+B_B_R        2.28                2.28                2.28                2.28
+B_B_D        0.11                0.11                0.11                0.11
+B_B_A        3376.3351           3376.3351           3376.3351           3376.3351
+B_B_B        2768.7364           2768.7364           2768.7364           2768.7364
+
+Merit =      8956.367480846075   8956.366982449152   8956.36693948814    8956.366804602098
+
+
+2024-08-16 15:34:46:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-20
+2024-08-16 15:34:46:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-20.
+2024-08-16 15:34:49:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-20
+2024-08-16 15:34:49:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-20, finished.
+2024-08-16 15:34:49:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-20
+2024-08-16 15:34:49:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-21
+2024-08-16 15:34:49:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-21.
+2024-08-16 15:34:52:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-21
+2024-08-16 15:34:52:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-21, finished.
+2024-08-16 15:34:52:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-21
+2024-08-16 15:34:52:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-22
+2024-08-16 15:34:52:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-22.
+2024-08-16 15:34:55:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-22
+2024-08-16 15:34:55:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-22, finished.
+2024-08-16 15:34:55:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-22
+2024-08-16 15:34:55:atsim.pro_fit.reporters.LogReporter:INFO reporters:381:  
+Results at iteration: 9
+
+Variables and Merit Values:
+             First (it=0)        Previous (it=8)     Current (it=9)     Best (i=4)
+-----------  ------------------  ------------------  -----------------  ------------------
+Variables
+W_W_gamma    0.001294            0.001294            0.001294           0.001294
+W_W_c        1.327324            1.327324            1.327324           1.327324
+W_W_d        0.135096            0.135096            0.135096           0.135096
+W_W_h        0.352               0.352               0.352              0.352
+W_W_beta     1.38528             1.38528             1.38528            1.38528
+W_W_lambda1  2.890383            2.890383            2.890383           2.890383
+W_W_lambda2  1.304692            1.304692            1.304692           1.304692
+W_W_lambda3  0.45876             0.45876             0.45876            0.45876
+W_W_R        4.4                 4.4                 4.4                4.4
+W_W_D        0.840189            0.840189            0.840189           0.840189
+W_W_A        3313.9454           3313.9454           3313.9454          3313.9454
+W_W_B        148.328             148.328             148.328            148.328
+W_B_gamma    1.0                 1.0                 1.0                1.0
+W_B_c        2.246886711         2.246886711         2.246886711        2.246886711
+W_B_d        0.500709837         0.500709837         0.500709837        0.500709837
+W_B_h        0.283499075         0.283499075         0.283499075        0.283499075
+W_B_beta *   154.55000000000024  145.01136718750024  144.7698828125002  144.89062500000023
+W_B_lambda1  2.902702087         2.902702087         2.902702087        2.902702087
+W_B_lambda2  1.857152986         1.857152986         1.857152986        1.857152986
+W_B_lambda3  0.095580474         0.095580474         0.095580474        0.095580474
+W_B_R        3.0                 3.0                 3.0                3.0
+W_B_D        0.5                 0.5                 0.5                0.5
+W_B_A        3351.165521         3351.165521         3351.165521        3351.165521
+W_B_B        951.3620474         951.3620474         951.3620474        951.3620474
+B_B_gamma    1.0                 1.0                 1.0                1.0
+B_B_c        41883.6236          41883.6236          41883.6236         41883.6236
+B_B_d        88.5142             88.5142             88.5142            88.5142
+B_B_h        -0.0818             -0.0818             -0.0818            -0.0818
+B_B_beta     0.01499             0.01499             0.01499            0.01499
+B_B_lambda1  2.6857              2.6857              2.6857             2.6857
+B_B_lambda2  2.5212              2.5212              2.5212             2.5212
+B_B_lambda3  2.3762e-05          2.3762e-05          2.3762e-05         2.3762e-05
+B_B_R        2.28                2.28                2.28               2.28
+B_B_D        0.11                0.11                0.11               0.11
+B_B_A        3376.3351           3376.3351           3376.3351          3376.3351
+B_B_B        2768.7364           2768.7364           2768.7364          2768.7364
+
+Merit =      8956.367480846075   8956.36693948814    8956.366912844886  8956.366804602098
+
+
+2024-08-16 15:34:55:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-23
+2024-08-16 15:34:55:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-23.
+2024-08-16 15:34:57:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-23
+2024-08-16 15:34:57:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-23, finished.
+2024-08-16 15:34:57:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-23
+2024-08-16 15:34:57:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-24
+2024-08-16 15:34:57:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-24.
+2024-08-16 15:35:00:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-24
+2024-08-16 15:35:00:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-24, finished.
+2024-08-16 15:35:00:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-24
+2024-08-16 15:35:00:atsim.pro_fit.reporters.LogReporter:INFO reporters:381:  
+Results at iteration: 10
+
+Variables and Merit Values:
+             First (it=0)        Previous (it=9)    Current (it=10)     Best (i=4)
+-----------  ------------------  -----------------  ------------------  ------------------
+Variables
+W_W_gamma    0.001294            0.001294           0.001294            0.001294
+W_W_c        1.327324            1.327324           1.327324            1.327324
+W_W_d        0.135096            0.135096           0.135096            0.135096
+W_W_h        0.352               0.352              0.352               0.352
+W_W_beta     1.38528             1.38528            1.38528             1.38528
+W_W_lambda1  2.890383            2.890383           2.890383            2.890383
+W_W_lambda2  1.304692            1.304692           1.304692            1.304692
+W_W_lambda3  0.45876             0.45876            0.45876             0.45876
+W_W_R        4.4                 4.4                4.4                 4.4
+W_W_D        0.840189            0.840189           0.840189            0.840189
+W_W_A        3313.9454           3313.9454          3313.9454           3313.9454
+W_W_B        148.328             148.328            148.328             148.328
+W_B_gamma    1.0                 1.0                1.0                 1.0
+W_B_c        2.246886711         2.246886711        2.246886711         2.246886711
+W_B_d        0.500709837         0.500709837        0.500709837         0.500709837
+W_B_h        0.283499075         0.283499075        0.283499075         0.283499075
+W_B_beta *   154.55000000000024  144.7698828125002  144.92081054687523  144.89062500000023
+W_B_lambda1  2.902702087         2.902702087        2.902702087         2.902702087
+W_B_lambda2  1.857152986         1.857152986        1.857152986         1.857152986
+W_B_lambda3  0.095580474         0.095580474        0.095580474         0.095580474
+W_B_R        3.0                 3.0                3.0                 3.0
+W_B_D        0.5                 0.5                0.5                 0.5
+W_B_A        3351.165521         3351.165521        3351.165521         3351.165521
+W_B_B        951.3620474         951.3620474        951.3620474         951.3620474
+B_B_gamma    1.0                 1.0                1.0                 1.0
+B_B_c        41883.6236          41883.6236         41883.6236          41883.6236
+B_B_d        88.5142             88.5142            88.5142             88.5142
+B_B_h        -0.0818             -0.0818            -0.0818             -0.0818
+B_B_beta     0.01499             0.01499            0.01499             0.01499
+B_B_lambda1  2.6857              2.6857             2.6857              2.6857
+B_B_lambda2  2.5212              2.5212             2.5212              2.5212
+B_B_lambda3  2.3762e-05          2.3762e-05         2.3762e-05          2.3762e-05
+B_B_R        2.28                2.28               2.28                2.28
+B_B_D        0.11                0.11               0.11                0.11
+B_B_A        3376.3351           3376.3351          3376.3351           3376.3351
+B_B_B        2768.7364           2768.7364          2768.7364           2768.7364
+
+Merit =      8956.367480846075   8956.366912844886  8956.367007079007   8956.366804602098
+
+
+2024-08-16 15:35:00:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-25
+2024-08-16 15:35:00:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-25.
+2024-08-16 15:35:03:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-25
+2024-08-16 15:35:03:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-25, finished.
+2024-08-16 15:35:03:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-25
+2024-08-16 15:35:03:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-26
+2024-08-16 15:35:03:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-26.
+2024-08-16 15:35:06:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-26
+2024-08-16 15:35:06:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-26, finished.
+2024-08-16 15:35:06:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-26
+2024-08-16 15:35:06:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-27
+2024-08-16 15:35:06:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-27.
+2024-08-16 15:35:09:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-27
+2024-08-16 15:35:09:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-27, finished.
+2024-08-16 15:35:09:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-27
+2024-08-16 15:35:09:atsim.pro_fit.reporters.LogReporter:INFO reporters:381:  
+Results at iteration: 11
+
+Variables and Merit Values:
+             First (it=0)        Previous (it=10)    Current (it=11)     Best (i=4)
+-----------  ------------------  ------------------  ------------------  ------------------
+Variables
+W_W_gamma    0.001294            0.001294            0.001294            0.001294
+W_W_c        1.327324            1.327324            1.327324            1.327324
+W_W_d        0.135096            0.135096            0.135096            0.135096
+W_W_h        0.352               0.352               0.352               0.352
+W_W_beta     1.38528             1.38528             1.38528             1.38528
+W_W_lambda1  2.890383            2.890383            2.890383            2.890383
+W_W_lambda2  1.304692            1.304692            1.304692            1.304692
+W_W_lambda3  0.45876             0.45876             0.45876             0.45876
+W_W_R        4.4                 4.4                 4.4                 4.4
+W_W_D        0.840189            0.840189            0.840189            0.840189
+W_W_A        3313.9454           3313.9454           3313.9454           3313.9454
+W_W_B        148.328             148.328             148.328             148.328
+W_B_gamma    1.0                 1.0                 1.0                 1.0
+W_B_c        2.246886711         2.246886711         2.246886711         2.246886711
+W_B_d        0.500709837         0.500709837         0.500709837         0.500709837
+W_B_h        0.283499075         0.283499075         0.283499075         0.283499075
+W_B_beta *   154.55000000000024  144.92081054687523  144.90571777343774  144.89062500000023
+W_B_lambda1  2.902702087         2.902702087         2.902702087         2.902702087
+W_B_lambda2  1.857152986         1.857152986         1.857152986         1.857152986
+W_B_lambda3  0.095580474         0.095580474         0.095580474         0.095580474
+W_B_R        3.0                 3.0                 3.0                 3.0
+W_B_D        0.5                 0.5                 0.5                 0.5
+W_B_A        3351.165521         3351.165521         3351.165521         3351.165521
+W_B_B        951.3620474         951.3620474         951.3620474         951.3620474
+B_B_gamma    1.0                 1.0                 1.0                 1.0
+B_B_c        41883.6236          41883.6236          41883.6236          41883.6236
+B_B_d        88.5142             88.5142             88.5142             88.5142
+B_B_h        -0.0818             -0.0818             -0.0818             -0.0818
+B_B_beta     0.01499             0.01499             0.01499             0.01499
+B_B_lambda1  2.6857              2.6857              2.6857              2.6857
+B_B_lambda2  2.5212              2.5212              2.5212              2.5212
+B_B_lambda3  2.3762e-05          2.3762e-05          2.3762e-05          2.3762e-05
+B_B_R        2.28                2.28                2.28                2.28
+B_B_D        0.11                0.11                0.11                0.11
+B_B_A        3376.3351           3376.3351           3376.3351           3376.3351
+B_B_B        2768.7364           2768.7364           2768.7364           2768.7364
+
+Merit =      8956.367480846075   8956.367007079007   8956.367013210154   8956.366804602098
+
+
+2024-08-16 15:35:09:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-28
+2024-08-16 15:35:09:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-28.
+2024-08-16 15:35:12:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-28
+2024-08-16 15:35:12:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-28, finished.
+2024-08-16 15:35:12:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-28
+2024-08-16 15:35:12:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-29
+2024-08-16 15:35:12:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-29.
+2024-08-16 15:35:15:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-29
+2024-08-16 15:35:15:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-29, finished.
+2024-08-16 15:35:15:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-29
+2024-08-16 15:35:15:atsim.pro_fit.reporters.LogReporter:INFO reporters:381:  
+Results at iteration: 12
+
+Variables and Merit Values:
+             First (it=0)        Previous (it=11)    Current (it=12)     Best (i=4)
+-----------  ------------------  ------------------  ------------------  ------------------
+Variables
+W_W_gamma    0.001294            0.001294            0.001294            0.001294
+W_W_c        1.327324            1.327324            1.327324            1.327324
+W_W_d        0.135096            0.135096            0.135096            0.135096
+W_W_h        0.352               0.352               0.352               0.352
+W_W_beta     1.38528             1.38528             1.38528             1.38528
+W_W_lambda1  2.890383            2.890383            2.890383            2.890383
+W_W_lambda2  1.304692            1.304692            1.304692            1.304692
+W_W_lambda3  0.45876             0.45876             0.45876             0.45876
+W_W_R        4.4                 4.4                 4.4                 4.4
+W_W_D        0.840189            0.840189            0.840189            0.840189
+W_W_A        3313.9454           3313.9454           3313.9454           3313.9454
+W_W_B        148.328             148.328             148.328             148.328
+W_B_gamma    1.0                 1.0                 1.0                 1.0
+W_B_c        2.246886711         2.246886711         2.246886711         2.246886711
+W_B_d        0.500709837         0.500709837         0.500709837         0.500709837
+W_B_h        0.283499075         0.283499075         0.283499075         0.283499075
+W_B_beta *   154.55000000000024  144.90571777343774  144.88307861328147  144.89062500000023
+W_B_lambda1  2.902702087         2.902702087         2.902702087         2.902702087
+W_B_lambda2  1.857152986         1.857152986         1.857152986         1.857152986
+W_B_lambda3  0.095580474         0.095580474         0.095580474         0.095580474
+W_B_R        3.0                 3.0                 3.0                 3.0
+W_B_D        0.5                 0.5                 0.5                 0.5
+W_B_A        3351.165521         3351.165521         3351.165521         3351.165521
+W_B_B        951.3620474         951.3620474         951.3620474         951.3620474
+B_B_gamma    1.0                 1.0                 1.0                 1.0
+B_B_c        41883.6236          41883.6236          41883.6236          41883.6236
+B_B_d        88.5142             88.5142             88.5142             88.5142
+B_B_h        -0.0818             -0.0818             -0.0818             -0.0818
+B_B_beta     0.01499             0.01499             0.01499             0.01499
+B_B_lambda1  2.6857              2.6857              2.6857              2.6857
+B_B_lambda2  2.5212              2.5212              2.5212              2.5212
+B_B_lambda3  2.3762e-05          2.3762e-05          2.3762e-05          2.3762e-05
+B_B_R        2.28                2.28                2.28                2.28
+B_B_D        0.11                0.11                0.11                0.11
+B_B_A        3376.3351           3376.3351           3376.3351           3376.3351
+B_B_B        2768.7364           2768.7364           2768.7364           2768.7364
+
+Merit =      8956.367480846075   8956.367013210154   8956.36694811065    8956.366804602098
+
+
+2024-08-16 15:35:15:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-30
+2024-08-16 15:35:15:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-30.
+2024-08-16 15:35:18:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-30
+2024-08-16 15:35:18:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-30, finished.
+2024-08-16 15:35:18:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-30
+2024-08-16 15:35:18:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-31
+2024-08-16 15:35:18:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-31.
+2024-08-16 15:35:21:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-31
+2024-08-16 15:35:21:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-31, finished.
+2024-08-16 15:35:21:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-31
+2024-08-16 15:35:21:atsim.pro_fit.reporters.LogReporter:INFO reporters:381:  
+Results at iteration: 13
+
+Variables and Merit Values:
+             First (it=0)        Previous (it=12)    Current (it=13)     Best (i=13)
+-----------  ------------------  ------------------  ------------------  ------------------
+Variables
+W_W_gamma    0.001294            0.001294            0.001294            0.001294
+W_W_c        1.327324            1.327324            1.327324            1.327324
+W_W_d        0.135096            0.135096            0.135096            0.135096
+W_W_h        0.352               0.352               0.352               0.352
+W_W_beta     1.38528             1.38528             1.38528             1.38528
+W_W_lambda1  2.890383            2.890383            2.890383            2.890383
+W_W_lambda2  1.304692            1.304692            1.304692            1.304692
+W_W_lambda3  0.45876             0.45876             0.45876             0.45876
+W_W_R        4.4                 4.4                 4.4                 4.4
+W_W_D        0.840189            0.840189            0.840189            0.840189
+W_W_A        3313.9454           3313.9454           3313.9454           3313.9454
+W_W_B        148.328             148.328             148.328             148.328
+W_B_gamma    1.0                 1.0                 1.0                 1.0
+W_B_c        2.246886711         2.246886711         2.246886711         2.246886711
+W_B_d        0.500709837         0.500709837         0.500709837         0.500709837
+W_B_h        0.283499075         0.283499075         0.283499075         0.283499075
+W_B_beta *   154.55000000000024  144.88307861328147  144.89439819335962  144.89439819335962
+W_B_lambda1  2.902702087         2.902702087         2.902702087         2.902702087
+W_B_lambda2  1.857152986         1.857152986         1.857152986         1.857152986
+W_B_lambda3  0.095580474         0.095580474         0.095580474         0.095580474
+W_B_R        3.0                 3.0                 3.0                 3.0
+W_B_D        0.5                 0.5                 0.5                 0.5
+W_B_A        3351.165521         3351.165521         3351.165521         3351.165521
+W_B_B        951.3620474         951.3620474         951.3620474         951.3620474
+B_B_gamma    1.0                 1.0                 1.0                 1.0
+B_B_c        41883.6236          41883.6236          41883.6236          41883.6236
+B_B_d        88.5142             88.5142             88.5142             88.5142
+B_B_h        -0.0818             -0.0818             -0.0818             -0.0818
+B_B_beta     0.01499             0.01499             0.01499             0.01499
+B_B_lambda1  2.6857              2.6857              2.6857              2.6857
+B_B_lambda2  2.5212              2.5212              2.5212              2.5212
+B_B_lambda3  2.3762e-05          2.3762e-05          2.3762e-05          2.3762e-05
+B_B_R        2.28                2.28                2.28                2.28
+B_B_D        0.11                0.11                0.11                0.11
+B_B_A        3376.3351           3376.3351           3376.3351           3376.3351
+B_B_B        2768.7364           2768.7364           2768.7364           2768.7364
+
+Merit =      8956.367480846075   8956.36694811065    8956.366735173537   8956.366735173537
+
+
+2024-08-16 15:35:21:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-32
+2024-08-16 15:35:21:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-32.
+2024-08-16 15:35:24:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-32
+2024-08-16 15:35:24:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-32, finished.
+2024-08-16 15:35:24:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-32
+2024-08-16 15:35:24:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-33
+2024-08-16 15:35:24:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-33.
+2024-08-16 15:35:27:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-33
+2024-08-16 15:35:27:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-33, finished.
+2024-08-16 15:35:27:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-33
+2024-08-16 15:35:27:atsim.pro_fit.reporters.LogReporter:INFO reporters:381:  
+Results at iteration: 14
+
+Variables and Merit Values:
+             First (it=0)        Previous (it=13)    Current (it=14)     Best (i=13)
+-----------  ------------------  ------------------  ------------------  ------------------
+Variables
+W_W_gamma    0.001294            0.001294            0.001294            0.001294
+W_W_c        1.327324            1.327324            1.327324            1.327324
+W_W_d        0.135096            0.135096            0.135096            0.135096
+W_W_h        0.352               0.352               0.352               0.352
+W_W_beta     1.38528             1.38528             1.38528             1.38528
+W_W_lambda1  2.890383            2.890383            2.890383            2.890383
+W_W_lambda2  1.304692            1.304692            1.304692            1.304692
+W_W_lambda3  0.45876             0.45876             0.45876             0.45876
+W_W_R        4.4                 4.4                 4.4                 4.4
+W_W_D        0.840189            0.840189            0.840189            0.840189
+W_W_A        3313.9454           3313.9454           3313.9454           3313.9454
+W_W_B        148.328             148.328             148.328             148.328
+W_B_gamma    1.0                 1.0                 1.0                 1.0
+W_B_c        2.246886711         2.246886711         2.246886711         2.246886711
+W_B_d        0.500709837         0.500709837         0.500709837         0.500709837
+W_B_h        0.283499075         0.283499075         0.283499075         0.283499075
+W_B_beta *   154.55000000000024  144.89439819335962  144.89251159667992  144.89439819335962
+W_B_lambda1  2.902702087         2.902702087         2.902702087         2.902702087
+W_B_lambda2  1.857152986         1.857152986         1.857152986         1.857152986
+W_B_lambda3  0.095580474         0.095580474         0.095580474         0.095580474
+W_B_R        3.0                 3.0                 3.0                 3.0
+W_B_D        0.5                 0.5                 0.5                 0.5
+W_B_A        3351.165521         3351.165521         3351.165521         3351.165521
+W_B_B        951.3620474         951.3620474         951.3620474         951.3620474
+B_B_gamma    1.0                 1.0                 1.0                 1.0
+B_B_c        41883.6236          41883.6236          41883.6236          41883.6236
+B_B_d        88.5142             88.5142             88.5142             88.5142
+B_B_h        -0.0818             -0.0818             -0.0818             -0.0818
+B_B_beta     0.01499             0.01499             0.01499             0.01499
+B_B_lambda1  2.6857              2.6857              2.6857              2.6857
+B_B_lambda2  2.5212              2.5212              2.5212              2.5212
+B_B_lambda3  2.3762e-05          2.3762e-05          2.3762e-05          2.3762e-05
+B_B_R        2.28                2.28                2.28                2.28
+B_B_D        0.11                0.11                0.11                0.11
+B_B_A        3376.3351           3376.3351           3376.3351           3376.3351
+B_B_B        2768.7364           2768.7364           2768.7364           2768.7364
+
+Merit =      8956.367480846075   8956.366735173537   8956.36676343945    8956.366735173537
+
+
+2024-08-16 15:35:27:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-34
+2024-08-16 15:35:27:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-34.
+2024-08-16 15:35:29:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-34
+2024-08-16 15:35:29:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-34, finished.
+2024-08-16 15:35:29:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-34
+2024-08-16 15:35:29:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-35
+2024-08-16 15:35:29:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-35.
+2024-08-16 15:35:32:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-35
+2024-08-16 15:35:32:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-35, finished.
+2024-08-16 15:35:32:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-35
+2024-08-16 15:35:32:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-36
+2024-08-16 15:35:32:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-36.
+2024-08-16 15:35:35:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-36
+2024-08-16 15:35:35:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-36, finished.
+2024-08-16 15:35:35:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-36
+2024-08-16 15:35:35:atsim.pro_fit.reporters.LogReporter:INFO reporters:381:  
+Results at iteration: 15
+
+Variables and Merit Values:
+             First (it=0)        Previous (it=14)    Current (it=15)     Best (i=13)
+-----------  ------------------  ------------------  ------------------  ------------------
+Variables
+W_W_gamma    0.001294            0.001294            0.001294            0.001294
+W_W_c        1.327324            1.327324            1.327324            1.327324
+W_W_d        0.135096            0.135096            0.135096            0.135096
+W_W_h        0.352               0.352               0.352               0.352
+W_W_beta     1.38528             1.38528             1.38528             1.38528
+W_W_lambda1  2.890383            2.890383            2.890383            2.890383
+W_W_lambda2  1.304692            1.304692            1.304692            1.304692
+W_W_lambda3  0.45876             0.45876             0.45876             0.45876
+W_W_R        4.4                 4.4                 4.4                 4.4
+W_W_D        0.840189            0.840189            0.840189            0.840189
+W_W_A        3313.9454           3313.9454           3313.9454           3313.9454
+W_W_B        148.328             148.328             148.328             148.328
+W_B_gamma    1.0                 1.0                 1.0                 1.0
+W_B_c        2.246886711         2.246886711         2.246886711         2.246886711
+W_B_d        0.500709837         0.500709837         0.500709837         0.500709837
+W_B_h        0.283499075         0.283499075         0.283499075         0.283499075
+W_B_beta *   154.55000000000024  144.89251159667992  144.89345489501977  144.89439819335962
+W_B_lambda1  2.902702087         2.902702087         2.902702087         2.902702087
+W_B_lambda2  1.857152986         1.857152986         1.857152986         1.857152986
+W_B_lambda3  0.095580474         0.095580474         0.095580474         0.095580474
+W_B_R        3.0                 3.0                 3.0                 3.0
+W_B_D        0.5                 0.5                 0.5                 0.5
+W_B_A        3351.165521         3351.165521         3351.165521         3351.165521
+W_B_B        951.3620474         951.3620474         951.3620474         951.3620474
+B_B_gamma    1.0                 1.0                 1.0                 1.0
+B_B_c        41883.6236          41883.6236          41883.6236          41883.6236
+B_B_d        88.5142             88.5142             88.5142             88.5142
+B_B_h        -0.0818             -0.0818             -0.0818             -0.0818
+B_B_beta     0.01499             0.01499             0.01499             0.01499
+B_B_lambda1  2.6857              2.6857              2.6857              2.6857
+B_B_lambda2  2.5212              2.5212              2.5212              2.5212
+B_B_lambda3  2.3762e-05          2.3762e-05          2.3762e-05          2.3762e-05
+B_B_R        2.28                2.28                2.28                2.28
+B_B_D        0.11                0.11                0.11                0.11
+B_B_A        3376.3351           3376.3351           3376.3351           3376.3351
+B_B_B        2768.7364           2768.7364           2768.7364           2768.7364
+
+Merit =      8956.367480846075   8956.36676343945    8956.367036625325   8956.366735173537
+
+
+2024-08-16 15:35:35:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-37
+2024-08-16 15:35:35:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-37.
+2024-08-16 15:35:38:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-37
+2024-08-16 15:35:38:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-37, finished.
+2024-08-16 15:35:38:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-37
+2024-08-16 15:35:38:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-38
+2024-08-16 15:35:38:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-38.
+2024-08-16 15:35:41:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-38
+2024-08-16 15:35:41:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-38, finished.
+2024-08-16 15:35:41:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-38
+2024-08-16 15:35:41:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-39
+2024-08-16 15:35:41:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-39.
+2024-08-16 15:35:43:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-39
+2024-08-16 15:35:43:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-39, finished.
+2024-08-16 15:35:43:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-39
+2024-08-16 15:35:43:atsim.pro_fit.reporters.LogReporter:INFO reporters:381:  
+Results at iteration: 16
+
+Variables and Merit Values:
+             First (it=0)        Previous (it=15)    Current (it=16)     Best (i=13)
+-----------  ------------------  ------------------  ------------------  ------------------
+Variables
+W_W_gamma    0.001294            0.001294            0.001294            0.001294
+W_W_c        1.327324            1.327324            1.327324            1.327324
+W_W_d        0.135096            0.135096            0.135096            0.135096
+W_W_h        0.352               0.352               0.352               0.352
+W_W_beta     1.38528             1.38528             1.38528             1.38528
+W_W_lambda1  2.890383            2.890383            2.890383            2.890383
+W_W_lambda2  1.304692            1.304692            1.304692            1.304692
+W_W_lambda3  0.45876             0.45876             0.45876             0.45876
+W_W_R        4.4                 4.4                 4.4                 4.4
+W_W_D        0.840189            0.840189            0.840189            0.840189
+W_W_A        3313.9454           3313.9454           3313.9454           3313.9454
+W_W_B        148.328             148.328             148.328             148.328
+W_B_gamma    1.0                 1.0                 1.0                 1.0
+W_B_c        2.246886711         2.246886711         2.246886711         2.246886711
+W_B_d        0.500709837         0.500709837         0.500709837         0.500709837
+W_B_h        0.283499075         0.283499075         0.283499075         0.283499075
+W_B_beta *   154.55000000000024  144.89345489501977  144.89534149169947  144.89439819335962
+W_B_lambda1  2.902702087         2.902702087         2.902702087         2.902702087
+W_B_lambda2  1.857152986         1.857152986         1.857152986         1.857152986
+W_B_lambda3  0.095580474         0.095580474         0.095580474         0.095580474
+W_B_R        3.0                 3.0                 3.0                 3.0
+W_B_D        0.5                 0.5                 0.5                 0.5
+W_B_A        3351.165521         3351.165521         3351.165521         3351.165521
+W_B_B        951.3620474         951.3620474         951.3620474         951.3620474
+B_B_gamma    1.0                 1.0                 1.0                 1.0
+B_B_c        41883.6236          41883.6236          41883.6236          41883.6236
+B_B_d        88.5142             88.5142             88.5142             88.5142
+B_B_h        -0.0818             -0.0818             -0.0818             -0.0818
+B_B_beta     0.01499             0.01499             0.01499             0.01499
+B_B_lambda1  2.6857              2.6857              2.6857              2.6857
+B_B_lambda2  2.5212              2.5212              2.5212              2.5212
+B_B_lambda3  2.3762e-05          2.3762e-05          2.3762e-05          2.3762e-05
+B_B_R        2.28                2.28                2.28                2.28
+B_B_D        0.11                0.11                0.11                0.11
+B_B_A        3376.3351           3376.3351           3376.3351           3376.3351
+B_B_B        2768.7364           2768.7364           2768.7364           2768.7364
+
+Merit =      8956.367480846075   8956.367036625325   8956.366981129086   8956.366735173537
+
+
+2024-08-16 15:35:43:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-40
+2024-08-16 15:35:43:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-40.
+2024-08-16 15:35:47:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-40
+2024-08-16 15:35:47:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-40, finished.
+2024-08-16 15:35:47:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-40
+2024-08-16 15:35:47:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-41
+2024-08-16 15:35:47:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-41.
+2024-08-16 15:35:49:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-41
+2024-08-16 15:35:49:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-41, finished.
+2024-08-16 15:35:49:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-41
+2024-08-16 15:35:49:atsim.pro_fit.reporters.LogReporter:INFO reporters:381:  
+Results at iteration: 17
+
+Variables and Merit Values:
+             First (it=0)        Previous (it=16)    Current (it=17)     Best (i=13)
+-----------  ------------------  ------------------  ------------------  ------------------
+Variables
+W_W_gamma    0.001294            0.001294            0.001294            0.001294
+W_W_c        1.327324            1.327324            1.327324            1.327324
+W_W_d        0.135096            0.135096            0.135096            0.135096
+W_W_h        0.352               0.352               0.352               0.352
+W_W_beta     1.38528             1.38528             1.38528             1.38528
+W_W_lambda1  2.890383            2.890383            2.890383            2.890383
+W_W_lambda2  1.304692            1.304692            1.304692            1.304692
+W_W_lambda3  0.45876             0.45876             0.45876             0.45876
+W_W_R        4.4                 4.4                 4.4                 4.4
+W_W_D        0.840189            0.840189            0.840189            0.840189
+W_W_A        3313.9454           3313.9454           3313.9454           3313.9454
+W_W_B        148.328             148.328             148.328             148.328
+W_B_gamma    1.0                 1.0                 1.0                 1.0
+W_B_c        2.246886711         2.246886711         2.246886711         2.246886711
+W_B_d        0.500709837         0.500709837         0.500709837         0.500709837
+W_B_h        0.283499075         0.283499075         0.283499075         0.283499075
+W_B_beta *   154.55000000000024  144.89534149169947  144.89463401794458  144.89439819335962
+W_B_lambda1  2.902702087         2.902702087         2.902702087         2.902702087
+W_B_lambda2  1.857152986         1.857152986         1.857152986         1.857152986
+W_B_lambda3  0.095580474         0.095580474         0.095580474         0.095580474
+W_B_R        3.0                 3.0                 3.0                 3.0
+W_B_D        0.5                 0.5                 0.5                 0.5
+W_B_A        3351.165521         3351.165521         3351.165521         3351.165521
+W_B_B        951.3620474         951.3620474         951.3620474         951.3620474
+B_B_gamma    1.0                 1.0                 1.0                 1.0
+B_B_c        41883.6236          41883.6236          41883.6236          41883.6236
+B_B_d        88.5142             88.5142             88.5142             88.5142
+B_B_h        -0.0818             -0.0818             -0.0818             -0.0818
+B_B_beta     0.01499             0.01499             0.01499             0.01499
+B_B_lambda1  2.6857              2.6857              2.6857              2.6857
+B_B_lambda2  2.5212              2.5212              2.5212              2.5212
+B_B_lambda3  2.3762e-05          2.3762e-05          2.3762e-05          2.3762e-05
+B_B_R        2.28                2.28                2.28                2.28
+B_B_D        0.11                0.11                0.11                0.11
+B_B_A        3376.3351           3376.3351           3376.3351           3376.3351
+B_B_B        2768.7364           2768.7364           2768.7364           2768.7364
+
+Merit =      8956.367480846075   8956.366981129086   8956.36694815737    8956.366735173537
+
+
+2024-08-16 15:35:49:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-42
+2024-08-16 15:35:49:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-42.
+2024-08-16 15:35:52:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-42
+2024-08-16 15:35:52:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-42, finished.
+2024-08-16 15:35:52:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-42
+2024-08-16 15:35:52:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-43
+2024-08-16 15:35:52:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-43.
+2024-08-16 15:35:55:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-43
+2024-08-16 15:35:55:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-43, finished.
+2024-08-16 15:35:55:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-43
+2024-08-16 15:35:55:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-44
+2024-08-16 15:35:55:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-44.
+2024-08-16 15:35:58:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-44
+2024-08-16 15:35:58:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-44, finished.
+2024-08-16 15:35:58:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-44
+2024-08-16 15:35:58:atsim.pro_fit.reporters.LogReporter:INFO reporters:381:  
+Results at iteration: 18
+
+Variables and Merit Values:
+             First (it=0)        Previous (it=17)    Current (it=18)    Best (i=13)
+-----------  ------------------  ------------------  -----------------  ------------------
+Variables
+W_W_gamma    0.001294            0.001294            0.001294           0.001294
+W_W_c        1.327324            1.327324            1.327324           1.327324
+W_W_d        0.135096            0.135096            0.135096           0.135096
+W_W_h        0.352               0.352               0.352              0.352
+W_W_beta     1.38528             1.38528             1.38528            1.38528
+W_W_lambda1  2.890383            2.890383            2.890383           2.890383
+W_W_lambda2  1.304692            1.304692            1.304692           1.304692
+W_W_lambda3  0.45876             0.45876             0.45876            0.45876
+W_W_R        4.4                 4.4                 4.4                4.4
+W_W_D        0.840189            0.840189            0.840189           0.840189
+W_W_A        3313.9454           3313.9454           3313.9454          3313.9454
+W_W_B        148.328             148.328             148.328            148.328
+W_B_gamma    1.0                 1.0                 1.0                1.0
+W_B_c        2.246886711         2.246886711         2.246886711        2.246886711
+W_B_d        0.500709837         0.500709837         0.500709837        0.500709837
+W_B_h        0.283499075         0.283499075         0.283499075        0.283499075
+W_B_beta *   154.55000000000024  144.89463401794458  144.8945161056521  144.89439819335962
+W_B_lambda1  2.902702087         2.902702087         2.902702087        2.902702087
+W_B_lambda2  1.857152986         1.857152986         1.857152986        1.857152986
+W_B_lambda3  0.095580474         0.095580474         0.095580474        0.095580474
+W_B_R        3.0                 3.0                 3.0                3.0
+W_B_D        0.5                 0.5                 0.5                0.5
+W_B_A        3351.165521         3351.165521         3351.165521        3351.165521
+W_B_B        951.3620474         951.3620474         951.3620474        951.3620474
+B_B_gamma    1.0                 1.0                 1.0                1.0
+B_B_c        41883.6236          41883.6236          41883.6236         41883.6236
+B_B_d        88.5142             88.5142             88.5142            88.5142
+B_B_h        -0.0818             -0.0818             -0.0818            -0.0818
+B_B_beta     0.01499             0.01499             0.01499            0.01499
+B_B_lambda1  2.6857              2.6857              2.6857             2.6857
+B_B_lambda2  2.5212              2.5212              2.5212             2.5212
+B_B_lambda3  2.3762e-05          2.3762e-05          2.3762e-05         2.3762e-05
+B_B_R        2.28                2.28                2.28               2.28
+B_B_D        0.11                0.11                0.11               0.11
+B_B_A        3376.3351           3376.3351           3376.3351          3376.3351
+B_B_B        2768.7364           2768.7364           2768.7364          2768.7364
+
+Merit =      8956.367480846075   8956.36694815737    8956.367010885191  8956.366735173537
+
+
+2024-08-16 15:35:58:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-45
+2024-08-16 15:35:58:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-45.
+2024-08-16 15:36:00:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-45
+2024-08-16 15:36:00:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-45, finished.
+2024-08-16 15:36:00:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-45
+2024-08-16 15:36:00:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-46
+2024-08-16 15:36:00:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-46.
+2024-08-16 15:36:03:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-46
+2024-08-16 15:36:03:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-46, finished.
+2024-08-16 15:36:03:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-46
+2024-08-16 15:36:03:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-47
+2024-08-16 15:36:03:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-47.
+2024-08-16 15:36:06:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-47
+2024-08-16 15:36:06:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-47, finished.
+2024-08-16 15:36:06:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-47
+2024-08-16 15:36:06:atsim.pro_fit.reporters.LogReporter:INFO reporters:381:  
+Results at iteration: 19
+
+Variables and Merit Values:
+             First (it=0)        Previous (it=18)    Current (it=19)     Best (i=13)
+-----------  ------------------  ------------------  ------------------  ------------------
+Variables
+W_W_gamma    0.001294            0.001294            0.001294            0.001294
+W_W_c        1.327324            1.327324            1.327324            1.327324
+W_W_d        0.135096            0.135096            0.135096            0.135096
+W_W_h        0.352               0.352               0.352               0.352
+W_W_beta     1.38528             1.38528             1.38528             1.38528
+W_W_lambda1  2.890383            2.890383            2.890383            2.890383
+W_W_lambda2  1.304692            1.304692            1.304692            1.304692
+W_W_lambda3  0.45876             0.45876             0.45876             0.45876
+W_W_R        4.4                 4.4                 4.4                 4.4
+W_W_D        0.840189            0.840189            0.840189            0.840189
+W_W_A        3313.9454           3313.9454           3313.9454           3313.9454
+W_W_B        148.328             148.328             148.328             148.328
+W_B_gamma    1.0                 1.0                 1.0                 1.0
+W_B_c        2.246886711         2.246886711         2.246886711         2.246886711
+W_B_d        0.500709837         0.500709837         0.500709837         0.500709837
+W_B_h        0.283499075         0.283499075         0.283499075         0.283499075
+W_B_beta *   154.55000000000024  144.8945161056521   144.89428028106715  144.89439819335962
+W_B_lambda1  2.902702087         2.902702087         2.902702087         2.902702087
+W_B_lambda2  1.857152986         1.857152986         1.857152986         1.857152986
+W_B_lambda3  0.095580474         0.095580474         0.095580474         0.095580474
+W_B_R        3.0                 3.0                 3.0                 3.0
+W_B_D        0.5                 0.5                 0.5                 0.5
+W_B_A        3351.165521         3351.165521         3351.165521         3351.165521
+W_B_B        951.3620474         951.3620474         951.3620474         951.3620474
+B_B_gamma    1.0                 1.0                 1.0                 1.0
+B_B_c        41883.6236          41883.6236          41883.6236          41883.6236
+B_B_d        88.5142             88.5142             88.5142             88.5142
+B_B_h        -0.0818             -0.0818             -0.0818             -0.0818
+B_B_beta     0.01499             0.01499             0.01499             0.01499
+B_B_lambda1  2.6857              2.6857              2.6857              2.6857
+B_B_lambda2  2.5212              2.5212              2.5212              2.5212
+B_B_lambda3  2.3762e-05          2.3762e-05          2.3762e-05          2.3762e-05
+B_B_R        2.28                2.28                2.28                2.28
+B_B_D        0.11                0.11                0.11                0.11
+B_B_A        3376.3351           3376.3351           3376.3351           3376.3351
+B_B_B        2768.7364           2768.7364           2768.7364           2768.7364
+
+Merit =      8956.367480846075   8956.367010885191   8956.366829426515   8956.366735173537
+
+
+2024-08-16 15:36:06:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-48
+2024-08-16 15:36:06:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-48.
+2024-08-16 15:36:09:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-48
+2024-08-16 15:36:09:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-48, finished.
+2024-08-16 15:36:09:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-48
+2024-08-16 15:36:09:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-49
+2024-08-16 15:36:09:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-49.
+2024-08-16 15:36:12:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-49
+2024-08-16 15:36:12:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-49, finished.
+2024-08-16 15:36:12:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-49
+2024-08-16 15:36:12:atsim.pro_fit.reporters.LogReporter:INFO reporters:381:  
+Results at iteration: 20
+
+Variables and Merit Values:
+             First (it=0)        Previous (it=19)    Current (it=20)    Best (i=20)
+-----------  ------------------  ------------------  -----------------  -----------------
+Variables
+W_W_gamma    0.001294            0.001294            0.001294           0.001294
+W_W_c        1.327324            1.327324            1.327324           1.327324
+W_W_d        0.135096            0.135096            0.135096           0.135096
+W_W_h        0.352               0.352               0.352              0.352
+W_W_beta     1.38528             1.38528             1.38528            1.38528
+W_W_lambda1  2.890383            2.890383            2.890383           2.890383
+W_W_lambda2  1.304692            1.304692            1.304692           1.304692
+W_W_lambda3  0.45876             0.45876             0.45876            0.45876
+W_W_R        4.4                 4.4                 4.4                4.4
+W_W_D        0.840189            0.840189            0.840189           0.840189
+W_W_A        3313.9454           3313.9454           3313.9454          3313.9454
+W_W_B        148.328             148.328             148.328            148.328
+W_B_gamma    1.0                 1.0                 1.0                1.0
+W_B_c        2.246886711         2.246886711         2.246886711        2.246886711
+W_B_d        0.500709837         0.500709837         0.500709837        0.500709837
+W_B_h        0.283499075         0.283499075         0.283499075        0.283499075
+W_B_beta *   154.55000000000024  144.89428028106715  144.8943687152865  144.8943687152865
+W_B_lambda1  2.902702087         2.902702087         2.902702087        2.902702087
+W_B_lambda2  1.857152986         1.857152986         1.857152986        1.857152986
+W_B_lambda3  0.095580474         0.095580474         0.095580474        0.095580474
+W_B_R        3.0                 3.0                 3.0                3.0
+W_B_D        0.5                 0.5                 0.5                0.5
+W_B_A        3351.165521         3351.165521         3351.165521        3351.165521
+W_B_B        951.3620474         951.3620474         951.3620474        951.3620474
+B_B_gamma    1.0                 1.0                 1.0                1.0
+B_B_c        41883.6236          41883.6236          41883.6236         41883.6236
+B_B_d        88.5142             88.5142             88.5142            88.5142
+B_B_h        -0.0818             -0.0818             -0.0818            -0.0818
+B_B_beta     0.01499             0.01499             0.01499            0.01499
+B_B_lambda1  2.6857              2.6857              2.6857             2.6857
+B_B_lambda2  2.5212              2.5212              2.5212             2.5212
+B_B_lambda3  2.3762e-05          2.3762e-05          2.3762e-05         2.3762e-05
+B_B_R        2.28                2.28                2.28               2.28
+B_B_D        0.11                0.11                0.11               0.11
+B_B_A        3376.3351           3376.3351           3376.3351          3376.3351
+B_B_B        2768.7364           2768.7364           2768.7364          2768.7364
+
+Merit =      8956.367480846075   8956.366829426515   8956.366721598963  8956.366721598963
+
+
+2024-08-16 15:36:12:console.shutdown:INFO fitconfig:105:  Shutting down 'pprofit'
+2024-08-16 15:36:12:console.shutdown:INFO fitconfig:105:  Shutting down 'pprofit'
+2024-08-16 15:36:12:console.shutdown:INFO fitconfig:114:  Closing runner: 'Local'
+2024-08-16 15:36:12:console.shutdown:INFO fitconfig:114:  Closing runner: 'Local'
+2024-08-16 15:36:12:console.shutdown:INFO __init__:187:  Potential Pro-Fit Shutting Down Now
+2024-08-16 15:36:12:console.shutdown:INFO __init__:187:  Potential Pro-Fit Shutting Down Now
+2024-08-16 15:36:12:console.shutdown:INFO _base_remoterunner:145:  Closing run client for 'Local', waiting for 1 events
+2024-08-16 15:36:12:console.shutdown:INFO _base_remoterunner:145:  Closing run client for 'Local', waiting for 1 events
+2024-08-16 15:36:12:console.shutdown:INFO _base_remoterunner:60:  Runner (Local) Sending shutdown signal to  closeRunClient channels
+2024-08-16 15:36:12:console.shutdown:INFO _base_remoterunner:60:  Runner (Local) Sending shutdown signal to  closeRunClient channels
+2024-08-16 15:36:12:console.shutdown:INFO _base_remoterunner:76:  Runner (Local) closeRunClient channels closed.
+2024-08-16 15:36:12:console.shutdown:INFO _base_remoterunner:76:  Runner (Local) closeRunClient channels closed.
+2024-08-16 15:36:12:console.shutdown:INFO _base_remoterunner:149:  Closing run client for 'Local' (Done)
+2024-08-16 15:36:12:console.shutdown:INFO _base_remoterunner:149:  Closing run client for 'Local' (Done)
+2024-08-16 15:36:12:console.shutdown:INFO _base_remoterunner:60:  Runner (Local) Sending shutdown signal to  cleanup channels
+2024-08-16 15:36:12:console.shutdown:INFO _base_remoterunner:60:  Runner (Local) Sending shutdown signal to  cleanup channels
+2024-08-16 15:36:12:console.shutdown:INFO _base_remoterunner:76:  Runner (Local) cleanup channels closed.
+2024-08-16 15:36:12:console.shutdown:INFO _base_remoterunner:76:  Runner (Local) cleanup channels closed.
+2024-08-16 15:36:12:console.shutdown:INFO _base_remoterunner:206:  Cleanup finished for runner 'Local'
+2024-08-16 15:36:12:console.shutdown:INFO _base_remoterunner:206:  Cleanup finished for runner 'Local'
+2024-08-16 15:36:12:console.shutdown:INFO fitconfig:119:  Runner 'Local' now closed.
+2024-08-16 15:36:12:console.shutdown:INFO fitconfig:119:  Runner 'Local' now closed.

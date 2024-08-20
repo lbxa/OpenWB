@@ -77,18 +77,18 @@ print "COHENERGY: ${ecoh}"
 
 # ELASTIC CONSTANT
 
-variable up equal 1.0e-6
-variable atomjiggle equal 1.0e-5
-variable cfac equal 1.0e-4
-variable cunits string GPa
-variable etol equal 0.0 
-variable ftol equal 1.0e-10
-variable maxiter equal 100
-variable maxeval equal 1000
-variable dmax equal 1.0e-2
+# variable up equal 1.0e-6
+# variable atomjiggle equal 1.0e-5
+# variable cfac equal 1.0e-4
+# variable cunits string GPa
+# variable etol equal 0.0 
+# variable ftol equal 1.0e-10
+# variable maxiter equal 100
+# variable maxeval equal 1000
+# variable dmax equal 1.0e-2
 
-include init.mod
-include potential.mod
+include in.init.mod
+include in.potential.mod
 
 # Compute initial state
 fix 3 all box/relax aniso 1.0
@@ -130,27 +130,27 @@ unfix 3
 write_restart restart.equil
 
 variable dir equal 1
-include displace.mod
+include in.displace.mod
 
 # uyy Perturbation
 variable dir equal 2
-include displace.mod
+include in.displace.mod
 
 # uzz Perturbation
 variable dir equal 3
-include displace.mod
+include in.displace.mod
 
 # uyz Perturbation
 variable dir equal 4
-include displace.mod
+include in.displace.mod
 
 # uxz Perturbation
 variable dir equal 5
-include displace.mod
+include in.displace.mod
 
 # uxy Perturbation
 variable dir equal 6
-include displace.mod
+include in.displace.mod
 
 # Output final values
 
