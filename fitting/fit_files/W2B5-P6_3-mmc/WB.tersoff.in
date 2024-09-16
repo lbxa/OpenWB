@@ -1,4 +1,4 @@
-#e1  e2  e3  m    gamma         lambda3         c          d          h         n   beta         lambda2        B         R          D      lambda1      A
+#e1  e2  e3  m    gamma         lambda3         c          d(cos0)    h         n   beta         lambda2        B         R          D      lambda1      A
 
 # For W-W interact.
 W    W    W    1.0  @W_W_gamma@  @W_W_lambda3@  @W_W_c@    @W_W_d@    @W_W_h@   1.0 @W_W_beta@   @W_W_lambda2@  @W_W_B@   @W_W_R@   @W_W_D@   @W_W_lambda1@  @W_W_A@
