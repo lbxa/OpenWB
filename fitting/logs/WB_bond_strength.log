@@ -19323,3 +19323,88 @@ Merit =        8892.583513187084    8850.711377671192    8849.932352610767    88
 2024-09-16 16:44:06:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-802
 2024-09-16 16:44:06:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-803
 2024-09-16 16:44:06:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-803.
+2024-09-16 17:02:49:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:244:  Job execution finished successfully (finishJobRun) for job W2B5-P6_3-mmc-0 from batch Batch-803
+2024-09-16 17:02:49:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-803, finished.
+2024-09-16 17:02:49:atsim.pro_fit.runners._localrunner.InnerLocalRunner:INFO _base_remoterunner:542:  Batch finished successfully: Batch-803
+2024-09-16 17:02:49:atsim.pro_fit.reporters.LogReporter:INFO reporters:381:  
+Results at iteration: 325
+
+Variables and Merit Values:
+               First (it=0)         Previous (it=324)    Current (it=325)     Best (i=244)
+-------------  -------------------  -------------------  -------------------  -------------------
+Variables
+W_W_gamma      0.001294             0.001294             0.001294             0.001294
+W_W_c          1.327324             1.327324             1.327324             1.327324
+W_W_d          0.135096             0.135096             0.135096             0.135096
+W_W_h          0.352                0.352                0.352                0.352
+W_W_beta       1.38528              1.38528              1.38528              1.38528
+W_W_lambda1    2.890383             2.890383             2.890383             2.890383
+W_W_lambda2    1.304692             1.304692             1.304692             1.304692
+W_W_lambda3    0.45876              0.45876              0.45876              0.45876
+W_W_R          4.4                  4.4                  4.4                  4.4
+W_W_D          0.840189             0.840189             0.840189             0.840189
+W_W_A          3313.9454            3313.9454            3313.9454            3313.9454
+W_W_B          148.328              148.328              148.328              148.328
+W_B_gamma      0.9814681574278297   0.9814681574278297   0.9814681574278297   0.9814681574278297
+W_B_c          2.190204910619598    2.190204910619598    2.190204910619598    2.190204910619598
+W_B_d          0.5534779076757996   0.5534779076757996   0.5534779076757996   0.5534779076757996
+W_B_h          0.27968495682436145  0.27968495682436145  0.27968495682436145  0.27968495682436145
+W_B_beta       143.99909634730574   143.99909634730574   143.99909634730574   143.99909634730574
+W_B_lambda1 *  3.069026509296159    3.068657907885838    3.068657907885838    3.068657907885839
+W_B_lambda2 *  1.7904851178747205   1.7906958608472638   1.7906958608472638   1.7906958608472636
+W_B_lambda3 *  0.09752961623837371  0.09812904581955745  0.09812904581955745  0.09812904581955745
+W_B_R          2.923326613428476    2.923326613428476    2.923326613428476    2.923326613428476
+W_B_D          0.5083904281539999   0.5083904281539999   0.5083904281539999   0.5083904281539999
+W_B_A *        3279.8877460130557   3277.5712714069796   3277.5712714069796   3277.5712714069796
+W_B_B *        933.3531980839961    933.7902862162337    933.7902862162337    933.7902862162337
+B_B_gamma      1.0                  1.0                  1.0                  1.0
+B_B_c          41883.6236           41883.6236           41883.6236           41883.6236
+B_B_d          88.5142              88.5142              88.5142              88.5142
+B_B_h          -0.0818              -0.0818              -0.0818              -0.0818
+B_B_beta       0.01499              0.01499              0.01499              0.01499
+B_B_lambda1    2.6857               2.6857               2.6857               2.6857
+B_B_lambda2    2.5212               2.5212               2.5212               2.5212
+B_B_lambda3    2.3762e-05           2.3762e-05           2.3762e-05           2.3762e-05
+B_B_R          2.28                 2.28                 2.28                 2.28
+B_B_D          0.11                 0.11                 0.11                 0.11
+B_B_A          3376.3351            3376.3351            3376.3351            3376.3351
+B_B_B          2768.7364            2768.7364            2768.7364            2768.7364
+
+Merit =        8892.583513187084    8849.932352610767    8850.639773997336    8834.539187170589
+
+
+2024-09-16 17:02:49:atsim.pro_fit.runners._runner_job.RunnerJob:INFO _runner_job:473:  Starting job W2B5-P6_3-mmc-0 from batch Batch-804
+2024-09-16 17:02:49:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:148:  Directory locked for job W2B5-P6_3-mmc-0 from batch Batch-804.
+2024-09-16 17:02:51:console.shutdown:INFO fitconfig:105:  Shutting down 'pprofit'
+2024-09-16 17:02:51:console.shutdown:INFO fitconfig:105:  Shutting down 'pprofit'
+2024-09-16 17:02:51:console.shutdown:INFO __init__:187:  Potential Pro-Fit Shutting Down Now
+2024-09-16 17:02:51:console.shutdown:INFO __init__:187:  Potential Pro-Fit Shutting Down Now
+2024-09-16 17:02:51:console.shutdown:INFO fitconfig:114:  Closing runner: 'Local'
+2024-09-16 17:02:51:console.shutdown:INFO fitconfig:114:  Closing runner: 'Local'
+2024-09-16 17:02:51:console.shutdown:INFO _base_remoterunner:120:  Terminating 1 batches for runner 'Local'
+2024-09-16 17:02:51:console.shutdown:INFO _base_remoterunner:120:  Terminating 1 batches for runner 'Local'
+2024-09-16 17:02:51:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-804, finished.
+2024-09-16 17:02:51:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread.run_exception:WARNING _runner_job:362:  job W2B5-P6_3-mmc-0 from batch Batch-804 finished with exception: ['Traceback (most recent call last):\n', '  File "/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/runners/_runner_job.py", line 318, in finishJob\n    raise ei.with_traceback(tb)\n', "AttributeError: 'NoneType' object has no attribute 'with_traceback'\n"]
+2024-09-16 17:02:51:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread.run_exception:ERROR _runner_job:127:  job W2B5-P6_3-mmc-0 from batch Batch-804 run exception
+Traceback (most recent call last):
+  File "/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/runners/_runner_job.py", line 116, in run
+    if not self.doRun():
+  File "/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/runners/_runner_job.py", line 239, in doRun
+    self.finishJob(sys.exc_info())
+  File "/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/runners/_runner_job.py", line 338, in finishJob
+    unlockEvent = self.job.parentBatch.unlockJobDirectory(self.job)
+  File "/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/runners/_runner_batch.py", line 227, in unlockJobDirectory
+    return self.parentRunner.unlockPath(job.remotePath)
+  File "/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/runners/_base_remoterunner.py", line 530, in unlockPath
+    self._cleanupClient.unlock(path, callback=callback)
+  File "/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/filetransfer/_cleanup.py", line 199, in unlock
+    self.channel.send(msg)
+  File "/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/_channel.py", line 165, in send
+    return self._send(self._channel, msg)
+  File "/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/_channel.py", line 162, in _send
+    ch.send(msg)
+  File "/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/execnet/gateway_base.py", line 728, in send
+    raise IOError("cannot send to {!r}".format(self))
+OSError: cannot send to <Channel id=1 closed>
+2024-09-16 17:02:51:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread:INFO _runner_job:311:  job W2B5-P6_3-mmc-0 from batch Batch-804, finished.
+2024-09-16 17:02:51:atsim.pro_fit.runners._runner_job.RunnerJob._RunnerJobThread.run_exception:WARNING _runner_job:362:  job W2B5-P6_3-mmc-0 from batch Batch-804 finished with exception: ['Traceback (most recent call last):\n', '  File "/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/runners/_runner_job.py", line 318, in finishJob\n    raise ei.with_traceback(tb)\n', '  File "/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/runners/_runner_job.py", line 116, in run\n    if not self.doRun():\n', '  File "/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/runners/_runner_job.py", line 239, in doRun\n    self.finishJob(sys.exc_info())\n', '  File "/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/runners/_runner_job.py", line 338, in finishJob\n    unlockEvent = self.job.parentBatch.unlockJobDirectory(self.job)\n', '  File "/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/runners/_runner_batch.py", line 227, in unlockJobDirectory\n    return self.parentRunner.unlockPath(job.remotePath)\n', '  File "/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/runners/_base_remoterunner.py", line 530, in unlockPath\n    self._cleanupClient.unlock(path, callback=callback)\n', '  File "/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/filetransfer/_cleanup.py", line 199, in unlock\n    self.channel.send(msg)\n', '  File "/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/_channel.py", line 165, in send\n    return self._send(self._channel, msg)\n', '  File "/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/atsim/pro_fit/_channel.py", line 162, in _send\n    ch.send(msg)\n', '  File "/home/lucasbarbosa/.pyenv/versions/3.6.8/lib/python3.6/site-packages/execnet/gateway_base.py", line 728, in send\n    raise IOError("cannot send to {!r}".format(self))\n', 'OSError: cannot send to <Channel id=1 closed>\n']

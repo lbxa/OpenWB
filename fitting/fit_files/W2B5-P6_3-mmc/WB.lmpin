@@ -1,14 +1,14 @@
 clear 
 units metal 
 dimension 3 
-boundary p p p 
+boundary p p p
 
 # Atom definition
 atom_style atomic 
 atom_modify map array
 
 read_data W2B5-P6_3-mmc.lmpstr
-replicate 2 2 5
+replicate 2 2 2
 
 # Define mass and interactions (from lit.)
 pair_style tersoff 
@@ -27,7 +27,7 @@ reset_timestep 0
 # minimizer. If the pressure is not settling down during the 
 # minimization this can be because the volume is fluctuating too much. 
 # The specified fraction must be greater than 0.0 and should be << 1.0. 
-fix box_relax all box/relax aniso 0.0 vmax 0.001
+fix box_relax all box/relax iso 0.0 vmax 0.001
 
 # Set the thermo style to collect data every 10 time steps
 thermo 10
@@ -64,7 +64,7 @@ unfix box_relax
 # Divide sim box by periodic multiple
 variable        a equal cella/2
 variable        b equal cellb/2
-variable        c equal cellc/5
+variable        c equal cellc/2
 
 variable        natoms equal "count(all)" 
 variable        teng equal "c_eatoms"
@@ -77,21 +77,11 @@ print "COHENERGY: ${ecoh}"
 
 # ELASTIC CONSTANT
 
-# variable up equal 1.0e-6
-# variable atomjiggle equal 1.0e-5
-# variable cfac equal 1.0e-4
-# variable cunits string GPa
-# variable etol equal 0.0 
-# variable ftol equal 1.0e-10
-# variable maxiter equal 100
-# variable maxeval equal 1000
-# variable dmax equal 1.0e-2
-
 include in.init.mod
 include in.potential.mod
 
 # Compute initial state
-fix 3 all box/relax aniso 1.0
+fix deform_relax all box/relax aniso 1.0
 minimize ${etol} ${ftol} ${maxiter} ${maxeval}
 
 variable tmp equal pxx
@@ -126,7 +116,7 @@ variable d6 equal -(v_pxy1-${pxy0})/(v_delta/v_len0)*${cfac}
 displace_atoms all random ${atomjiggle} ${atomjiggle} ${atomjiggle} 87287 units box
 
 # Write restart
-unfix 3
+unfix deform_relax
 write_restart restart.equil
 
 variable dir equal 1
