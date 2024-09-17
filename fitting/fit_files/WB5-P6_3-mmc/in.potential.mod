@@ -18,4 +18,4 @@ thermo 1
 thermo_style custom step temp pe press pxx pyy pzz pxy pxz pyz lx ly lz vol
 thermo_modify norm no
 
-dump 2 all atom 10 dump.W2B5_elastic.lammpstrj
+dump 2 all atom 10 dump.WB5_elastic.lammpstrj
